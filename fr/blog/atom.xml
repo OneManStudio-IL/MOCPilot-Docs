@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/fr/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-05-02T00:00:00.000Z</updated>
+    <updated>2026-06-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/fr/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/fr/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Sortie de MOCPilot 2026.4.0]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/fr/blog/2026/06/06/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/fr/blog/2026/06/06/post"/>
+        <updated>2026-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.4.0 — Annuler/Rétablir, profils de hubs & correctifs du constructeur]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202640--annulerrétablir-profils-de-hubs--correctifs-du-constructeur">🚀 MOCPilot 2026.4.0 — Annuler/Rétablir, profils de hubs &amp; correctifs du constructeur<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/2026/06/06/post#-mocpilot-202640--annulerr%C3%A9tablir-profils-de-hubs--correctifs-du-constructeur" class="hash-link" aria-label="Lien direct vers 🚀 MOCPilot 2026.4.0 — Annuler/Rétablir, profils de hubs &amp; correctifs du constructeur" title="Lien direct vers 🚀 MOCPilot 2026.4.0 — Annuler/Rétablir, profils de hubs &amp; correctifs du constructeur" translate="no">​</a></h2>
+<p>Nous sommes heureux d’annoncer la sortie de <strong>MOCPilot 2026.4.0</strong>, disponible sur <strong>Android</strong>, <strong>iOS</strong> et <strong>macOS</strong>.</p>
+<p>Cette mise à jour ajoute l’historique annuler/rétablir pour les programmes de blocs, améliore la configuration des hubs dans le constructeur de profils et corrige plusieurs problèmes du constructeur et du contrôle des appareils.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-quoi-de-neuf-dans-202640-">✨ Quoi de neuf dans 2026.4.0 ?<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/2026/06/06/post#-quoi-de-neuf-dans-202640-" class="hash-link" aria-label="Lien direct vers ✨ Quoi de neuf dans 2026.4.0 ?" title="Lien direct vers ✨ Quoi de neuf dans 2026.4.0 ?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-historique-des-programmes-de-blocs">🧱 Historique des programmes de blocs<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/2026/06/06/post#-historique-des-programmes-de-blocs" class="hash-link" aria-label="Lien direct vers 🧱 Historique des programmes de blocs" title="Lien direct vers 🧱 Historique des programmes de blocs" translate="no">​</a></h3>
+<ul>
+<li class="">Ajout du <strong>contrôle d’historique annuler/rétablir</strong> pour les programmes de blocs</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-constructeur-de-profils-des-hubs">🔌 Constructeur de profils des hubs<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/2026/06/06/post#-constructeur-de-profils-des-hubs" class="hash-link" aria-label="Lien direct vers 🔌 Constructeur de profils des hubs" title="Lien direct vers 🔌 Constructeur de profils des hubs" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>L’ajout de hub</strong> est découplé du flux de connexion dans le constructeur de profils</li>
+<li class="">Les hubs peuvent maintenant être ajoutés à un profil sans connexion immédiate obligatoire</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-correctifs-du-constructeur-et-des-appareils">🛠 Correctifs du constructeur et des appareils<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/2026/06/06/post#-correctifs-du-constructeur-et-des-appareils" class="hash-link" aria-label="Lien direct vers 🛠 Correctifs du constructeur et des appareils" title="Lien direct vers 🛠 Correctifs du constructeur et des appareils" translate="no">​</a></h3>
+<ul>
+<li class="">Correction du libellé traduit du menu contextuel <strong>delete-blocks</strong></li>
+<li class="">Correction du <strong>mappage des commandes de port moteur WeDo 2.0</strong>, rétablissant le contrôle lors de l’utilisation d’un des deux ports moteur</li>
+<li class="">Correction d’un problème avec le <strong>type de joint avant</strong> des blocs afin que l’accrochage entre ces blocs fonctionne correctement</li>
+</ul>
+<hr>
+<p>Mettez à jour vers <strong>2026.4.0</strong> pour une meilleure édition des blocs, une configuration de hubs plus flexible et un contrôle moteur WeDo 2.0 amélioré.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release MOCPilot 2026.3.2]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/fr/blog/2026/05/02/post</id>

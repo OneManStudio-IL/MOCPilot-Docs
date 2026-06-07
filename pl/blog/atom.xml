@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/pl/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-05-02T00:00:00.000Z</updated>
+    <updated>2026-06-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/pl/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/pl/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Wydanie MOCPilot 2026.4.0]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/pl/blog/2026/06/06/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/pl/blog/2026/06/06/post"/>
+        <updated>2026-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.4.0 — Cofnij/Ponów, profile hubów i poprawki konstruktora]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202640--cofnijponów-profile-hubów-i-poprawki-konstruktora">🚀 MOCPilot 2026.4.0 — Cofnij/Ponów, profile hubów i poprawki konstruktora<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/06/06/post#-mocpilot-202640--cofnijpon%C3%B3w-profile-hub%C3%B3w-i-poprawki-konstruktora" class="hash-link" aria-label="Bezpośredni link do 🚀 MOCPilot 2026.4.0 — Cofnij/Ponów, profile hubów i poprawki konstruktora" title="Bezpośredni link do 🚀 MOCPilot 2026.4.0 — Cofnij/Ponów, profile hubów i poprawki konstruktora" translate="no">​</a></h2>
+<p>Z przyjemnością ogłaszamy wydanie <strong>MOCPilot 2026.4.0</strong>, dostępne na <strong>Android</strong>, <strong>iOS</strong> i <strong>macOS</strong>.</p>
+<p>Ta aktualizacja dodaje historię cofania i ponawiania dla programów blokowych, usprawnia konfigurację hubów w konstruktorze profili i naprawia kilka problemów w konstruktorze oraz sterowaniu urządzeniami.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-co-nowego-w-202640">✨ Co nowego w 2026.4.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/06/06/post#-co-nowego-w-202640" class="hash-link" aria-label="Bezpośredni link do ✨ Co nowego w 2026.4.0?" title="Bezpośredni link do ✨ Co nowego w 2026.4.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-historia-programów-blokowych">🧱 Historia programów blokowych<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/06/06/post#-historia-program%C3%B3w-blokowych" class="hash-link" aria-label="Bezpośredni link do 🧱 Historia programów blokowych" title="Bezpośredni link do 🧱 Historia programów blokowych" translate="no">​</a></h3>
+<ul>
+<li class="">Dodano <strong>obsługę historii cofania i ponawiania</strong> dla programów blokowych</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-konstruktor-profili-hubów">🔌 Konstruktor profili hubów<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/06/06/post#-konstruktor-profili-hub%C3%B3w" class="hash-link" aria-label="Bezpośredni link do 🔌 Konstruktor profili hubów" title="Bezpośredni link do 🔌 Konstruktor profili hubów" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Dodawanie huba</strong> zostało oddzielone od przepływu połączenia w konstruktorze profili</li>
+<li class="">Huby można teraz dodawać do profilu bez wymaganego natychmiastowego połączenia</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-poprawki-konstruktora-i-urządzeń">🛠 Poprawki konstruktora i urządzeń<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/06/06/post#-poprawki-konstruktora-i-urz%C4%85dze%C5%84" class="hash-link" aria-label="Bezpośredni link do 🛠 Poprawki konstruktora i urządzeń" title="Bezpośredni link do 🛠 Poprawki konstruktora i urządzeń" translate="no">​</a></h3>
+<ul>
+<li class="">Poprawiono przetłumaczoną etykietę menu kontekstowego <strong>delete-blocks</strong></li>
+<li class="">Poprawiono <strong>mapowanie komend portów silnika WeDo 2.0</strong>, przywracając sterowanie podczas używania jednego z dwóch portów silnika</li>
+<li class="">Naprawiono problem z <strong>przednim typem połączenia</strong> bloków, dzięki czemu przyciąganie między tymi blokami działa teraz prawidłowo</li>
+</ul>
+<hr>
+<p>Zaktualizuj do <strong>2026.4.0</strong>, aby uzyskać lepszą edycję bloków, bardziej elastyczną konfigurację hubów i usprawnione sterowanie silnikiem WeDo 2.0.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wydanie MOCPilot 2026.3.2]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/pl/blog/2026/05/02/post</id>

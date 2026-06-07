@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-05-02T00:00:00.000Z</updated>
+    <updated>2026-06-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/cn/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/cn/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[MOCPilot 2026.4.0 发布]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/2026/06/06/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/2026/06/06/post"/>
+        <updated>2026-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.4.0 — 撤销/重做、Hub 配置文件与构建器修复]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202640--撤销重做hub-配置文件与构建器修复">🚀 MOCPilot 2026.4.0 — 撤销/重做、Hub 配置文件与构建器修复<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/06/06/post#-mocpilot-202640--%E6%92%A4%E9%94%80%E9%87%8D%E5%81%9Ahub-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%8E%E6%9E%84%E5%BB%BA%E5%99%A8%E4%BF%AE%E5%A4%8D" class="hash-link" aria-label="直接链接到 🚀 MOCPilot 2026.4.0 — 撤销/重做、Hub 配置文件与构建器修复" title="直接链接到 🚀 MOCPilot 2026.4.0 — 撤销/重做、Hub 配置文件与构建器修复" translate="no">​</a></h2>
+<p>我们很高兴宣布 <strong>MOCPilot 2026.4.0</strong> 正式发布，现已在 <strong>Android</strong>、<strong>iOS</strong> 和 <strong>macOS</strong> 上可用。</p>
+<p>本次更新为积木程序加入撤销与重做历史记录，改进配置文件构建器中的 hub 设置，并修复了多个构建器与设备控制问题。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-202640-有哪些新内容">✨ 2026.4.0 有哪些新内容？<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/06/06/post#-202640-%E6%9C%89%E5%93%AA%E4%BA%9B%E6%96%B0%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 ✨ 2026.4.0 有哪些新内容？" title="直接链接到 ✨ 2026.4.0 有哪些新内容？" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-积木程序历史记录">🧱 积木程序历史记录<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/06/06/post#-%E7%A7%AF%E6%9C%A8%E7%A8%8B%E5%BA%8F%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95" class="hash-link" aria-label="直接链接到 🧱 积木程序历史记录" title="直接链接到 🧱 积木程序历史记录" translate="no">​</a></h3>
+<ul>
+<li class="">为积木程序新增 <strong>撤销与重做历史控制</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub-配置文件构建器">🔌 Hub 配置文件构建器<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/06/06/post#-hub-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%9E%84%E5%BB%BA%E5%99%A8" class="hash-link" aria-label="直接链接到 🔌 Hub 配置文件构建器" title="直接链接到 🔌 Hub 配置文件构建器" translate="no">​</a></h3>
+<ul>
+<li class="">在配置文件构建器中将 <strong>添加 hub</strong> 与连接流程解耦</li>
+<li class="">现在可以将 hub 添加到配置文件中，而不必立即建立连接</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-构建器与设备修复">🛠 构建器与设备修复<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/06/06/post#-%E6%9E%84%E5%BB%BA%E5%99%A8%E4%B8%8E%E8%AE%BE%E5%A4%87%E4%BF%AE%E5%A4%8D" class="hash-link" aria-label="直接链接到 🛠 构建器与设备修复" title="直接链接到 🛠 构建器与设备修复" translate="no">​</a></h3>
+<ul>
+<li class="">修复已翻译的 <strong>delete-blocks</strong> 上下文菜单标签</li>
+<li class="">修复 <strong>WeDo 2.0 电机端口命令映射</strong>，恢复使用两个电机端口之一时的控制能力</li>
+<li class="">修复积木 <strong>前连接类型</strong> 的问题，使这些积木之间的吸附现在可以正确工作</li>
+</ul>
+<hr>
+<p>更新到 <strong>2026.4.0</strong>，获得更好的积木编辑体验、更灵活的 hub 设置，以及改进的 WeDo 2.0 电机控制。</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MOCPilot 2026.3.2 发布]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/2026/05/02/post</id>

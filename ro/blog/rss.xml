@@ -4,10 +4,40 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 02 May 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Jun 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ro</language>
+        <item>
+            <title><![CDATA[Lansare MOCPilot 2026.4.0]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/06/06/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/06/06/post</guid>
+            <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.4.0 — Anulare/Refacere, profiluri hub și corecții ale constructorului]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202640--anularerefacere-profiluri-hub-și-corecții-ale-constructorului">🚀 MOCPilot 2026.4.0 — Anulare/Refacere, profiluri hub și corecții ale constructorului<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/06/06/post#-mocpilot-202640--anularerefacere-profiluri-hub-%C8%99i-corec%C8%9Bii-ale-constructorului" class="hash-link" aria-label="Link direct către 🚀 MOCPilot 2026.4.0 — Anulare/Refacere, profiluri hub și corecții ale constructorului" title="Link direct către 🚀 MOCPilot 2026.4.0 — Anulare/Refacere, profiluri hub și corecții ale constructorului" translate="no">​</a></h2>
+<p>Suntem bucuroși să anunțăm lansarea <strong>MOCPilot 2026.4.0</strong>, disponibilă pe <strong>Android</strong>, <strong>iOS</strong> și <strong>macOS</strong>.</p>
+<p>Această actualizare adaugă istoric de anulare și refacere pentru programele cu blocuri, îmbunătățește configurarea huburilor în constructorul de profiluri și corectează mai multe probleme din constructor și controlul dispozitivelor.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ce-este-nou-în-202640">✨ Ce este nou în 2026.4.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/06/06/post#-ce-este-nou-%C3%AEn-202640" class="hash-link" aria-label="Link direct către ✨ Ce este nou în 2026.4.0?" title="Link direct către ✨ Ce este nou în 2026.4.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-istoric-pentru-programe-cu-blocuri">🧱 Istoric pentru programe cu blocuri<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/06/06/post#-istoric-pentru-programe-cu-blocuri" class="hash-link" aria-label="Link direct către 🧱 Istoric pentru programe cu blocuri" title="Link direct către 🧱 Istoric pentru programe cu blocuri" translate="no">​</a></h3>
+<ul>
+<li class="">A fost adăugat <strong>controlul istoricului de anulare și refacere</strong> pentru programele cu blocuri</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-constructor-de-profiluri-pentru-huburi">🔌 Constructor de profiluri pentru huburi<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/06/06/post#-constructor-de-profiluri-pentru-huburi" class="hash-link" aria-label="Link direct către 🔌 Constructor de profiluri pentru huburi" title="Link direct către 🔌 Constructor de profiluri pentru huburi" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Adăugarea hubului</strong> a fost decuplată de fluxul de conectare în constructorul de profiluri</li>
+<li class="">Huburile pot fi acum adăugate la un profil fără a necesita o conexiune imediată</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-corecții-ale-constructorului-și-dispozitivelor">🛠 Corecții ale constructorului și dispozitivelor<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/06/06/post#-corec%C8%9Bii-ale-constructorului-%C8%99i-dispozitivelor" class="hash-link" aria-label="Link direct către 🛠 Corecții ale constructorului și dispozitivelor" title="Link direct către 🛠 Corecții ale constructorului și dispozitivelor" translate="no">​</a></h3>
+<ul>
+<li class="">A fost corectată eticheta tradusă a meniului contextual <strong>delete-blocks</strong></li>
+<li class="">A fost corectată <strong>maparea comenzilor pentru porturile motorului WeDo 2.0</strong>, restaurând controlul când este folosit unul dintre cele două porturi de motor</li>
+<li class="">A fost corectată o problemă cu <strong>tipul de îmbinare frontală</strong> a blocurilor, astfel încât prinderea între aceste blocuri funcționează corect</li>
+</ul>
+<hr>
+<p>Actualizează la <strong>2026.4.0</strong> pentru editare mai bună a blocurilor, configurare mai flexibilă a huburilor și control îmbunătățit al motorului WeDo 2.0.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Lansare MOCPilot 2026.3.2]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/05/02/post</link>

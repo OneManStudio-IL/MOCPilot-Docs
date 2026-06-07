@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/no/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-05-02T00:00:00.000Z</updated>
+    <updated>2026-06-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/no/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/no/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Utgivelse av MOCPilot 2026.4.0]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/no/blog/2026/06/06/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/no/blog/2026/06/06/post"/>
+        <updated>2026-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.4.0 — Angre/Gjør om, hub-profiler og byggerfikser]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202640--angregjør-om-hub-profiler-og-byggerfikser">🚀 MOCPilot 2026.4.0 — Angre/Gjør om, hub-profiler og byggerfikser<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/06/06/post#-mocpilot-202640--angregj%C3%B8r-om-hub-profiler-og-byggerfikser" class="hash-link" aria-label="Direkte link til 🚀 MOCPilot 2026.4.0 — Angre/Gjør om, hub-profiler og byggerfikser" title="Direkte link til 🚀 MOCPilot 2026.4.0 — Angre/Gjør om, hub-profiler og byggerfikser" translate="no">​</a></h2>
+<p>Vi er glade for å kunngjøre lanseringen av <strong>MOCPilot 2026.4.0</strong>, tilgjengelig på <strong>Android</strong>, <strong>iOS</strong> og <strong>macOS</strong>.</p>
+<p>Denne oppdateringen legger til angre- og gjør om-historikk for blokkprogrammer, forbedrer hub-oppsett i profilbyggeren og retter flere problemer i byggeren og enhetskontrollen.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hva-er-nytt-i-202640">✨ Hva er nytt i 2026.4.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/06/06/post#-hva-er-nytt-i-202640" class="hash-link" aria-label="Direkte link til ✨ Hva er nytt i 2026.4.0?" title="Direkte link til ✨ Hva er nytt i 2026.4.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-historikk-for-blokkprogrammer">🧱 Historikk for blokkprogrammer<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/06/06/post#-historikk-for-blokkprogrammer" class="hash-link" aria-label="Direkte link til 🧱 Historikk for blokkprogrammer" title="Direkte link til 🧱 Historikk for blokkprogrammer" translate="no">​</a></h3>
+<ul>
+<li class="">Lagt til <strong>historikkontroll for angre og gjør om</strong> i blokkprogrammer</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-profilbygger-for-huber">🔌 Profilbygger for huber<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/06/06/post#-profilbygger-for-huber" class="hash-link" aria-label="Direkte link til 🔌 Profilbygger for huber" title="Direkte link til 🔌 Profilbygger for huber" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Hub-tillegg</strong> er koblet fra tilkoblingsflyten i profilbyggeren</li>
+<li class="">Huber kan nå legges til i en profil uten krav om umiddelbar tilkobling</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-bygger--og-enhetsfikser">🛠 Bygger- og enhetsfikser<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/06/06/post#-bygger--og-enhetsfikser" class="hash-link" aria-label="Direkte link til 🛠 Bygger- og enhetsfikser" title="Direkte link til 🛠 Bygger- og enhetsfikser" translate="no">​</a></h3>
+<ul>
+<li class="">Rettet den oversatte kontekstmenyteksten <strong>delete-blocks</strong></li>
+<li class="">Rettet <strong>kommandotilordning for WeDo 2.0-motorporter</strong>, slik at kontroll gjenopprettes ved bruk av én av to motorporter</li>
+<li class="">Rettet et problem med blokkenes <strong>fremre skjøttype</strong>, slik at festing mellom disse blokkene nå fungerer riktig</li>
+</ul>
+<hr>
+<p>Oppdater til <strong>2026.4.0</strong> for bedre blokkredigering, mer fleksibelt hub-oppsett og forbedret WeDo 2.0-motorkontroll.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release MOCPilot 2026.3.2]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/no/blog/2026/05/02/post</id>

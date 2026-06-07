@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-05-02T00:00:00.000Z</updated>
+    <updated>2026-06-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/cz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Vydání MOCPilot 2026.4.0]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/06/06/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/06/06/post"/>
+        <updated>2026-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.4.0 — Zpět/Znovu, profily hubů a opravy konstruktoru]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202640--zpětznovu-profily-hubů-a-opravy-konstruktoru">🚀 MOCPilot 2026.4.0 — Zpět/Znovu, profily hubů a opravy konstruktoru<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/06/06/post#-mocpilot-202640--zp%C4%9Btznovu-profily-hub%C5%AF-a-opravy-konstruktoru" class="hash-link" aria-label="Přímý odkaz na 🚀 MOCPilot 2026.4.0 — Zpět/Znovu, profily hubů a opravy konstruktoru" title="Přímý odkaz na 🚀 MOCPilot 2026.4.0 — Zpět/Znovu, profily hubů a opravy konstruktoru" translate="no">​</a></h2>
+<p>S radostí oznamujeme vydání <strong>MOCPilot 2026.4.0</strong>, dostupné pro <strong>Android</strong>, <strong>iOS</strong> a <strong>macOS</strong>.</p>
+<p>Tato aktualizace přidává historii zpět a znovu pro blokové programy, zlepšuje nastavení hubů v konstruktoru profilů a opravuje několik problémů v konstruktoru a ovládání zařízení.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-co-je-nového-v-202640">✨ Co je nového v 2026.4.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/06/06/post#-co-je-nov%C3%A9ho-v-202640" class="hash-link" aria-label="Přímý odkaz na ✨ Co je nového v 2026.4.0?" title="Přímý odkaz na ✨ Co je nového v 2026.4.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-historie-blokových-programů">🧱 Historie blokových programů<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/06/06/post#-historie-blokov%C3%BDch-program%C5%AF" class="hash-link" aria-label="Přímý odkaz na 🧱 Historie blokových programů" title="Přímý odkaz na 🧱 Historie blokových programů" translate="no">​</a></h3>
+<ul>
+<li class="">Přidáno <strong>ovládání historie zpět a znovu</strong> pro blokové programy</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-konstruktor-profilů-hubů">🔌 Konstruktor profilů hubů<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/06/06/post#-konstruktor-profil%C5%AF-hub%C5%AF" class="hash-link" aria-label="Přímý odkaz na 🔌 Konstruktor profilů hubů" title="Přímý odkaz na 🔌 Konstruktor profilů hubů" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Přidání hubu</strong> bylo odděleno od procesu připojení v konstruktoru profilů</li>
+<li class="">Huby lze nyní přidat do profilu bez nutnosti okamžitého připojení</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-opravy-konstruktoru-a-zařízení">🛠 Opravy konstruktoru a zařízení<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/06/06/post#-opravy-konstruktoru-a-za%C5%99%C3%ADzen%C3%AD" class="hash-link" aria-label="Přímý odkaz na 🛠 Opravy konstruktoru a zařízení" title="Přímý odkaz na 🛠 Opravy konstruktoru a zařízení" translate="no">​</a></h3>
+<ul>
+<li class="">Opravena přeložená položka kontextového menu <strong>delete-blocks</strong></li>
+<li class="">Opraveno <strong>mapování příkazů portů motoru WeDo 2.0</strong>, které obnovuje ovládání při použití jednoho ze dvou portů motoru</li>
+<li class="">Opraven problém s <strong>předním typem spojení</strong> bloků, takže přichytávání mezi těmito bloky nyní funguje správně</li>
+</ul>
+<hr>
+<p>Aktualizujte na <strong>2026.4.0</strong> pro lepší úpravy bloků, flexibilnější nastavení hubů a vylepšené ovládání motorů WeDo 2.0.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vydání MOCPilot 2026.3.2]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/05/02/post</id>

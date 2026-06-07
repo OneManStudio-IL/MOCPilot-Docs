@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-05-02T00:00:00.000Z</updated>
+    <updated>2026-06-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/uk/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/uk/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Реліз MOCPilot 2026.4.0]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/2026/06/06/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/2026/06/06/post"/>
+        <updated>2026-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.4.0 — Скасування/повтор, профілі хабів і виправлення конструктора]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202640--скасуванняповтор-профілі-хабів-і-виправлення-конструктора">🚀 MOCPilot 2026.4.0 — Скасування/повтор, профілі хабів і виправлення конструктора<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/06/06/post#-mocpilot-202640--%D1%81%D0%BA%D0%B0%D1%81%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80-%D0%BF%D1%80%D0%BE%D1%84%D1%96%D0%BB%D1%96-%D1%85%D0%B0%D0%B1%D1%96%D0%B2-%D1%96-%D0%B2%D0%B8%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%BE%D1%80%D0%B0" class="hash-link" aria-label="Пряме посилання на 🚀 MOCPilot 2026.4.0 — Скасування/повтор, профілі хабів і виправлення конструктора" title="Пряме посилання на 🚀 MOCPilot 2026.4.0 — Скасування/повтор, профілі хабів і виправлення конструктора" translate="no">​</a></h2>
+<p>Ми раді оголосити про випуск <strong>MOCPilot 2026.4.0</strong>, доступного на <strong>Android</strong>, <strong>iOS</strong> та <strong>macOS</strong>.</p>
+<p>Це оновлення додає історію скасування та повтору для блокових програм, покращує налаштування хабів у конструкторі профілів і виправляє кілька проблем у конструкторі та керуванні пристроями.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-що-нового-у-202640">✨ Що нового у 2026.4.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/06/06/post#-%D1%89%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D1%83-202640" class="hash-link" aria-label="Пряме посилання на ✨ Що нового у 2026.4.0?" title="Пряме посилання на ✨ Що нового у 2026.4.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-історія-блокових-програм">🧱 Історія блокових програм<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/06/06/post#-%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F-%D0%B1%D0%BB%D0%BE%D0%BA%D0%BE%D0%B2%D0%B8%D1%85-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC" class="hash-link" aria-label="Пряме посилання на 🧱 Історія блокових програм" title="Пряме посилання на 🧱 Історія блокових програм" translate="no">​</a></h3>
+<ul>
+<li class="">Додано <strong>керування історією скасування та повтору</strong> для блокових програм</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-конструктор-профілів-для-хабів">🔌 Конструктор профілів для хабів<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/06/06/post#-%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%BE%D1%80-%D0%BF%D1%80%D0%BE%D1%84%D1%96%D0%BB%D1%96%D0%B2-%D0%B4%D0%BB%D1%8F-%D1%85%D0%B0%D0%B1%D1%96%D0%B2" class="hash-link" aria-label="Пряме посилання на 🔌 Конструктор профілів для хабів" title="Пряме посилання на 🔌 Конструктор профілів для хабів" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Додавання хаба</strong> відокремлено від процесу підключення у конструкторі профілів</li>
+<li class="">Хаби тепер можна додавати до профілю без обов'язкового негайного підключення</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-виправлення-конструктора-і-пристроїв">🛠 Виправлення конструктора і пристроїв<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/06/06/post#-%D0%B2%D0%B8%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%BE%D1%80%D0%B0-%D1%96-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D1%80%D0%BE%D1%97%D0%B2" class="hash-link" aria-label="Пряме посилання на 🛠 Виправлення конструктора і пристроїв" title="Пряме посилання на 🛠 Виправлення конструктора і пристроїв" translate="no">​</a></h3>
+<ul>
+<li class="">Виправлено перекладену мітку контекстного меню <strong>delete-blocks</strong></li>
+<li class="">Виправлено <strong>мапінг команд портів мотора WeDo 2.0</strong>, через який один із двох портів міг бути недоступний для керування</li>
+<li class="">Виправлено проблему з <strong>переднім типом з'єднання</strong> блоків, тож прив'язка між такими блоками тепер працює коректно</li>
+</ul>
+<hr>
+<p>Оновіться до <strong>2026.4.0</strong>, щоб отримати зручніше редагування блоків, гнучкіше налаштування хабів і покращене керування моторами WeDo 2.0.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Реліз MOCPilot 2026.3.2]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/2026/05/02/post</id>

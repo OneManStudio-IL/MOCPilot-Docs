@@ -4,10 +4,40 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 02 May 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Jun 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fi</language>
+        <item>
+            <title><![CDATA[MOCPilot 2026.4.0 julkaisu]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/06/06/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/06/06/post</guid>
+            <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.4.0 — Kumoa/Tee uudelleen, hub-profiilit ja rakentajan korjaukset]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202640--kumoatee-uudelleen-hub-profiilit-ja-rakentajan-korjaukset">🚀 MOCPilot 2026.4.0 — Kumoa/Tee uudelleen, hub-profiilit ja rakentajan korjaukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/06/06/post#-mocpilot-202640--kumoatee-uudelleen-hub-profiilit-ja-rakentajan-korjaukset" class="hash-link" aria-label="Suora linkki kohtaan 🚀 MOCPilot 2026.4.0 — Kumoa/Tee uudelleen, hub-profiilit ja rakentajan korjaukset" title="Suora linkki kohtaan 🚀 MOCPilot 2026.4.0 — Kumoa/Tee uudelleen, hub-profiilit ja rakentajan korjaukset" translate="no">​</a></h2>
+<p>Julkaisemme ilolla <strong>MOCPilot 2026.4.0</strong> -version, joka on saatavilla <strong>Androidille</strong>, <strong>iOS<!-- -->:lle</strong> ja <strong>macOS<!-- -->:lle</strong>.</p>
+<p>Tämä päivitys lisää kumoa- ja tee uudelleen -historian lohko-ohjelmiin, parantaa hubien asetuksia profiilirakentajassa ja korjaa useita rakentajan ja laiteohjauksen ongelmia.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mitä-uutta-versiossa-202640">✨ Mitä uutta versiossa 2026.4.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/06/06/post#-mit%C3%A4-uutta-versiossa-202640" class="hash-link" aria-label="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.4.0?" title="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.4.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-lohko-ohjelmien-historia">🧱 Lohko-ohjelmien historia<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/06/06/post#-lohko-ohjelmien-historia" class="hash-link" aria-label="Suora linkki kohtaan 🧱 Lohko-ohjelmien historia" title="Suora linkki kohtaan 🧱 Lohko-ohjelmien historia" translate="no">​</a></h3>
+<ul>
+<li class="">Lisätty <strong>kumoa- ja tee uudelleen -historian hallinta</strong> lohko-ohjelmille</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hubien-profiilirakentaja">🔌 Hubien profiilirakentaja<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/06/06/post#-hubien-profiilirakentaja" class="hash-link" aria-label="Suora linkki kohtaan 🔌 Hubien profiilirakentaja" title="Suora linkki kohtaan 🔌 Hubien profiilirakentaja" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Hubin lisääminen</strong> on erotettu yhteysprosessista profiilirakentajassa</li>
+<li class="">Hubeja voi nyt lisätä profiiliin ilman pakollista välitöntä yhteyttä</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-rakentajan-ja-laitteiden-korjaukset">🛠 Rakentajan ja laitteiden korjaukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/06/06/post#-rakentajan-ja-laitteiden-korjaukset" class="hash-link" aria-label="Suora linkki kohtaan 🛠 Rakentajan ja laitteiden korjaukset" title="Suora linkki kohtaan 🛠 Rakentajan ja laitteiden korjaukset" translate="no">​</a></h3>
+<ul>
+<li class="">Korjattu käännetty <strong>delete-blocks</strong>-kontekstivalikon teksti</li>
+<li class="">Korjattu <strong>WeDo 2.0 -moottoriporttien komentojen kohdistus</strong>, jolloin ohjaus palautuu käytettäessä yhtä kahdesta moottoriportista</li>
+<li class="">Korjattu ongelma lohkojen <strong>etuliitostyypissä</strong>, jotta näiden lohkojen napsautuminen yhteen toimii nyt oikein</li>
+</ul>
+<hr>
+<p>Päivitä versioon <strong>2026.4.0</strong> saadaksesi paremman lohkojen muokkauksen, joustavamman hub-asetuksen ja parannetun WeDo 2.0 -moottoriohjauksen.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[MOCPilot 2026.3.2 julkaisu]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/05/02/post</link>

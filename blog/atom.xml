@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-05-02T00:00:00.000Z</updated>
+    <updated>2026-06-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release MOCPilot 2026.4.0]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/blog/2026/06/06/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/blog/2026/06/06/post"/>
+        <updated>2026-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.4.0 — Undo/Redo, Hub Profiles & Builder Fixes]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202640--undoredo-hub-profiles--builder-fixes">🚀 MOCPilot 2026.4.0 — Undo/Redo, Hub Profiles &amp; Builder Fixes<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/06/06/post#-mocpilot-202640--undoredo-hub-profiles--builder-fixes" class="hash-link" aria-label="Direct link to 🚀 MOCPilot 2026.4.0 — Undo/Redo, Hub Profiles &amp; Builder Fixes" title="Direct link to 🚀 MOCPilot 2026.4.0 — Undo/Redo, Hub Profiles &amp; Builder Fixes" translate="no">​</a></h2>
+<p>We’re happy to announce the release of <strong>MOCPilot 2026.4.0</strong>, available on <strong>Android</strong>, <strong>iOS</strong>, and <strong>macOS</strong>.</p>
+<p>This update adds undo and redo history for block programs, improves hub setup in the profile builder, and fixes several block builder and device-control issues.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-whats-new-in-202640">✨ What’s New in 2026.4.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/06/06/post#-whats-new-in-202640" class="hash-link" aria-label="Direct link to ✨ What’s New in 2026.4.0?" title="Direct link to ✨ What’s New in 2026.4.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-block-program-history">🧱 Block Program History<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/06/06/post#-block-program-history" class="hash-link" aria-label="Direct link to 🧱 Block Program History" title="Direct link to 🧱 Block Program History" translate="no">​</a></h3>
+<ul>
+<li class="">Added <strong>undo and redo history control</strong> for block programs</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub-profile-builder">🔌 Hub Profile Builder<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/06/06/post#-hub-profile-builder" class="hash-link" aria-label="Direct link to 🔌 Hub Profile Builder" title="Direct link to 🔌 Hub Profile Builder" translate="no">​</a></h3>
+<ul>
+<li class="">Decoupled <strong>hub addition</strong> from the connection flow in the profile builder</li>
+<li class="">Hubs can now be added to a profile without requiring an immediate connection</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-builder--device-fixes">🛠 Builder &amp; Device Fixes<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/06/06/post#-builder--device-fixes" class="hash-link" aria-label="Direct link to 🛠 Builder &amp; Device Fixes" title="Direct link to 🛠 Builder &amp; Device Fixes" translate="no">​</a></h3>
+<ul>
+<li class="">Fixed the translated <strong>delete-blocks</strong> context menu label</li>
+<li class="">Fixed the <strong>WeDo 2.0 motor port command mapping</strong>, restoring control when using one of two motor ports</li>
+<li class="">Fixed an issue with the <strong>front joint type</strong> of blocks so snapping between these blocks now works correctly</li>
+</ul>
+<hr>
+<p>Update to <strong>2026.4.0</strong> for better block editing, more flexible hub setup, and improved WeDo 2.0 motor control.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release MOCPilot 2026.3.2]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/blog/2026/05/02/post</id>

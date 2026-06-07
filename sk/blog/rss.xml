@@ -4,10 +4,40 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 02 May 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Jun 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>sk</language>
+        <item>
+            <title><![CDATA[Vydanie MOCPilot 2026.4.0]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog/2026/06/06/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog/2026/06/06/post</guid>
+            <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.4.0 — Späť/Znova, profily hubov a opravy konštruktora]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202640--späťznova-profily-hubov-a-opravy-konštruktora">🚀 MOCPilot 2026.4.0 — Späť/Znova, profily hubov a opravy konštruktora<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/06/06/post#-mocpilot-202640--sp%C3%A4%C5%A5znova-profily-hubov-a-opravy-kon%C5%A1truktora" class="hash-link" aria-label="Priamy odkaz na 🚀 MOCPilot 2026.4.0 — Späť/Znova, profily hubov a opravy konštruktora" title="Priamy odkaz na 🚀 MOCPilot 2026.4.0 — Späť/Znova, profily hubov a opravy konštruktora" translate="no">​</a></h2>
+<p>S radosťou oznamujeme vydanie <strong>MOCPilot 2026.4.0</strong>, dostupné pre <strong>Android</strong>, <strong>iOS</strong> a <strong>macOS</strong>.</p>
+<p>Táto aktualizácia pridáva históriu späť a znova pre blokové programy, zlepšuje nastavenie hubov v konštruktore profilov a opravuje viacero problémov v konštruktore a ovládaní zariadení.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-čo-je-nové-v-202640">✨ Čo je nové v 2026.4.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/06/06/post#-%C4%8Do-je-nov%C3%A9-v-202640" class="hash-link" aria-label="Priamy odkaz na ✨ Čo je nové v 2026.4.0?" title="Priamy odkaz na ✨ Čo je nové v 2026.4.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-história-blokových-programov">🧱 História blokových programov<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/06/06/post#-hist%C3%B3ria-blokov%C3%BDch-programov" class="hash-link" aria-label="Priamy odkaz na 🧱 História blokových programov" title="Priamy odkaz na 🧱 História blokových programov" translate="no">​</a></h3>
+<ul>
+<li class="">Pridané <strong>ovládanie histórie späť a znova</strong> pre blokové programy</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-konštruktor-profilov-hubov">🔌 Konštruktor profilov hubov<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/06/06/post#-kon%C5%A1truktor-profilov-hubov" class="hash-link" aria-label="Priamy odkaz na 🔌 Konštruktor profilov hubov" title="Priamy odkaz na 🔌 Konštruktor profilov hubov" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Pridanie hubu</strong> bolo oddelené od procesu pripojenia v konštruktore profilov</li>
+<li class="">Huby je teraz možné pridať do profilu bez nutnosti okamžitého pripojenia</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-opravy-konštruktora-a-zariadení">🛠 Opravy konštruktora a zariadení<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/06/06/post#-opravy-kon%C5%A1truktora-a-zariaden%C3%AD" class="hash-link" aria-label="Priamy odkaz na 🛠 Opravy konštruktora a zariadení" title="Priamy odkaz na 🛠 Opravy konštruktora a zariadení" translate="no">​</a></h3>
+<ul>
+<li class="">Opravený preložený štítok kontextového menu <strong>delete-blocks</strong></li>
+<li class="">Opravené <strong>mapovanie príkazov portov motora WeDo 2.0</strong>, ktoré obnovuje ovládanie pri použití jedného z dvoch portov motora</li>
+<li class="">Opravený problém s <strong>predným typom spojenia</strong> blokov, takže prichytávanie medzi týmito blokmi teraz funguje správne</li>
+</ul>
+<hr>
+<p>Aktualizujte na <strong>2026.4.0</strong> pre lepšiu úpravu blokov, flexibilnejšie nastavenie hubov a vylepšené ovládanie motorov WeDo 2.0.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Vydanie MOCPilot 2026.3.2]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog/2026/05/02/post</link>

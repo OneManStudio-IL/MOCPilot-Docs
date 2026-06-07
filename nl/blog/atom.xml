@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-05-02T00:00:00.000Z</updated>
+    <updated>2026-06-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/nl/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/nl/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Uitgave MOCPilot 2026.4.0]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/06/06/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/06/06/post"/>
+        <updated>2026-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.4.0 — Ongedaan maken/opnieuw, hubprofielen en bouwer-oplossingen]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202640--ongedaan-makenopnieuw-hubprofielen-en-bouwer-oplossingen">🚀 MOCPilot 2026.4.0 — Ongedaan maken/opnieuw, hubprofielen en bouwer-oplossingen<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/06/06/post#-mocpilot-202640--ongedaan-makenopnieuw-hubprofielen-en-bouwer-oplossingen" class="hash-link" aria-label="Directe link naar 🚀 MOCPilot 2026.4.0 — Ongedaan maken/opnieuw, hubprofielen en bouwer-oplossingen" title="Directe link naar 🚀 MOCPilot 2026.4.0 — Ongedaan maken/opnieuw, hubprofielen en bouwer-oplossingen" translate="no">​</a></h2>
+<p>We zijn blij de uitgave van <strong>MOCPilot 2026.4.0</strong> aan te kondigen, beschikbaar op <strong>Android</strong>, <strong>iOS</strong> en <strong>macOS</strong>.</p>
+<p>Deze update voegt geschiedenis voor ongedaan maken en opnieuw uitvoeren toe voor blokprogramma’s, verbetert de hubconfiguratie in de profielbouwer en lost meerdere problemen in de bouwer en apparaatbesturing op.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-wat-is-er-nieuw-in-202640">✨ Wat is er nieuw in 2026.4.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/06/06/post#-wat-is-er-nieuw-in-202640" class="hash-link" aria-label="Directe link naar ✨ Wat is er nieuw in 2026.4.0?" title="Directe link naar ✨ Wat is er nieuw in 2026.4.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-geschiedenis-voor-blokprogrammas">🧱 Geschiedenis voor blokprogramma’s<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/06/06/post#-geschiedenis-voor-blokprogrammas" class="hash-link" aria-label="Directe link naar 🧱 Geschiedenis voor blokprogramma’s" title="Directe link naar 🧱 Geschiedenis voor blokprogramma’s" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Geschiedenisbeheer voor ongedaan maken en opnieuw uitvoeren</strong> toegevoegd voor blokprogramma’s</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-profielbouwer-voor-hubs">🔌 Profielbouwer voor hubs<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/06/06/post#-profielbouwer-voor-hubs" class="hash-link" aria-label="Directe link naar 🔌 Profielbouwer voor hubs" title="Directe link naar 🔌 Profielbouwer voor hubs" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Hub toevoegen</strong> losgekoppeld van de verbindingsstroom in de profielbouwer</li>
+<li class="">Hubs kunnen nu aan een profiel worden toegevoegd zonder verplichte directe verbinding</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-bouwer--en-apparaatoplossingen">🛠 Bouwer- en apparaatoplossingen<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/06/06/post#-bouwer--en-apparaatoplossingen" class="hash-link" aria-label="Directe link naar 🛠 Bouwer- en apparaatoplossingen" title="Directe link naar 🛠 Bouwer- en apparaatoplossingen" translate="no">​</a></h3>
+<ul>
+<li class="">Vertaald contextmenu-label <strong>delete-blocks</strong> gecorrigeerd</li>
+<li class=""><strong>WeDo 2.0 motorpoort-commandotoewijzing</strong> gecorrigeerd, waardoor besturing bij gebruik van een van de twee motorpoorten is hersteld</li>
+<li class="">Probleem met het <strong>voorste verbindingstype</strong> van blokken opgelost, zodat vastklikken tussen deze blokken nu correct werkt</li>
+</ul>
+<hr>
+<p>Werk bij naar <strong>2026.4.0</strong> voor betere blokbewerking, flexibelere hubconfiguratie en verbeterde WeDo 2.0 motorbesturing.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release MOCPilot 2026.3.2]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/05/02/post</id>
