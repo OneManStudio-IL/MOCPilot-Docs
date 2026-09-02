@@ -10,7 +10,7 @@ Peliohjainlohkot reagoivat ohjaimen syötteisiin ja lukevat peliohjaimen nykyise
 
 ## Tapahtumalohkot
 
-### `Kun peliohjaimen painike on` {#block_gamepad_event_when_button_is}
+### `Kun peliohjaimen painike on` (Aloittelija) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ Käynnistyy, kun valittu peliohjaimen painike vastaa asetettua tilaa.
 - Painikkeet (Sony-asettelu): `risti`, `ympyrä`, `neliö`, `kolmio`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Tilavaihtoehdot: `painettu`, `vapautettu`
 
-### `Kun peliohjaimen D-pad on` {#block_gamepad_event_when_dpad_is}
+### `Kun peliohjaimen D-pad on` (Aloittelija) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ Käynnistyy, kun D-padin suunta tai tila vastaa valittua ehtoa.
 - Suuntavaihtoehdot: `ylös`, `alas`, `vasen`, `oikea`
 - Tilavaihtoehdot: `painettu`, `vapautettu`
 
-### `Kun peliohjaimen ohjain­tikku on` {#block_gamepad_event_when_thumbstick_is}
+### `Kun peliohjaimen ohjain­tikku on` (Aloittelija) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -49,7 +49,7 @@ Tämä lohko tukee:
 
 ## Arvolohkot
 
-### `Peliohjaimen painikkeen arvo (boolean)` {#block_gamepad_button_value_boolean}
+### `Peliohjaimen painikkeen arvo (boolean)` (Aloittelija) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -64,7 +64,7 @@ Palauttaa valitun peliohjaimen painikkeen nykyisen tilan.
 - Painikkeet (Sony-asettelu): `risti`, `ympyrä`, `neliö`, `kolmio`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Tilavaihtoehdot: `painettu`, `vapautettu`
 
-### `Peliohjaimen D-pad -painikkeen arvo (boolean)` {#block_gamepad_dpad_button_value_boolean}
+### `Peliohjaimen D-pad -painikkeen arvo (boolean)` (Aloittelija) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -75,7 +75,7 @@ Palauttaa, onko valittu D-padin suunta aktiivinen.
 - Suuntavaihtoehdot: `ylös`, `alas`, `vasen`, `oikea`
 - Tilavaihtoehdot: `painettu`, `vapautettu`
 
-### `Peliohjaimen ohjain­tikun arvo (float)` {#block_gamepad_thumbstick_value_float}
+### `Peliohjaimen ohjain­tikun arvo (float)` (Aloittelija) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -88,7 +88,7 @@ Palauttaa ohjain­tikun akselin numeerisen arvon.
 - Tikkuvaihtoehdot: `vasen`, `oikea`
 - Akselit: `x-akseli` / `y-akseli`
 
-### `Peliohjaimen liipaisimen arvo (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Peliohjaimen liipaisimen arvo (float)` (Aloittelija) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

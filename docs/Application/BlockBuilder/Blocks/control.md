@@ -89,6 +89,26 @@ Controls hub connection state from control flow logic.
 
 - Action options: `connect`, `disconnect`
 
+### `Set hub configuration` {#block_hubs_set_hub_config}
+
+<img src={useBaseUrl('/img/blocks/block_hubs_set_hub_config.svg')} alt="block_hubs_set_hub_config.svg" />
+
+Sets the selected hub to one of its supported configuration profiles.
+
+- Available only for hubs that expose hub configuration options.
+- Typical use: switch a configurable hub, such as Technic Move Hub, to a different stored configuration before running the next blocks.
+
+### `Hub configuration` {#block_hubs_all_control_hub_config}
+
+<img src={useBaseUrl('/img/blocks/block_hubs_all_control_hub_config.svg')} alt="block_hubs_all_control_hub_config.svg" />
+
+Returns the current configuration of the selected hub.
+
+- Type: reporter block
+- Output format options: `text`, `index`
+- Available only for hubs that expose hub configuration options.
+- Returns `NaN` when the selected hub is not connected or no configuration is available.
+
 ### `Is connected` {#block_hubs_all_sensors_is_connected}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_connected.svg')} alt="block_hubs_all_sensors_is_connected.svg" />

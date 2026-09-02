@@ -11,7 +11,7 @@ Variáveis armazenam valores que podem ser lidos e atualizados entre diferentes 
 
 ## Blocos de comando de variáveis
 
-### `Definir variável para` {#block_variables_set_to}
+### `Definir variável para` (Iniciante) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ Define a variável selecionada para o valor especificado.
 - Tipo: bloco de comando
 - Uso típico: inicializar estado, substituir valor anterior
 
-### `Alterar variável por` {#block_variables_change_by}
+### `Alterar variável por` (Avançado) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ Adiciona o valor especificado à variável selecionada.
 - Uso típico: contadores, pontuação, distância/tempo acumulado
 
 ## Bloco repórter de variável
+
+### `Valor da variável` (Iniciante) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

@@ -11,7 +11,7 @@ Dessa block används för att läsa användarinmatning från kontroller på skä
 
 ## Globala dashboard-kontrollblock
 
-### `Ställ in kontrollfärg` {#block_dashboard_controller_all_set_color}
+### `Ställ in kontrollfärg` (Avancerad) {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
@@ -20,7 +20,7 @@ Dessa block används för att läsa användarinmatning från kontroller på skä
 - Typ: kommandoblock
 - Typisk användning: visa körtidstillstånd eller dynamiskt ändra kontrollens stil baserat på villkor
 
-### `Ställ in kontrollens interaktivitet` {#block_dashboard_controller_all_set_interactivity}
+### `Ställ in kontrollens interaktivitet` (Avancerad) {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
@@ -33,7 +33,7 @@ Om interaktivitet är inaktiverad reagerar kontrollen inte på touchinmatning.
 
 ## Knappblock
 
-### `Knapphändelse` {#block_dashboard_controller_button_event}
+### `Knapphändelse` (Nybörjare) {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
@@ -43,7 +43,7 @@ Utlöses när dashboard-knappen byter tillstånd (nedtryckt/släppt).
 - Utdata: startar anslutet skript
 - Tillståndsalternativ: `nedtryckt`, `släppt`
 
-### `Knappvärde (booleskt)` {#block_dashboard_controller_button_value_boolean}
+### `Knappvärde (booleskt)` (Nybörjare) {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
@@ -55,7 +55,7 @@ Rapporterar aktuellt tillstånd för dashboard-knappen.
 
 ## D-pad-block
 
-### `D-pad-händelse` {#block_dashboard_controller_dpad_event}
+### `D-pad-händelse` (Nybörjare) {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
@@ -66,7 +66,7 @@ Utlöses när D-pad-riktningen ändras eller matchar den konfigurerade riktninge
 - Riktningsalternativ: `upp`, `ner`, `vänster`, `höger`
 - Knappstatusalternativ: `nedtryckt`, `släppt`
 
-### `D-pad-värde (booleskt)` {#block_dashboard_controller_dpad_value_boolean}
+### `D-pad-värde (booleskt)` (Nybörjare) {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
@@ -79,7 +79,7 @@ Rapporterar om en vald D-pad-riktning är aktiv.
 
 ## Joystickblock
 
-### `Joystickhändelse` {#block_dashboard_controller_joystick_event}
+### `Joystickhändelse` (Nybörjare) {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
@@ -89,7 +89,7 @@ Utlöses när joystickens position ändras.
 - Utdata: startar anslutet skript
 - Tillståndsalternativ: `upp`, `ner`, `vänster`, `höger`, `flyttad`, `släppt`
 
-### `Joystickvärde (float)` {#block_dashboard_controller_joystick_value_float}
+### `Joystickvärde (float)` (Nybörjare) {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
@@ -99,9 +99,19 @@ Rapporterar joystickens axelvärde.
 - Utdata: numeriskt (float), vanligtvis inom ett normaliserat intervall
 - Axelalternativ: `X-axel`, `Y-axel`
 
+### `Joystickvärde (boolean)` (Nybörjare) {#block_dashboard_controller_joystick_value_boolean}
+
+<img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_boolean.svg')} alt="block_dashboard_controller_joystick_value_boolean.svg" />
+
+Rapporterar om den valda joysticken är nedtryckt eller släppt.
+
+- Typ: värdeblock
+- Utdata: `true`/`false`
+- Statusalternativ: `nedtryckt`, `släppt`
+
 ## Pedalblock
 
-### `Pedalhändelse` {#block_dashboard_controller_pedals_event}
+### `Pedalhändelse` (Nybörjare) {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
@@ -112,7 +122,7 @@ Utlöses när pedalinmatning ändras.
 - Pedalalternativ: `vilken som helst`, `broms`, `acceleration`
 - Tillståndsalternativ: `flyttad`, `nedtryckt`, `släppt`
 
-### `Pedalvärde (float)` {#block_dashboard_controller_pedals_value_float}
+### `Pedalvärde (float)` (Nybörjare) {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
@@ -121,7 +131,7 @@ Rapporterar pedalens analoga värde.
 - Typ: värdeblock
 - Utdata: numeriskt (float)
 
-### `Pedalvärde (booleskt)` {#block_dashboard_controller_pedals_value_boolean}
+### `Pedalvärde (booleskt)` (Nybörjare) {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
@@ -134,7 +144,7 @@ Returnerar valt tillstånd beroende på om en specifik pedal är nedtryckt eller
 
 ## Reglageblock
 
-### `Reglagehändelse` {#block_dashboard_controller_slider_event}
+### `Reglagehändelse` (Nybörjare) {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
@@ -144,7 +154,7 @@ Utlöses när reglagesvärdet ändras.
 - Utdata: startar anslutet skript
 - Tillståndsalternativ: `låg`, `hög`, `flyttad`, `släppt`
 
-### `Reglagevärde (float)` {#block_dashboard_controller_slider_value_float}
+### `Reglagevärde (float)` (Nybörjare) {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
@@ -155,7 +165,7 @@ Rapporterar aktuellt reglagesvärde.
 
 ## Stepperblock
 
-### `Stepperhändelse` {#block_dashboard_controller_stepper_event}
+### `Stepperhändelse` (Nybörjare) {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
@@ -166,7 +176,7 @@ Utlöses när steppervärdet ändras med ett steg.
 - Stegalternativ: `vilken som helst`, `återställ`, `minus`, `plus`
 - Knappstatusalternativ: `nedtryckt`, `släppt`
 
-### `Steppervärde (float)` {#block_dashboard_controller_stepper_value_float}
+### `Steppervärde (float)` (Nybörjare) {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
@@ -177,7 +187,7 @@ Rapporterar aktuellt steppervärde.
 
 ## Rattblock
 
-### `Ratthändelse` {#block_dashboard_controller_steering_wheel_event}
+### `Ratthändelse` (Nybörjare) {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
@@ -187,7 +197,7 @@ Utlöses när rattens position ändras.
 - Utdata: startar anslutet skript
 - Tillståndsalternativ: `flyttad`, `nedtryckt`, `släppt`
 
-### `Rattvärde (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `Rattvärde (float)` (Nybörjare) {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
@@ -196,7 +206,7 @@ Rapporterar aktuellt rattvärde.
 - Typ: värdeblock
 - Utdata: numeriskt (float)
 
-### `Rattvärde (booleskt)` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `Rattvärde (booleskt)` (Nybörjare) {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
@@ -208,7 +218,7 @@ Returnerar valt tillstånd beroende på om ratten är nedtryckt eller släppt.
 
 ## Växelblock
 
-### `Växelhändelse` {#block_dashboard_controller_switch_event}
+### `Växelhändelse` (Nybörjare) {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
@@ -218,7 +228,7 @@ Utlöses när växelns tillstånd ändras.
 - Utdata: startar anslutet skript
 - Växlingsalternativ: `på`, `av`
 
-### `Växelvärde (booleskt)` {#block_dashboard_controller_switch_value_boolean}
+### `Växelvärde (booleskt)` (Nybörjare) {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
@@ -230,7 +240,7 @@ Rapporterar aktuellt växeltillstånd.
 
 ## Monitorblock
 
-### `Visa monitor` {#block_dashboard_controller_monitor_show}
+### `Visa monitor` (Nybörjare) {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
@@ -239,7 +249,7 @@ Visar information (text eller värde) på dashboard-monitorn.
 - Typ: kommandoblock
 - Typisk användning: visa batterinivå, motorvinkel, aktuell ansluten enhet på en hubbport och liknande körtidsinformation
 
-### `Ställ in monitorvärde` {#block_dashboard_controller_monitor_set_value}
+### `Ställ in monitorvärde` (Nybörjare) {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
@@ -248,7 +258,7 @@ Ställer in heltalsvärdet för en hastighetsmätar-monitor på dashboarden.
 - Typ: kommandoblock
 - Typisk användning: uppdatera hastighetsmätarens värde under körning
 
-### `Ställ in monitorlutningsvärde` {#block_dashboard_controller_monitor_tilt_set_value}
+### `Ställ in monitorlutningsvärde` (Nybörjare) {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 

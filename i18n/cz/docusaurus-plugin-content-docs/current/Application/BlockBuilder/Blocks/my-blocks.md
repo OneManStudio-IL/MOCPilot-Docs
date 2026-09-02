@@ -12,14 +12,14 @@ Tato kategorie je podobná funkcím v klasickém programování: chování nadef
 
 ## Základní bloky My Blocks
 
-### `Vytvořit blok`
+### `Vytvořit blok` (Guru) {#block_my_block_define}
 
 Vytvoří novou definici vlastního bloku.
 
 - Typ: definiční/nastavovací blok
 - Typické použití: seskupení opakované logiky do jednoho pojmenovaného bloku
 
-### `MyBlock` (volací blok)
+### `MyBlock` (Guru) {#block_my_block}
 
 Volá dříve vytvořený vlastní blok.
 

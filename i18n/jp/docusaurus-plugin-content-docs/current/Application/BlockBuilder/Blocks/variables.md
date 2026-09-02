@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 変数操作ブロック
 
-### `変数を〜にする` {#block_variables_set_to}
+### `変数を〜にする` (初級) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - タイプ: コマンドブロック
 - 使用例: 初期化、値の上書き
 
-### `変数を〜ずつ変える` {#block_variables_change_by}
+### `変数を〜ずつ変える` (上級) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 使用例: カウンター、スコア、累積距離や時間
 
 ## 変数値レポーター
+
+### `変数の値` (初級) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

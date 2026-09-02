@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 基本イベント
 
-### `プログラム開始時` {#block_event_when_program_started}
+### `プログラム開始時` (初級) {#block_event_when_program_started}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
 
@@ -20,7 +20,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - トリガー: プログラム起動
 - 使用例: 変数の初期化、モーターの初期状態設定、起動音の再生
 
-### `〜のとき` {#block_event_when}
+### `〜のとき` (上級) {#block_event_when}
 
 <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 
@@ -29,7 +29,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - トリガー: 条件ベース
 - 使用例: 実行中の状態に応じた分岐処理
 
-### `タイマーが〜より大きいとき` {#block_event_when_timer_greater_than}
+### `タイマーが〜より大きいとき` (上級) {#block_event_when_timer_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_timer_greater_than.svg')} alt="block_event_when_timer_greater_than.svg" />
 
@@ -38,7 +38,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - トリガー: 経過時間
 - 使用例: 遅延処理、時間ベースのフェーズ制御
 
-### `メッセージを受信したとき` {#block_event_when_message_recieved}
+### `メッセージを受信したとき` (達人) {#block_event_when_message_recieved}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_message_recieved.svg')} alt="block_event_when_message_recieved.svg" />
 
@@ -47,7 +47,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - トリガー: メッセージチャンネル
 - 使用例: 複数スクリプトの同期
 
-### `ブロードキャスト` {#block_event_broadcast}
+### `ブロードキャスト` (達人) {#block_event_broadcast}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast.svg')} alt="block_event_broadcast.svg" />
 
@@ -56,7 +56,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - トリガー: 即時送信
 - 使用例: 他のスクリプトへ通知（待機なし）
 
-### `ブロードキャストして待機` {#block_event_broadcast_and_wait}
+### `ブロードキャストして待機` (達人) {#block_event_broadcast_and_wait}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast_and_wait.svg')} alt="block_event_broadcast_and_wait.svg" />
 
@@ -67,7 +67,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## ハブイベント
 
-### `ハブボタンが押されたとき` {#block_hubs_all_event_button_pressed}
+### `ハブボタンが押されたとき` (初級) {#block_hubs_all_event_button_pressed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_button_pressed.svg')} alt="block_hubs_all_event_button_pressed.svg" />
 
@@ -76,7 +76,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 状態オプション: `押された`, `離された`, `変更された`
 - 注: 利用可能なボタンはハブモデルによって異なります。
 
-### `ハブ接続が変更されたとき` {#block_hubs_all_event_connection_changed}
+### `ハブ接続が変更されたとき` (初級) {#block_hubs_all_event_connection_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_connection_changed.svg')} alt="block_hubs_all_event_connection_changed.svg" />
 
@@ -85,7 +85,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - トリガー: 接続状態の変化
 - 使用例: 再接続処理や安全なフォールバック動作
 
-### `ハブバッテリーが変化したとき` {#block_hubs_all_event_battery_changed}
+### `ハブバッテリーが変化したとき` (初級) {#block_hubs_all_event_battery_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_battery_changed.svg')} alt="block_hubs_all_event_battery_changed.svg" />
 
@@ -94,13 +94,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - トリガー: バッテリー更新
 - 使用例: 低電力警告や省電力モードへの切替
 
-### `ハブ加速度が変化したとき` {#block_hubs_all_event_accelerometer_changed}
+### `ハブ加速度が変化したとき` (達人) {#block_hubs_all_event_accelerometer_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_accelerometer_changed.svg')} alt="block_hubs_all_event_accelerometer_changed.svg" />
 
 加速度の値が変化したときに実行されます。
 
-### `ハブ傾きが変化したとき` {#block_hubs_all_event_tilt_changed}
+### `ハブ傾きが変化したとき` (初級) {#block_hubs_all_event_tilt_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_changed.svg')} alt="block_hubs_all_event_tilt_changed.svg" />
 
@@ -109,7 +109,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 角度オプション: `任意`, `ピッチ`, `ロール`, `ヨー`
 - 注: `ヨー`は対応ハブのみ利用可能
 
-### `ハブ向きが変化したとき` {#block_hubs_all_event_tilt_orientation_changed}
+### `ハブ向きが変化したとき` (初級) {#block_hubs_all_event_tilt_orientation_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_orientation_changed.svg')} alt="block_hubs_all_event_tilt_orientation_changed.svg" />
 
@@ -117,13 +117,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## センサーポートイベント
 
-### `Technic カラーセンサーイベント` {#block_hubs_all_event_port_technic_sensor_color}
+### `Technic カラーセンサーイベント` (初級) {#block_hubs_all_event_port_technic_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
 Technicカラーセンサーが指定した色を検出したときに実行されます。
 
-### `Technic 距離センサーイベント` {#block_hubs_all_event_port_technic_sensor_distance}
+### `Technic 距離センサーイベント` (初級) {#block_hubs_all_event_port_technic_sensor_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_distance.svg')} alt="block_hubs_all_event_port_technic_sensor_distance.svg" />
 
@@ -133,7 +133,7 @@ Technicカラーセンサーが指定した色を検出したときに実行さ�
 - 単位オプション: `mm`, `cm`, `インチ`, `%`
 - 注: 単位はセンサーモードに依存
 
-### `BOOST 距離センサーイベント` {#block_hubs_all_event_port_boost_sensor_when_distance}
+### `BOOST 距離センサーイベント` (初級) {#block_hubs_all_event_port_boost_sensor_when_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_event_port_boost_sensor_when_distance.svg" />
 
@@ -142,7 +142,7 @@ BOOST距離センサーが条件に達したときに実行されます。
 - 比較オプション: `より近い`, `より遠い`, `正確に`
 - 単位オプション: `%`, `cm`, `インチ`
 
-### `BOOST カラーセンサーイベント` {#block_hubs_all_event_port_boost_sensor_color}
+### `BOOST カラーセンサーイベント` (初級) {#block_hubs_all_event_port_boost_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_dashboard_controller_boost_sensor_color.svg" />
 

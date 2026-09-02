@@ -10,7 +10,7 @@ Gamepad-blokken worden gebruikt om te reageren op controllerinvoer en de huidige
 
 ## Gebeurtenisblokken
 
-### `Wanneer gamepad-knop is` {#block_gamepad_event_when_button_is}
+### `Wanneer gamepad-knop is` (Beginner) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ Wordt geactiveerd wanneer de geselecteerde gamepad-knop overeenkomt met de inges
 - Knopopties (Sony-indeling): `kruis`, `cirkel`, `vierkant`, `driehoek`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Statusopties: `ingedrukt`, `vrijgegeven`
 
-### `Wanneer gamepad D-pad is` {#block_gamepad_event_when_dpad_is}
+### `Wanneer gamepad D-pad is` (Beginner) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ Wordt geactiveerd wanneer de D-pad richting/status overeenkomt met de geselectee
 - Richtingsopties: `boven`, `onder`, `links`, `rechts`
 - Statusopties: `ingedrukt`, `vrijgegeven`
 
-### `Wanneer gamepad thumbstick is` {#block_gamepad_event_when_thumbstick_is}
+### `Wanneer gamepad thumbstick is` (Beginner) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -50,7 +50,7 @@ Op basis van de huidige opties ondersteunt dit blok:
 
 ## Waardeblokken
 
-### `Gamepad knopwaarde (boolean)` {#block_gamepad_button_value_boolean}
+### `Gamepad knopwaarde (boolean)` (Beginner) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -65,7 +65,7 @@ Geeft de huidige status van de geselecteerde gamepad-knop terug.
 - Knopopties (Sony-indeling): `kruis`, `cirkel`, `vierkant`, `driehoek`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Statusopties: `ingedrukt`, `vrijgegeven`
 
-### `Gamepad D-pad knopwaarde (boolean)` {#block_gamepad_dpad_button_value_boolean}
+### `Gamepad D-pad knopwaarde (boolean)` (Beginner) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -76,7 +76,7 @@ Geeft aan of de geselecteerde D-pad richting momenteel actief is.
 - Richtingsopties: `boven`, `onder`, `links`, `rechts`
 - Statusopties: `ingedrukt`, `vrijgegeven`
 
-### `Gamepad thumbstick waarde (float)` {#block_gamepad_thumbstick_value_float}
+### `Gamepad thumbstick waarde (float)` (Beginner) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -89,7 +89,7 @@ Geeft de numerieke waarde van de thumbstick-as terug.
 - Stickopties: `links`, `rechts`
 - Asopties: `X-as` / `Y-as`
 
-### `Gamepad triggerdruk waarde (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Gamepad triggerdruk waarde (float)` (Beginner) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

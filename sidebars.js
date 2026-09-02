@@ -60,6 +60,16 @@ const sidebars = {
             },
           ],
         },
+        {
+          type: 'category',
+          label: 'Hubs',
+          collapsed: false,
+          items: [
+            'Application/Hubs/FirmwareUpdating',
+            'Application/Hubs/RecoveryHubFirmware',
+            'Application/Hubs/TechnicMoveHubConfigurations',
+          ],
+        },
       ],
     },
   ],

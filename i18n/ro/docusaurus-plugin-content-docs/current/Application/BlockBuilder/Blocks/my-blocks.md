@@ -12,14 +12,14 @@ Această categorie este similară conceptual cu crearea unei funcții în progra
 
 ## Blocuri principale My Blocks
 
-### `Creează un bloc`
+### `Creează un bloc` (Guru) {#block_my_block_define}
 
 Creează o nouă definiție de bloc personalizat.
 
 - Tip: bloc de definire/configurare
 - Utilizare tipică: gruparea logicii repetitive într-un singur bloc cu nume
 
-### `MyBlock` (bloc de apel)
+### `MyBlock` (Guru) {#block_my_block}
 
 Apelează un bloc personalizat creat anterior.
 

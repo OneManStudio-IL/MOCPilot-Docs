@@ -11,7 +11,7 @@ Les variables stockent des valeurs qui peuvent être lues et mises à jour à tr
 
 ## Blocs de commande de variables
 
-### `Set variable to` {#block_variables_set_to}
+### `Set variable to` (Débutant) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ Définit la variable sélectionnée à la valeur spécifiée.
 - Type : bloc de commande
 - Utilisation typique : initialiser un état, écraser une valeur précédente
 
-### `Change variable by` {#block_variables_change_by}
+### `Change variable by` (Avancé) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ Ajoute la valeur spécifiée à la variable sélectionnée.
 - Utilisation typique : compteurs, score, distance/temps accumulés
 
 ## Bloc reporter de valeur de variable
+
+### `Valeur de variable` (Débutant) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

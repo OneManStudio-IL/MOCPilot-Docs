@@ -11,13 +11,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки очікування
 
-### `Чекати` {#block_control_wait_for}
+### `Чекати` (Початківець) {#block_control_wait_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
 
 Призупиняє поточний скрипт на вказаний час.
 
-### `Чекати до` {#block_control_wait_until}
+### `Чекати до` (Просунутий) {#block_control_wait_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_until.svg')} alt="block_control_wait_until.svg" />
 
@@ -25,19 +25,19 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки циклів
 
-### `Повторити` {#block_control_repeat_for}
+### `Повторити` (Просунутий) {#block_control_repeat_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_for.svg')} alt="block_control_repeat_for.svg" />
 
 Виконує вкладені блоки фіксовану кількість разів.
 
-### `Повторювати до` {#block_control_repeat_until}
+### `Повторювати до` (Просунутий) {#block_control_repeat_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_until.svg')} alt="block_control_repeat_until.svg" />
 
 Повторює вкладені блоки, доки умова не стане істинною.
 
-### `Завжди` {#block_control_repeat_forever}
+### `Завжди` (Просунутий) {#block_control_repeat_forever}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 
@@ -45,19 +45,19 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки розгалуження
 
-### `Якщо` {#block_control_if}
+### `Якщо` (Початківець) {#block_control_if}
 
 <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
 
 Виконує вкладені блоки лише тоді, коли умова істинна.
 
-### `Якщо / Інакше` {#block_control_if_else}
+### `Якщо / Інакше` (Просунутий) {#block_control_if_else}
 
 <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 
 Виконує одну гілку, коли умова істинна, інакше виконує альтернативну гілку.
 
-### `Зробити це і це` {#block_control_do_this_and_this}
+### `Зробити це і це` (Гуру) {#block_control_do_this_and_this}
 
 <img src={useBaseUrl('/img/blocks/block_control_do_this_and_this.svg')} alt="block_control_do_this_and_this.svg" />
 
@@ -65,7 +65,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки зупинки
 
-### `Зупинити` {#block_control_stop}
+### `Зупинити` (Початківець) {#block_control_stop}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
 
@@ -73,7 +73,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Варіанти зупинки: `all`, `this stack`, `and exit program`
 
-### `Зупинити інші стеки` {#block_control_stop_other_stacks}
+### `Зупинити інші стеки` (Гуру) {#block_control_stop_other_stacks}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop_other_stacks.svg')} alt="block_control_stop_other_stacks.svg" />
 
@@ -81,7 +81,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Допоміжні блоки хаба/керування
 
-### `Встановити підключення` {#block_hubs_control_set_connect}
+### `Встановити підключення` (Початківець) {#block_hubs_control_set_connect}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_control_set_connect.svg')} alt="block_hubs_control_set_connect.svg" />
 
@@ -89,7 +89,23 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Варіанти дії: `підключити`, `відключити`
 
-### `Підключено?` {#block_hubs_all_sensors_is_connected}
+### `Установити конфігурацію хаба` (Просунутий) {#block_hubs_set_hub_config}
+<img src={useBaseUrl('/img/blocks/block_hubs_set_hub_config.svg')} alt="block_hubs_set_hub_config.svg" />
+Установлює вибраний хаб на один із підтримуваних профілів конфігурації.
+
+- Доступно лише для хабів, які надають параметри конфігурації.
+- Типове використання: перемкнути налаштовуваний хаб, наприклад Technic Move Hub, на іншу збережену конфігурацію перед запуском наступних блоків.
+
+### `Конфігурація хаба` (Просунутий) {#block_hubs_all_control_hub_config}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_control_hub_config.svg')} alt="block_hubs_all_control_hub_config.svg" />
+Повертає поточну конфігурацію вибраного хаба.
+
+- Тип: блок-репортер
+- Варіанти формату виводу: `text`, `index`
+- Доступно лише для хабів, які надають параметри конфігурації.
+- Повертає `NaN`, якщо вибраний хаб не підключено або конфігурація недоступна.
+
+### `Підключено?` (Початківець) {#block_hubs_all_sensors_is_connected}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_connected.svg')} alt="block_hubs_all_sensors_is_connected.svg" />
 
@@ -97,7 +113,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: логічний репортер-блок
 
-### `BuWizz 2: встановити режим потужності` {#block_hubs_buwizz_sensors_set_power_mode}
+### `BuWizz 2: встановити режим потужності` (Початківець) {#block_hubs_buwizz_sensors_set_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_set_power_mode.svg')} alt="block_hubs_buwizz_sensors_set_power_mode.svg" />
 
@@ -105,7 +121,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Варіанти режиму: `Slow`, `Normal`, `Fast`, `Ludicrous`
 
-### `BuWizz 2: отримати режим потужності` {#block_hubs_buwizz_sensors_get_power_mode}
+### `BuWizz 2: отримати режим потужності` (Гуру) {#block_hubs_buwizz_sensors_get_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_get_power_mode.svg')} alt="block_hubs_buwizz_sensors_get_power_mode.svg" />
 
@@ -113,7 +129,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Варіанти формату виводу: `текст`, `індекс`
 
-### `MouldKing: встановити канал керування` {#block_hubs_mouldking_control_set_control_channel}
+### `MouldKing: встановити канал керування` (Просунутий) {#block_hubs_mouldking_control_set_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_set_control_channel.svg')} alt="block_hubs_mouldking_control_set_control_channel.svg" />
 
@@ -121,7 +137,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Варіанти каналу: `A`, `B`, `C`
 
-### `MouldKing: отримати канал керування` {#block_hubs_mouldking_control_get_control_channel}
+### `MouldKing: отримати канал керування` (Просунутий) {#block_hubs_mouldking_control_get_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_get_control_channel.svg')} alt="block_hubs_mouldking_control_get_control_channel.svg" />
 

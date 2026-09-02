@@ -12,14 +12,14 @@ Diese Kategorie ist konzeptionell ähnlich wie Funktionen in klassischer Program
 
 ## Kernblöcke von Meine Blöcke
 
-### `Block erstellen`
+### `Block erstellen` (Guru) {#block_my_block_define}
 
 Erstellt eine neue benutzerdefinierte Blockdefinition.
 
 - Typ: Definitions-/Setup-Block
 - Typische Verwendung: Wiederholte Logik in einem benannten Block bündeln
 
-### `MeinBlock` (Aufrufblock)
+### `MeinBlock` (Guru) {#block_my_block}
 
 Ruft einen zuvor erstellten benutzerdefinierten Block auf.
 

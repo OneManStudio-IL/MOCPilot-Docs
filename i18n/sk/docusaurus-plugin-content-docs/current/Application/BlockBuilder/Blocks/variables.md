@@ -11,7 +11,7 @@ Premenné ukladajú hodnoty, ktoré je možné čítať a meniť naprieč blokmi
 
 ## Príkazové bloky premenných
 
-### `Nastav premennú na` {#block_variables_set_to}
+### `Nastav premennú na` (Začiatočník) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ Nastaví vybranú premennú na zadanú hodnotu.
 - Typ: príkazový blok  
 - Typické použitie: inicializácia stavu, prepísanie predchádzajúcej hodnoty  
 
-### `Zmeň premennú o` {#block_variables_change_by}
+### `Zmeň premennú o` (Pokročilý) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ Pripočíta zadanú hodnotu k vybranej premennej.
 - Typické použitie: počítadlá, skóre, kumulovaná vzdialenosť/čas  
 
 ## Blok hodnoty premennej
+
+### `Hodnota premennej` (Začiatočník) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

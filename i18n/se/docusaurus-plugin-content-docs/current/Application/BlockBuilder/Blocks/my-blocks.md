@@ -12,14 +12,14 @@ Den här kategorin är konceptuellt lik att skapa en funktion i traditionell pro
 
 ## Grundläggande Mina block
 
-### `Skapa ett block`
+### `Skapa ett block` (Guru) {#block_my_block_define}
 
 Skapar en ny definition av ett anpassat block.
 
 - Typ: definitions-/inställningsblock
 - Typisk användning: gruppera upprepad logik i ett namngivet block
 
-### `MittBlock` (anropsblock)
+### `MittBlock` (Guru) {#block_my_block}
 
 Anropar ett tidigare skapat anpassat block.
 

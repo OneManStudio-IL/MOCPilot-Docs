@@ -10,7 +10,7 @@ I blocchi Gamepad vengono utilizzati per reagire all’input del controller e le
 
 ## Blocchi evento
 
-### `Quando il pulsante del gamepad è` {#block_gamepad_event_when_button_is}
+### `Quando il pulsante del gamepad è` (Principiante) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ Si attiva quando il pulsante selezionato del gamepad corrisponde allo stato conf
 - Opzioni pulsante (layout Sony): `croce`, `cerchio`, `quadrato`, `triangolo`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Opzioni stato: `premuto`, `rilasciato`
 
-### `Quando il D-pad del gamepad è` {#block_gamepad_event_when_dpad_is}
+### `Quando il D-pad del gamepad è` (Principiante) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ Si attiva quando la direzione/stato del D-pad corrisponde alla condizione selezi
 - Opzioni direzione: `su`, `giù`, `sinistra`, `destra`
 - Opzioni stato: `premuto`, `rilasciato`
 
-### `Quando la levetta del gamepad è` {#block_gamepad_event_when_thumbstick_is}
+### `Quando la levetta del gamepad è` (Principiante) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -49,7 +49,7 @@ In base alle opzioni attuali, questo blocco supporta:
 
 ## Blocchi valore
 
-### `Valore pulsante gamepad (booleano)` {#block_gamepad_button_value_boolean}
+### `Valore pulsante gamepad (booleano)` (Principiante) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -64,7 +64,7 @@ Restituisce lo stato corrente del pulsante selezionato del gamepad.
 - Opzioni pulsante (layout Sony): `croce`, `cerchio`, `quadrato`, `triangolo`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Opzioni stato: `premuto`, `rilasciato`
 
-### `Valore D-pad gamepad (booleano)` {#block_gamepad_dpad_button_value_boolean}
+### `Valore D-pad gamepad (booleano)` (Principiante) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -75,7 +75,7 @@ Restituisce se la direzione selezionata del D-pad è attualmente attiva.
 - Opzioni direzione: `su`, `giù`, `sinistra`, `destra`
 - Opzioni stato: `premuto`, `rilasciato`
 
-### `Valore levetta gamepad (float)` {#block_gamepad_thumbstick_value_float}
+### `Valore levetta gamepad (float)` (Principiante) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -88,7 +88,7 @@ Restituisce il valore numerico dell’asse della levetta.
 - Opzioni levetta: `sinistra`, `destra`
 - Opzioni asse: `asse X` / `asse Y`
 
-### `Valore pressione trigger gamepad (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Valore pressione trigger gamepad (float)` (Principiante) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

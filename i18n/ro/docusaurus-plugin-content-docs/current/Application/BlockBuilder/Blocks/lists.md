@@ -11,31 +11,31 @@ Listele stochează colecții ordonate de valori și sunt manipulate prin blocuri
 
 ## Blocuri de modificare a listelor
 
-### `Adaugă valoare în listă` {#block_lists_add}
+### `Adaugă valoare în listă` (Avansat) {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
 Adaugă o valoare la sfârșitul listei selectate.
 
-### `Inserează la` {#block_lists_insert_at}
+### `Inserează la` (Guru) {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
 Inserează o valoare la indexul selectat din listă.
 
-### `Înlocuiește la` {#block_lists_replace_at}
+### `Înlocuiește la` (Guru) {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
 Înlocuiește elementul de la indexul selectat cu o valoare nouă.
 
-### `Șterge` {#block_lists_delete}
+### `Șterge` (Avansat) {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
 Șterge elementul de la indexul selectat (sau conform modului de ștergere selectat).
 
-### `Șterge tot` {#block_lists_clear_all}
+### `Șterge tot` (Avansat) {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
@@ -43,25 +43,25 @@ Elimină toate elementele din lista selectată.
 
 ## Blocuri de valoare/verificare listă
 
-### `Element la` {#block_lists_item_at}
+### `Element la` (Avansat) {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
 Returnează valoarea de la indexul selectat.
 
-### `Indexul valorii` {#block_lists_index_of_value}
+### `Indexul valorii` (Guru) {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
 Returnează indexul primei valori care corespunde în listă.
 
-### `Conține valoare` {#block_lists_contains_value}
+### `Conține valoare` (Guru) {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
 Returnează dacă lista conține o valoare specificată.
 
-### `Dimensiunea listei` {#block_lists_size_of_value}
+### `Dimensiunea listei` (Avansat) {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 

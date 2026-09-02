@@ -11,7 +11,7 @@ Variabelen slaan waarden op die kunnen worden gelezen en bijgewerkt in blokstape
 
 ## Variabele opdrachtblokken
 
-### `Stel variabele in op` {#block_variables_set_to}
+### `Stel variabele in op` (Beginner) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ Stelt de geselecteerde variabele in op de opgegeven waarde.
 - Type: opdrachtblok
 - Typisch gebruik: initialiseren van status, overschrijven van eerdere waarde
 
-### `Verander variabele met` {#block_variables_change_by}
+### `Verander variabele met` (Gevorderd) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ Voegt de opgegeven hoeveelheid toe aan de geselecteerde variabele.
 - Typisch gebruik: tellers, score, geaccumuleerde afstand/tijd
 
 ## Variabele waarde-rapporteur
+
+### `Variabelewaarde` (Beginner) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

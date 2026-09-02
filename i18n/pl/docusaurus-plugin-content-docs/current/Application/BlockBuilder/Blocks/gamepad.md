@@ -10,7 +10,7 @@ Bloki gamepada służą do reagowania na wejścia kontrolera oraz odczytu aktual
 
 ## Bloki zdarzeń
 
-### `Gdy przycisk gamepada jest` {#block_gamepad_event_when_button_is}
+### `Gdy przycisk gamepada jest` (Początkujący) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ Wyzwalane, gdy wybrany przycisk gamepada odpowiada skonfigurowanemu stanowi.
 - Opcje przycisków (układ Sony): `krzyżyk`, `kółko`, `kwadrat`, `trójkąt`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Opcje stanu: `naciśnięty`, `zwolniony`
 
-### `Gdy D-pad gamepada jest` {#block_gamepad_event_when_dpad_is}
+### `Gdy D-pad gamepada jest` (Początkujący) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ Wyzwalane, gdy kierunek lub stan D-pada odpowiada wybranemu warunkowi.
 - Opcje kierunku: `góra`, `dół`, `lewo`, `prawo`
 - Opcje stanu: `naciśnięty`, `zwolniony`
 
-### `Gdy drążek gamepada jest` {#block_gamepad_event_when_thumbstick_is}
+### `Gdy drążek gamepada jest` (Początkujący) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -50,7 +50,7 @@ Na podstawie dostępnych opcji blok obsługuje:
 
 ## Bloki wartości
 
-### `Wartość przycisku gamepada (boolean)` {#block_gamepad_button_value_boolean}
+### `Wartość przycisku gamepada (boolean)` (Początkujący) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -65,7 +65,7 @@ Zwraca aktualny stan wybranego przycisku gamepada.
 - Opcje przycisków (układ Sony): `krzyżyk`, `kółko`, `kwadrat`, `trójkąt`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Opcje stanu: `naciśnięty`, `zwolniony`
 
-### `Wartość przycisku D-pad gamepada (boolean)` {#block_gamepad_dpad_button_value_boolean}
+### `Wartość przycisku D-pad gamepada (boolean)` (Początkujący) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -76,7 +76,7 @@ Zwraca, czy wybrany kierunek D-pada jest aktualnie aktywny.
 - Opcje kierunku: `góra`, `dół`, `lewo`, `prawo`
 - Opcje stanu: `naciśnięty`, `zwolniony`
 
-### `Wartość drążka gamepada (float)` {#block_gamepad_thumbstick_value_float}
+### `Wartość drążka gamepada (float)` (Początkujący) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -89,7 +89,7 @@ Zwraca wartość osi drążka.
 - Opcje drążka: `lewy`, `prawy`
 - Opcje osi: `oś X` / `oś Y`
 
-### `Wartość nacisku triggera (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Wartość nacisku triggera (float)` (Początkujący) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

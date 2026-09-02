@@ -11,7 +11,7 @@ Ces blocs sont utilisés pour lire les entrées utilisateur depuis les contrôle
 
 ## Blocs globaux des contrôleurs du tableau de bord
 
-### `Définir la couleur du contrôleur` {#block_dashboard_controller_all_set_color}
+### `Définir la couleur du contrôleur` (Avancé) {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
@@ -20,7 +20,7 @@ Modifie la couleur d’accentuation visuelle du contrôleur sélectionné.
 - Type : bloc de commande
 - Utilisation typique : indiquer des états d’exécution ou modifier dynamiquement le style selon les conditions
 
-### `Définir l’interactivité du contrôleur` {#block_dashboard_controller_all_set_interactivity}
+### `Définir l’interactivité du contrôleur` (Avancé) {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
@@ -33,7 +33,7 @@ Si l’interactivité est désactivée, le contrôleur ne réagit pas au toucher
 
 ## Blocs de bouton
 
-### `Événement bouton` {#block_dashboard_controller_button_event}
+### `Événement bouton` (Débutant) {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
@@ -43,7 +43,7 @@ Déclenché lorsque l’état du bouton change (appuyé/relâché).
 - Sortie : démarre le script connecté
 - Options d’état : `appuyé`, `relâché`
 
-### `Valeur du bouton (booléen)` {#block_dashboard_controller_button_value_boolean}
+### `Valeur du bouton (booléen)` (Débutant) {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
@@ -55,7 +55,7 @@ Retourne l’état actuel du bouton.
 
 ## Blocs D-pad
 
-### `Événement D-pad` {#block_dashboard_controller_dpad_event}
+### `Événement D-pad` (Débutant) {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
@@ -66,7 +66,7 @@ Déclenché lorsque la direction du D-pad change ou correspond à la direction c
 - Options de direction : `haut`, `bas`, `gauche`, `droite`
 - Options d’état : `appuyé`, `relâché`
 
-### `Valeur D-pad (booléen)` {#block_dashboard_controller_dpad_value_boolean}
+### `Valeur D-pad (booléen)` (Débutant) {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
@@ -79,7 +79,7 @@ Retourne si une direction du D-pad est active.
 
 ## Blocs joystick
 
-### `Événement joystick` {#block_dashboard_controller_joystick_event}
+### `Événement joystick` (Débutant) {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
@@ -89,7 +89,7 @@ Déclenché lorsque la position du joystick change.
 - Sortie : démarre le script connecté
 - Options d’état : `haut`, `bas`, `gauche`, `droite`, `déplacé`, `relâché`
 
-### `Valeur joystick (float)` {#block_dashboard_controller_joystick_value_float}
+### `Valeur joystick (float)` (Débutant) {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
@@ -99,9 +99,19 @@ Retourne la valeur de l’axe du joystick.
 - Sortie : numérique (float)
 - Options d’axe : `axe x`, `axe y`
 
+### `Valeur du joystick (booléen)` (Débutant) {#block_dashboard_controller_joystick_value_boolean}
+
+<img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_boolean.svg')} alt="block_dashboard_controller_joystick_value_boolean.svg" />
+
+Indique si le joystick sélectionné est enfoncé ou relâché.
+
+- Type : bloc de valeur
+- Sortie : `true`/`false`
+- Options d'état : `enfoncé`, `relâché`
+
 ## Blocs pédales
 
-### `Événement pédales` {#block_dashboard_controller_pedals_event}
+### `Événement pédales` (Débutant) {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
@@ -112,7 +122,7 @@ Déclenché lorsque l’entrée des pédales change.
 - Options : `toutes`, `frein`, `accélérateur`
 - Options d’état : `déplacé`, `appuyé`, `relâché`
 
-### `Valeur pédales (float)` {#block_dashboard_controller_pedals_value_float}
+### `Valeur pédales (float)` (Débutant) {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
@@ -121,7 +131,7 @@ Retourne la valeur analogique des pédales.
 - Type : bloc valeur
 - Sortie : numérique (float)
 
-### `Valeur pédales (booléen)` {#block_dashboard_controller_pedals_value_boolean}
+### `Valeur pédales (booléen)` (Débutant) {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
@@ -134,7 +144,7 @@ Retourne un état basé sur l’appui ou le relâchement d’une pédale.
 
 ## Blocs curseur
 
-### `Événement curseur` {#block_dashboard_controller_slider_event}
+### `Événement curseur` (Débutant) {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
@@ -144,7 +154,7 @@ Déclenché lorsque la valeur du curseur change.
 - Sortie : démarre le script connecté
 - Options d’état : `bas`, `haut`, `déplacé`, `relâché`
 
-### `Valeur curseur (float)` {#block_dashboard_controller_slider_value_float}
+### `Valeur curseur (float)` (Débutant) {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
@@ -155,7 +165,7 @@ Retourne la valeur actuelle du curseur.
 
 ## Blocs stepper
 
-### `Événement stepper` {#block_dashboard_controller_stepper_event}
+### `Événement stepper` (Débutant) {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
@@ -166,7 +176,7 @@ Déclenché lorsque la valeur change d’un pas.
 - Options : `tous`, `reset`, `moins`, `plus`
 - Options d’état : `appuyé`, `relâché`
 
-### `Valeur stepper (float)` {#block_dashboard_controller_stepper_value_float}
+### `Valeur stepper (float)` (Débutant) {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
@@ -177,7 +187,7 @@ Retourne la valeur actuelle.
 
 ## Blocs volant
 
-### `Événement volant` {#block_dashboard_controller_steering_wheel_event}
+### `Événement volant` (Débutant) {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
@@ -187,7 +197,7 @@ Déclenché lorsque la position du volant change.
 - Sortie : démarre le script connecté
 - Options d’état : `déplacé`, `appuyé`, `relâché`
 
-### `Valeur volant (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `Valeur volant (float)` (Débutant) {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
@@ -196,7 +206,7 @@ Retourne la valeur actuelle du volant.
 - Type : bloc valeur
 - Sortie : numérique (float)
 
-### `Valeur volant (booléen)` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `Valeur volant (booléen)` (Débutant) {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
@@ -208,7 +218,7 @@ Retourne l’état du volant (appuyé ou relâché).
 
 ## Blocs interrupteur
 
-### `Événement interrupteur` {#block_dashboard_controller_switch_event}
+### `Événement interrupteur` (Débutant) {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
@@ -218,7 +228,7 @@ Déclenché lorsque l’état change.
 - Sortie : démarre le script connecté
 - Options : `activé`, `désactivé`
 
-### `Valeur interrupteur (booléen)` {#block_dashboard_controller_switch_value_boolean}
+### `Valeur interrupteur (booléen)` (Débutant) {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
@@ -230,7 +240,7 @@ Retourne l’état actuel.
 
 ## Blocs moniteur
 
-### `Afficher sur le moniteur` {#block_dashboard_controller_monitor_show}
+### `Afficher sur le moniteur` (Débutant) {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
@@ -239,7 +249,7 @@ Affiche une information (texte ou valeur).
 - Type : bloc de commande
 - Utilisation typique : afficher niveau batterie, angle moteur, appareil connecté, etc.
 
-### `Définir valeur du moniteur` {#block_dashboard_controller_monitor_set_value}
+### `Définir valeur du moniteur` (Débutant) {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
@@ -248,7 +258,7 @@ Définit une valeur entière pour un compteur.
 - Type : bloc de commande
 - Utilisation typique : mettre à jour une valeur type compteur de vitesse
 
-### `Définir valeur d’inclinaison du moniteur` {#block_dashboard_controller_monitor_tilt_set_value}
+### `Définir valeur d’inclinaison du moniteur` (Débutant) {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 

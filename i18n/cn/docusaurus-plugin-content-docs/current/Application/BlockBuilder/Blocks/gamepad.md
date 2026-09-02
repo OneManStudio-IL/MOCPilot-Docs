@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 事件积木
 
-### `当手柄按钮为` {#block_gamepad_event_when_button_is}
+### `当手柄按钮为` (初级) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 按钮选项（Sony 布局）：`叉`、`圆`、`方形`、`三角形`、`L1`、`R1`、`L2`、`R2`、`L3`、`R3`
 - 状态选项：`按下`、`释放`
 
-### `当手柄方向键为` {#block_gamepad_event_when_dpad_is}
+### `当手柄方向键为` (初级) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 方向选项：`上`、`下`、`左`、`右`
 - 状态选项：`按下`、`释放`
 
-### `当手柄摇杆为` {#block_gamepad_event_when_thumbstick_is}
+### `当手柄摇杆为` (初级) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -50,7 +50,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 数值积木
 
-### `手柄按钮值（布尔）` {#block_gamepad_button_value_boolean}
+### `手柄按钮值（布尔）` (初级) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -65,7 +65,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 按钮选项（Sony 布局）：`叉`、`圆`、`方形`、`三角形`、`L1`、`R1`、`L2`、`R2`、`L3`、`R3`
 - 状态选项：`按下`、`释放`
 
-### `手柄方向键值（布尔）` {#block_gamepad_dpad_button_value_boolean}
+### `手柄方向键值（布尔）` (初级) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -76,7 +76,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 方向选项：`上`、`下`、`左`、`右`
 - 状态选项：`按下`、`释放`
 
-### `手柄摇杆值（浮点）` {#block_gamepad_thumbstick_value_float}
+### `手柄摇杆值（浮点）` (初级) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -89,7 +89,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 摇杆选项：`左`、`右`
 - 轴选项：`X 轴` / `Y 轴`
 
-### `手柄扳机压力值（浮点）` {#block_gamepad_trigger_pressure_value_float}
+### `手柄扳机压力值（浮点）` (初级) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

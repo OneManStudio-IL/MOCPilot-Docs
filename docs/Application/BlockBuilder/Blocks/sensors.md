@@ -15,6 +15,14 @@ Sensor blocks read hub/device state and provide data for conditions, events, and
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_battery_level.svg')} alt="block_hubs_all_sensors_battery_level.svg" />
 Returns current hub battery level.
 
+### `Hub battery voltage` {#block_hubs_all_sensors_battery_voltage}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_battery_voltage.svg')} alt="block_hubs_all_sensors_battery_voltage.svg" />
+Returns the selected hub battery voltage in volts.
+
+- Type: numeric reporter block
+- Available only for hubs that report battery voltage.
+- Returns `NaN` when the selected hub is not connected.
+
 ### `Device % battery` {#block_sensors_device_battery_level}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_battery_level.svg')} alt="block_sensors_device_battery_level.svg" />
 Returns the current battery level of the phone/tablet device running MOCPilot (in percent).
@@ -24,6 +32,18 @@ Returns the current battery level of the phone/tablet device running MOCPilot (i
 Returns hub board temperature.
 
 - Available only for `BuWizz 2` and `BuWizz 3`.
+
+### `Hub accelerometer` {#block_hubs_all_sensors_accelerometer}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_accelerometer.svg')} alt="block_hubs_all_sensors_accelerometer.svg" />
+Returns raw accelerometer data reported by the selected hub.
+
+- Axis options: `x`, `y`, `z`
+
+### `Hub acceleration` {#block_hubs_all_sensors_acceleration}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_acceleration.svg')} alt="block_hubs_all_sensors_acceleration.svg" />
+Returns acceleration data reported by the selected hub.
+
+- Axis options: `x`, `y`, `z`
 
 ### `Button pressed` {#block_hubs_all_sensors_button_pressed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_button_pressed.svg?v=20260409-2258')} alt="block_hubs_all_sensors_button_pressed.svg" />
@@ -52,6 +72,12 @@ Returns raw accelerometer values from device sensors.
 Returns acceleration data from device sensors.
 
 - Axis options: `x`, `y`, `z`
+
+### `Device tilt` {#block_sensors_device_tilt_sensor_data}
+<img src={useBaseUrl('/img/blocks/block_sensors_device_tilt_sensor_data.svg')} alt="block_sensors_device_tilt_sensor_data.svg" />
+Returns tilt data from the phone/tablet device running MOCPilot.
+
+- Axis options: `pitch`, `roll`
 
 ## Orientation and tilt sensors
 
@@ -187,10 +213,29 @@ Sets Technic Move power mode.
 
 - Mode options: `normal`, `boost`
 
+### `BuWizz output voltage` {#block_hubs_buwizz_sensors_get_output_voltage}
+<img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_get_output_voltage.svg')} alt="block_hubs_buwizz_sensors_get_output_voltage.svg" />
+Returns the current output voltage reported by a BuWizz hub.
+
+- Available only for supported BuWizz hubs.
+
+### `BuWizz port current` {#block_hubs_buwizz_sensors_port_get_current}
+<img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_port_get_current.svg')} alt="block_hubs_buwizz_sensors_port_get_current.svg" />
+Returns the current draw reported for the selected BuWizz hub port.
+
+- Available only for supported BuWizz hubs and ports.
+
 ### `WeDo 2 distance` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
 Returns distance from WeDo 2 distance sensor.
 
+- Unit options: `%`, `cm`, `inch`
+
+### `WeDo 2 when distance is` {#block_hubs_all_sensors_port_wedo2_sensor_when_distance}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_when_distance.svg" />
+Triggers/checks distance condition for a WeDo 2 distance sensor.
+
+- Compare options: `closer than`, `farther than`, `exactly at`
 - Unit options: `%`, `cm`, `inch`
 
 ### `WeDo 2 tilt` {#block_hubs_all_sensors_port_wedo2_tilt}

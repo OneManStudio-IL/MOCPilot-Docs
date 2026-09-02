@@ -11,13 +11,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 待機ブロック
 
-### `待機` {#block_control_wait_for}
+### `待機` (初級) {#block_control_wait_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
 
 現在のスクリプトを指定した時間だけ一時停止します。
 
-### `〜まで待機` {#block_control_wait_until}
+### `〜まで待機` (上級) {#block_control_wait_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_until.svg')} alt="block_control_wait_until.svg" />
 
@@ -25,19 +25,19 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## ループブロック
 
-### `繰り返し` {#block_control_repeat_for}
+### `繰り返し` (上級) {#block_control_repeat_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_for.svg')} alt="block_control_repeat_for.svg" />
 
 ネストされたブロックを指定回数実行します。
 
-### `〜まで繰り返し` {#block_control_repeat_until}
+### `〜まで繰り返し` (上級) {#block_control_repeat_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_until.svg')} alt="block_control_repeat_until.svg" />
 
 条件が真になるまでブロックを繰り返し実行します。
 
-### `ずっと` {#block_control_repeat_forever}
+### `ずっと` (上級) {#block_control_repeat_forever}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 
@@ -45,19 +45,19 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 分岐ブロック
 
-### `もし` {#block_control_if}
+### `もし` (初級) {#block_control_if}
 
 <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
 
 条件が真のときのみブロックを実行します。
 
-### `もし / そうでなければ` {#block_control_if_else}
+### `もし / そうでなければ` (上級) {#block_control_if_else}
 
 <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 
 条件が真の場合は一方を、そうでない場合は別のブランチを実行します。
 
-### `これとこれを実行` {#block_control_do_this_and_this}
+### `これとこれを実行` (達人) {#block_control_do_this_and_this}
 
 <img src={useBaseUrl('/img/blocks/block_control_do_this_and_this.svg')} alt="block_control_do_this_and_this.svg" />
 
@@ -65,7 +65,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 停止ブロック
 
-### `停止` {#block_control_stop}
+### `停止` (初級) {#block_control_stop}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
 
@@ -73,7 +73,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - 停止オプション: `すべて`, `このスタック`, `プログラムを終了`
 
-### `他のスタックを停止` {#block_control_stop_other_stacks}
+### `他のスタックを停止` (達人) {#block_control_stop_other_stacks}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop_other_stacks.svg')} alt="block_control_stop_other_stacks.svg" />
 
@@ -81,7 +81,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## ハブ／制御ユーティリティブロック
 
-### `接続を設定` {#block_hubs_control_set_connect}
+### `接続を設定` (初級) {#block_hubs_control_set_connect}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_control_set_connect.svg')} alt="block_hubs_control_set_connect.svg" />
 
@@ -89,7 +89,23 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - アクションオプション: `接続`, `切断`
 
-### `接続されているか` {#block_hubs_all_sensors_is_connected}
+### `ハブ設定をセット` (上級) {#block_hubs_set_hub_config}
+<img src={useBaseUrl('/img/blocks/block_hubs_set_hub_config.svg')} alt="block_hubs_set_hub_config.svg" />
+選択したハブを、対応している設定プロファイルのいずれかに切り替えます。
+
+- ハブ設定オプションを提供するハブでのみ使用できます。
+- 主な用途: Technic Move Hub などの設定可能なハブを、次のブロックを実行する前に別の保存済み設定へ切り替えます。
+
+### `ハブ設定` (上級) {#block_hubs_all_control_hub_config}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_control_hub_config.svg')} alt="block_hubs_all_control_hub_config.svg" />
+選択したハブの現在の設定を返します。
+
+- タイプ: レポーターブロック
+- 出力形式オプション: `text`, `index`
+- ハブ設定オプションを提供するハブでのみ使用できます。
+- 選択したハブが接続されていない場合、または設定が利用できない場合は `NaN` を返します。
+
+### `接続されているか` (初級) {#block_hubs_all_sensors_is_connected}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_connected.svg')} alt="block_hubs_all_sensors_is_connected.svg" />
 
@@ -97,7 +113,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - タイプ: ブール値レポーターブロック
 
-### `BuWizz 2 電力モードを設定` {#block_hubs_buwizz_sensors_set_power_mode}
+### `BuWizz 2 電力モードを設定` (初級) {#block_hubs_buwizz_sensors_set_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_set_power_mode.svg')} alt="block_hubs_buwizz_sensors_set_power_mode.svg" />
 
@@ -105,7 +121,7 @@ BuWizz 2 ハブの電力モードを設定します。
 
 - モードオプション: `Slow`, `Normal`, `Fast`, `Ludicrous`
 
-### `BuWizz 2 電力モードを取得` {#block_hubs_buwizz_sensors_get_power_mode}
+### `BuWizz 2 電力モードを取得` (達人) {#block_hubs_buwizz_sensors_get_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_get_power_mode.svg')} alt="block_hubs_buwizz_sensors_get_power_mode.svg" />
 
@@ -113,7 +129,7 @@ BuWizz 2 ハブの電力モードを設定します。
 
 - 出力形式: `テキスト`, `インデックス`
 
-### `MouldKing 制御チャンネルを設定` {#block_hubs_mouldking_control_set_control_channel}
+### `MouldKing 制御チャンネルを設定` (上級) {#block_hubs_mouldking_control_set_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_set_control_channel.svg')} alt="block_hubs_mouldking_control_set_control_channel.svg" />
 
@@ -121,7 +137,7 @@ MouldKing ハブの制御チャンネルを設定します。
 
 - チャンネル: `A`, `B`, `C`
 
-### `MouldKing 制御チャンネルを取得` {#block_hubs_mouldking_control_get_control_channel}
+### `MouldKing 制御チャンネルを取得` (上級) {#block_hubs_mouldking_control_get_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_get_control_channel.svg')} alt="block_hubs_mouldking_control_get_control_channel.svg" />
 

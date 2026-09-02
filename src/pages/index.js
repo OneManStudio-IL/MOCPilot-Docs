@@ -39,7 +39,12 @@ function GetStarted() {
           className="margin-bottom--lg"
           style={{ maxWidth: '100%', height: 'auto' }} 
         />
-        <h1 className="hero__title"><Translate>Elevate Your LEGO® Creations</Translate></h1>
+        <h1 className="hero__title"><Translate>Build It. Drive It. Control Everything.</Translate></h1>
+        <p className="hero__subtitle">
+          <Translate>
+            Create custom profiles to control LEGO® Powered Up, Technic, BuWizz, SBrick, Mould King, motors, sensors, and compatible Bluetooth devices from one powerful app.
+          </Translate>
+        </p>
         <div className="margin-top--md">
           <button 
           className="button button--primary button--outline button--lg margin--sm"

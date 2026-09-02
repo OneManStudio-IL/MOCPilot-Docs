@@ -11,7 +11,7 @@ Las variables almacenan valores que pueden leerse y actualizarse entre pilas de 
 
 ## Bloques de comando de variables
 
-### `Establecer variable a` {#block_variables_set_to}
+### `Establecer variable a` (Principiante) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ Establece la variable seleccionada al valor especificado.
 - Tipo: bloque de comando
 - Uso típico: inicializar estado, sobrescribir valores anteriores
 
-### `Cambiar variable por` {#block_variables_change_by}
+### `Cambiar variable por` (Avanzado) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ Añade la cantidad especificada a la variable seleccionada.
 - Uso típico: contadores, puntuación, acumulación de distancia/tiempo
 
 ## Bloque reportero de variable
+
+### `Valor de variable` (Principiante) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

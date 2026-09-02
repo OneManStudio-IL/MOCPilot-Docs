@@ -11,7 +11,7 @@ Variablen speichern Werte, die über Blockstapel und Skripte hinweg gelesen und 
 
 ## Variablen-Befehlsblöcke
 
-### `Setze Variable auf` {#block_variables_set_to}
+### `Setze Variable auf` (Anfänger) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ Setzt die ausgewählte Variable auf den angegebenen Wert.
 - Typ: Befehlsblock
 - Typische Verwendung: Zustand initialisieren, vorherigen Wert überschreiben
 
-### `Ändere Variable um` {#block_variables_change_by}
+### `Ändere Variable um` (Fortgeschritten) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ Addiert den angegebenen Betrag zur ausgewählten Variable.
 - Typische Verwendung: Zähler, Punktestand, kumulierte Strecke/Zeit
 
 ## Variablenwert-Reporter
+
+### `Variablenwert` (Anfänger) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

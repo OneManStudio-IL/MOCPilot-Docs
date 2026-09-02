@@ -467,9 +467,6 @@
   "Supported devices": {
     "message": "Unterstützte Geräte"
   },
-  "Elevate Your LEGO® Creations": {
-    "message": "Erhebe deine LEGO®-Kreationen"
-  },
   "Download the MOCPilot": {
     "message": "Lade die MOCPilot-App herunter"
   },
@@ -595,5 +592,11 @@
   "theme.SearchModal.footer.backToSearchText": {
     "message": "Zurück zur Suche",
     "description": "The back to search text for footer"
+  },
+  "Build It. Drive It. Control Everything.": {
+    "message": "Bau es. Fahr es. Kontrolliere alles."
+  },
+  "Create custom profiles to control LEGO® Powered Up, Technic, BuWizz, SBrick, Mould King, motors, sensors, and compatible Bluetooth devices from one powerful app.": {
+    "message": "Erstellen Sie eigene Profile, um LEGO® Powered Up, Technic, BuWizz, SBrick, Mould King, Motoren, Sensoren und kompatible Bluetooth-Geräte über eine leistungsstarke App zu steuern."
   }
 }

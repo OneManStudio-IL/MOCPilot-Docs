@@ -75,6 +75,18 @@ const devices = [
     alt: 'buwizz_3',
   },
   {
+    name: 'Sbrick',
+    partNumber: '',
+    imgSrc: 'img/devices/sbrick_hub_p.webp',
+    alt: 'sbrick',
+  },
+  {
+    name: 'Sbrick Plus',
+    partNumber: '',
+    imgSrc: 'img/devices/sbrick_plus_hub_p.webp',
+    alt: 'sbrick_plus',
+  },
+  {
     name: 'Mould King 4.0',
     partNumber: 'M0006',
     imgSrc: 'img/devices/mould_king_4_p.webp',
@@ -215,7 +227,7 @@ const CreateTableGeneric = (data) => (
     </thead>
     <tbody>
       {data.map(({ name, partNumber, imgSrc, alt, comment }) => (
-        <tr key={imgSrc}>
+        <tr key={`${name}-${partNumber || imgSrc}`}>
           <td>
             <div>{name}</div>
 
@@ -229,7 +241,9 @@ const CreateTableGeneric = (data) => (
           </td>
 
           <td>
-            <img src={GetImgUrl(imgSrc)} alt={alt} width={deviceImageWidth} />
+            {imgSrc ? (
+              <img src={GetImgUrl(imgSrc)} alt={alt} width={deviceImageWidth} />
+            ) : null}
           </td>
         </tr>
       ))}

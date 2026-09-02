@@ -10,7 +10,7 @@ Los bloques de Gamepad se utilizan para reaccionar a la entrada del controlador 
 
 ## Bloques de evento
 
-### `Cuando el botón del gamepad esté` {#block_gamepad_event_when_button_is}
+### `Cuando el botón del gamepad esté` (Principiante) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ Se activa cuando el botón seleccionado coincide con el estado configurado.
 - Opciones de botón (Sony): `cruz`, `circulo`, `cuadrado`, `triángulo`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Estados: `presionado`, `soltado`
 
-### `Cuando el D-pad del gamepad esté` {#block_gamepad_event_when_dpad_is}
+### `Cuando el D-pad del gamepad esté` (Principiante) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ Se activa cuando la dirección o estado del D-pad coincide con la condición sel
 - Direcciones: `arriba`, `abajo`, `izquierda`, `derecha`
 - Estados: `presionado`, `soltado`
 
-### `Cuando el joystick del gamepad esté` {#block_gamepad_event_when_thumbstick_is}
+### `Cuando el joystick del gamepad esté` (Principiante) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -50,7 +50,7 @@ Este bloque soporta:
 
 ## Bloques de valor
 
-### `Valor de botón del gamepad (booleano)` {#block_gamepad_button_value_boolean}
+### `Valor de botón del gamepad (booleano)` (Principiante) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -65,7 +65,7 @@ Devuelve el estado actual del botón seleccionado.
 - Opciones de botón (Sony): `cruz`, `circulo`, `cuadrado`, `triángulo`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Estados: `presionado`, `soltado`
 
-### `Valor del D-pad del gamepad (booleano)` {#block_gamepad_dpad_button_value_boolean}
+### `Valor del D-pad del gamepad (booleano)` (Principiante) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -76,7 +76,7 @@ Devuelve si la dirección seleccionada del D-pad está activa.
 - Direcciones: `arriba`, `abajo`, `izquierda`, `derecha`
 - Estados: `presionado`, `soltado`
 
-### `Valor del joystick del gamepad (float)` {#block_gamepad_thumbstick_value_float}
+### `Valor del joystick del gamepad (float)` (Principiante) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -89,7 +89,7 @@ Devuelve el valor numérico del eje del joystick.
 - Joystick: `izquierdo`, `derecho`
 - Ejes: `eje x` / `eje y`
 
-### `Valor de presión del gatillo (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Valor de presión del gatillo (float)` (Principiante) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

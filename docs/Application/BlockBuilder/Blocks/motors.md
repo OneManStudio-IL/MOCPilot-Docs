@@ -135,6 +135,13 @@ Returns current motor power value.
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_start_motors_at_speed.svg')} alt="block_hubs_technicmove_motors_start_motors_at_speed.svg" />
 Starts Technic Move drive motors at selected speed.
 
+### `Power pulse` {#block_hubs_technicmove_motors_power_pulse}
+<img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_power_pulse.svg')} alt="block_hubs_technicmove_motors_power_pulse.svg" />
+Sends a power pulse command to the selected Technic Move Hub.
+
+- Available only for Technic Move Hub.
+- Typical use: briefly boost or wake the Technic Move drive system before continuing with the next blocks.
+
 ### `Stop motors` {#block_hubs_technicmove_motors_stop_motors}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_stop_motors.svg')} alt="block_hubs_technicmove_motors_stop_motors.svg" />
 Stops Technic Move drive motors.

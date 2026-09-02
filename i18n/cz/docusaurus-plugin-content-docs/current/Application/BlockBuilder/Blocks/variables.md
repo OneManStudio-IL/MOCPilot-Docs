@@ -11,7 +11,7 @@ Proměnné ukládají hodnoty, které lze číst a měnit napříč blokovými s
 
 ## Příkazové bloky proměnných
 
-### `Nastavit proměnnou na` {#block_variables_set_to}
+### `Nastavit proměnnou na` (Začátečník) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ Nastaví vybranou proměnnou na zadanou hodnotu.
 - Typ: příkazový blok
 - Typické použití: inicializace stavu, přepsání předchozí hodnoty
 
-### `Změnit proměnnou o` {#block_variables_change_by}
+### `Změnit proměnnou o` (Pokročilý) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ Přičte zadanou hodnotu k vybrané proměnné.
 - Typické použití: počítadla, skóre, kumulovaná vzdálenost/čas
 
 ## Reportér hodnoty proměnné
+
+### `Hodnota proměnné` (Začátečník) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

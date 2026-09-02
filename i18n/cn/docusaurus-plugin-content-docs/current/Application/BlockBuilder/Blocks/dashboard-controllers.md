@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 全局仪表盘控制器积木
 
-### `设置控制器颜色` {#block_dashboard_controller_all_set_color}
+### `设置控制器颜色` (高级) {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
@@ -20,7 +20,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 类型：命令积木
 - 常见用途：指示运行状态，或根据条件动态改变控制器样式
 
-### `设置控制器交互性` {#block_dashboard_controller_all_set_interactivity}
+### `设置控制器交互性` (高级) {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
@@ -33,7 +33,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 按钮积木
 
-### `按钮事件` {#block_dashboard_controller_button_event}
+### `按钮事件` (初级) {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
@@ -43,7 +43,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 输出：启动已连接脚本
 - 状态选项：`按下`、`释放`
 
-### `按钮值（布尔）` {#block_dashboard_controller_button_value_boolean}
+### `按钮值（布尔）` (初级) {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
@@ -55,7 +55,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 方向键积木
 
-### `方向键事件` {#block_dashboard_controller_dpad_event}
+### `方向键事件` (初级) {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
@@ -66,7 +66,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 方向选项：`上`、`下`、`左`、`右`
 - 按键状态选项：`按下`、`释放`
 
-### `方向键值（布尔）` {#block_dashboard_controller_dpad_value_boolean}
+### `方向键值（布尔）` (初级) {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
@@ -79,7 +79,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 摇杆积木
 
-### `摇杆事件` {#block_dashboard_controller_joystick_event}
+### `摇杆事件` (初级) {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
@@ -89,7 +89,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 输出：启动已连接脚本
 - 状态选项：`上`、`下`、`左`、`右`、`移动`、`释放`
 
-### `摇杆值（浮点）` {#block_dashboard_controller_joystick_value_float}
+### `摇杆值（浮点）` (初级) {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
@@ -99,9 +99,19 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 输出：数值（浮点），通常为归一化范围
 - 轴选项：`X 轴`、`Y 轴`
 
+### `摇杆值（布尔）` (初级) {#block_dashboard_controller_joystick_value_boolean}
+
+<img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_boolean.svg')} alt="block_dashboard_controller_joystick_value_boolean.svg" />
+
+返回所选摇杆是按下还是释放状态。
+
+- 类型：值积木
+- 输出：`true`/`false`
+- 状态选项：`按下`、`释放`
+
 ## 踏板积木
 
-### `踏板事件` {#block_dashboard_controller_pedals_event}
+### `踏板事件` (初级) {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
@@ -112,7 +122,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 踏板选项：`任意`、`刹车`、`油门`
 - 状态选项：`移动`、`按下`、`释放`
 
-### `踏板值（浮点）` {#block_dashboard_controller_pedals_value_float}
+### `踏板值（浮点）` (初级) {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
@@ -121,7 +131,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 类型：值积木
 - 输出：数值（浮点）
 
-### `踏板值（布尔）` {#block_dashboard_controller_pedals_value_boolean}
+### `踏板值（布尔）` (初级) {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
@@ -134,7 +144,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 滑杆积木
 
-### `滑杆事件` {#block_dashboard_controller_slider_event}
+### `滑杆事件` (初级) {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
@@ -144,7 +154,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 输出：启动已连接脚本
 - 状态选项：`低位`、`高位`、`移动`、`释放`
 
-### `滑杆值（浮点）` {#block_dashboard_controller_slider_value_float}
+### `滑杆值（浮点）` (初级) {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
@@ -155,7 +165,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 步进器积木
 
-### `步进器事件` {#block_dashboard_controller_stepper_event}
+### `步进器事件` (初级) {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
@@ -166,7 +176,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 步进选项：`任意`、`重置`、`减`、`加`
 - 按键状态选项：`按下`、`释放`
 
-### `步进器值（浮点）` {#block_dashboard_controller_stepper_value_float}
+### `步进器值（浮点）` (初级) {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
@@ -177,7 +187,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 方向盘积木
 
-### `方向盘事件` {#block_dashboard_controller_steering_wheel_event}
+### `方向盘事件` (初级) {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
@@ -187,7 +197,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 输出：启动已连接脚本
 - 状态选项：`移动`、`按下`、`释放`
 
-### `方向盘值（浮点）` {#block_dashboard_controller_steering_wheel_value_float}
+### `方向盘值（浮点）` (初级) {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
@@ -196,7 +206,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 类型：值积木
 - 输出：数值（浮点）
 
-### `方向盘值（布尔）` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `方向盘值（布尔）` (初级) {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
@@ -208,7 +218,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 开关积木
 
-### `开关事件` {#block_dashboard_controller_switch_event}
+### `开关事件` (初级) {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
@@ -218,7 +228,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 输出：启动已连接脚本
 - 切换选项：`开`、`关`
 
-### `开关值（布尔）` {#block_dashboard_controller_switch_value_boolean}
+### `开关值（布尔）` (初级) {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
@@ -230,7 +240,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 监视器积木
 
-### `监视器显示` {#block_dashboard_controller_monitor_show}
+### `监视器显示` (初级) {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
@@ -239,7 +249,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 类型：命令积木
 - 常见用途：显示电量、电机角度、主控端口当前连接设备等运行时信息
 
-### `监视器设置数值` {#block_dashboard_controller_monitor_set_value}
+### `监视器设置数值` (初级) {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
@@ -248,7 +258,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 类型：命令积木
 - 常见用途：运行时更新类似速度表的监视器数值
 
-### `倾斜监视器设置数值` {#block_dashboard_controller_monitor_tilt_set_value}
+### `倾斜监视器设置数值` (初级) {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 

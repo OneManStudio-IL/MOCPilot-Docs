@@ -12,14 +12,14 @@ Esta categoria é conceitualmente semelhante à criação de uma função na pro
 
 ## Blocos principais de Meus Blocos
 
-### `Criar um bloco`
+### `Criar um bloco` (Guru) {#block_my_block_define}
 
 Cria uma nova definição de bloco personalizado.
 
 - Tipo: bloco de definição/configuração
 - Uso típico: agrupar lógica repetida em um único bloco nomeado
 
-### `MeuBloco` (bloco de chamada)
+### `MeuBloco` (Guru) {#block_my_block}
 
 Chama um bloco personalizado previamente criado.
 

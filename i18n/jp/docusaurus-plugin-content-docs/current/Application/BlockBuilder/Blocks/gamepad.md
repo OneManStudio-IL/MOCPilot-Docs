@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## イベントブロック
 
-### `ゲームパッドのボタンが〜のとき` {#block_gamepad_event_when_button_is}
+### `ゲームパッドのボタンが〜のとき` (初級) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -25,7 +25,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - ボタン（Sony配置）: `バツ`, `マル`, `シカク`, `サンカク`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - 状態オプション: `押された`, `離された`
 
-### `ゲームパッドの十字キーが〜のとき` {#block_gamepad_event_when_dpad_is}
+### `ゲームパッドの十字キーが〜のとき` (初級) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -35,7 +35,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 方向オプション: `上`, `下`, `左`, `右`
 - 状態オプション: `押された`, `離された`
 
-### `ゲームパッドのスティックが〜のとき` {#block_gamepad_event_when_thumbstick_is}
+### `ゲームパッドのスティックが〜のとき` (初級) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -51,7 +51,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 値ブロック
 
-### `ゲームパッドボタンの値（ブール）` {#block_gamepad_button_value_boolean}
+### `ゲームパッドボタンの値（ブール）` (初級) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -66,7 +66,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - ボタン（Sony配置）: `バツ`, `マル`, `シカク`, `サンカク`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - 状態オプション: `押された`, `離された`
 
-### `ゲームパッド十字キーの値（ブール）` {#block_gamepad_dpad_button_value_boolean}
+### `ゲームパッド十字キーの値（ブール）` (初級) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -77,7 +77,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 方向オプション: `上`, `下`, `左`, `右`
 - 状態オプション: `押された`, `離された`
 
-### `ゲームパッドスティックの値（数値）` {#block_gamepad_thumbstick_value_float}
+### `ゲームパッドスティックの値（数値）` (初級) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -90,7 +90,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - スティック: `左`, `右`
 - 軸: `X軸` / `Y軸`
 
-### `トリガー圧力の値（数値）` {#block_gamepad_trigger_pressure_value_float}
+### `トリガー圧力の値（数値）` (初級) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

@@ -10,7 +10,7 @@ Gamepad-block används för att reagera på kontrollerinmatning och läsa aktuel
 
 ## Händelseblock
 
-### `När gamepad-knapp är` {#block_gamepad_event_when_button_is}
+### `När gamepad-knapp är` (Nybörjare) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ Utlöses när den valda gamepad-knappen matchar det konfigurerade tillståndet.
 - Knappalternativ (Sony-layout): `kryss`, `cirkel`, `fyrkant`, `triangel`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Tillståndsalternativ: `nedtryckt`, `släppt`
 
-### `När gamepad-D-pad är` {#block_gamepad_event_when_dpad_is}
+### `När gamepad-D-pad är` (Nybörjare) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ Utlöses när D-padens riktning/tillstånd matchar det valda villkoret.
 - Riktningsalternativ: `upp`, `ner`, `vänster`, `höger`
 - Tillståndsalternativ: `nedtryckt`, `släppt`
 
-### `När gamepad-spak är` {#block_gamepad_event_when_thumbstick_is}
+### `När gamepad-spak är` (Nybörjare) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -50,7 +50,7 @@ Baserat på aktuella alternativ stöder detta block:
 
 ## Värdeblock
 
-### `Gamepad-knappvärde (booleskt)` {#block_gamepad_button_value_boolean}
+### `Gamepad-knappvärde (booleskt)` (Nybörjare) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -65,7 +65,7 @@ Returnerar aktuellt tillstånd för vald gamepad-knapp.
 - Knappalternativ (Sony-layout): `kryss`, `cirkel`, `fyrkant`, `triangel`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Tillståndsalternativ: `nedtryckt`, `släppt`
 
-### `Gamepad-D-pad-knappvärde (booleskt)` {#block_gamepad_dpad_button_value_boolean}
+### `Gamepad-D-pad-knappvärde (booleskt)` (Nybörjare) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -76,7 +76,7 @@ Returnerar om den valda D-pad-riktningen för närvarande är aktiv.
 - Riktningsalternativ: `upp`, `ner`, `vänster`, `höger`
 - Tillståndsalternativ: `nedtryckt`, `släppt`
 
-### `Gamepad-spakvärde (float)` {#block_gamepad_thumbstick_value_float}
+### `Gamepad-spakvärde (float)` (Nybörjare) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -89,7 +89,7 @@ Returnerar numeriskt axelvärde för spaken.
 - Spakalternativ: `vänster`, `höger`
 - Axelalternativ: `X-axel` / `Y-axel`
 
-### `Gamepad-triggertryckvärde (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Gamepad-triggertryckvärde (float)` (Nybörjare) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

@@ -11,43 +11,43 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 算術演算
 
-### `足し算` {#block_operator_plus}
+### `足し算` (初級) {#block_operator_plus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_plus.svg')} alt="block_operator_plus.svg" />
 
 2つの値の合計を返します。
 
-### `引き算` {#block_operator_minus}
+### `引き算` (初級) {#block_operator_minus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_minus.svg')} alt="block_operator_minus.svg" />
 
 2つの値の差を返します。
 
-### `掛け算` {#block_operator_multiply}
+### `掛け算` (初級) {#block_operator_multiply}
 
 <img src={useBaseUrl('/img/blocks/block_operator_multiply.svg')} alt="block_operator_multiply.svg" />
 
 2つの値の積を返します。
 
-### `割り算` {#block_operator_divide}
+### `割り算` (初級) {#block_operator_divide}
 
 <img src={useBaseUrl('/img/blocks/block_operator_divide.svg')} alt="block_operator_divide.svg" />
 
 2つの値の商を返します。
 
-### `余り` {#block_operator_modulus}
+### `余り` (達人) {#block_operator_modulus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_modulus.svg')} alt="block_operator_modulus.svg" />
 
 割り算の余りを返します。
 
-### `四捨五入` {#block_operator_round}
+### `四捨五入` (達人) {#block_operator_round}
 
 <img src={useBaseUrl('/img/blocks/block_operator_round.svg')} alt="block_operator_round.svg" />
 
 最も近い整数に丸めます（例: `2.6 → 3`）。
 
-### `数学（単項）` {#block_operator_math_single}
+### `数学（単項）` (達人) {#block_operator_math_single}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 
@@ -70,7 +70,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - `e^`: eの累乗
 - `10^`: 10の累乗
 
-### `数学（2項）` {#block_operator_math_pair}
+### `数学（2項）` (達人) {#block_operator_math_pair}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_pair.svg')} alt="block_operator_math_pair.svg" />
 
@@ -85,7 +85,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - `hypot`: 斜辺の長さ
 - `copysign`: 符号コピー
 
-### `乱数` {#block_operator_pick_random}
+### `乱数` (達人) {#block_operator_pick_random}
 
 <img src={useBaseUrl('/img/blocks/block_operator_pick_random.svg')} alt="block_operator_pick_random.svg" />
 
@@ -93,31 +93,31 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 比較演算
 
-### `等しい` {#block_operator_equal}
+### `等しい` (初級) {#block_operator_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
 
 2つの値が等しい場合に `true` を返します。
 
-### `等しくない` {#block_operator_not_equal}
+### `等しくない` (上級) {#block_operator_not_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not_equal.svg')} alt="block_operator_not_equal.svg" />
 
 2つの値が等しくない場合に `true` を返します。
 
-### `より大きい` {#block_operator_greater_than}
+### `より大きい` (初級) {#block_operator_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_greater_than.svg')} alt="block_operator_greater_than.svg" />
 
 左の値が右の値より大きい場合に `true` を返します。
 
-### `より小さい` {#block_operator_less_than}
+### `より小さい` (初級) {#block_operator_less_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_less_than.svg')} alt="block_operator_less_than.svg" />
 
 左の値が右の値より小さい場合に `true` を返します。
 
-### `範囲内` {#block_operator_is_in_between}
+### `範囲内` (上級) {#block_operator_is_in_between}
 
 <img src={useBaseUrl('/img/blocks/block_operator_is_in_between.svg')} alt="block_operator_is_in_between.svg" />
 
@@ -125,19 +125,19 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 論理演算
 
-### `かつ` {#block_operator_and}
+### `かつ` (上級) {#block_operator_and}
 
 <img src={useBaseUrl('/img/blocks/block_operator_and.svg')} alt="block_operator_and.svg" />
 
 両方の条件が `true` の場合のみ `true` を返します。
 
-### `または` {#block_operator_or}
+### `または` (上級) {#block_operator_or}
 
 <img src={useBaseUrl('/img/blocks/block_operator_or.svg')} alt="block_operator_or.svg" />
 
 いずれかの条件が `true` の場合に `true` を返します。
 
-### `ではない` {#block_operator_not}
+### `ではない` (上級) {#block_operator_not}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not.svg')} alt="block_operator_not.svg" />
 
@@ -145,25 +145,25 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 文字列演算
 
-### `結合` {#block_operator_join}
+### `結合` (上級) {#block_operator_join}
 
 <img src={useBaseUrl('/img/blocks/block_operator_join.svg')} alt="block_operator_join.svg" />
 
 2つの文字列を連結します。
 
-### `〜番目の文字` {#block_operator_letter_at}
+### `〜番目の文字` (達人) {#block_operator_letter_at}
 
 <img src={useBaseUrl('/img/blocks/block_operator_letter_at.svg')} alt="block_operator_letter_at.svg" />
 
 指定位置の文字を返します。
 
-### `文字数` {#block_operator_size_of_string}
+### `文字数` (上級) {#block_operator_size_of_string}
 
 <img src={useBaseUrl('/img/blocks/block_operator_size_of_string.svg')} alt="block_operator_size_of_string.svg" />
 
 文字列の長さを返します。
 
-### `文字列に含まれるか` {#block_operator_string_contains}
+### `文字列に含まれるか` (達人) {#block_operator_string_contains}
 
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 

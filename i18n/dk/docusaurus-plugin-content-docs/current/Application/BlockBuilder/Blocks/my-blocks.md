@@ -12,14 +12,14 @@ Denne kategori svarer konceptuelt til at oprette en funktion i traditionel progr
 
 ## Grundlæggende Mine blokke
 
-### `Lav en blok`
+### `Lav en blok` (Guru) {#block_my_block_define}
 
 Opretter en ny brugerdefineret blokdefinition.
 
 - Type: definitions-/opsætningsblok
 - Typisk brug: samle gentaget logik i én navngiven blok
 
-### `Min blok` (kald-blok)
+### `Min blok` (Guru) {#block_my_block}
 
 Kalder en tidligere oprettet brugerdefineret blok.
 

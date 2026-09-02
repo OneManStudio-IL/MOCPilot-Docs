@@ -99,6 +99,16 @@ Reports joystick axis value.
 - Output: numeric (float), typically in a normalized range
 - Axis options: `x-axis`, `y-axis`
 
+### `Joystick value (boolean)` {#block_dashboard_controller_joystick_value_boolean}
+
+<img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_boolean.svg')} alt="block_dashboard_controller_joystick_value_boolean.svg" />
+
+Reports whether the selected joystick is pressed or released.
+
+- Type: value block
+- Output: `true`/`false`
+- State options: `pressed`, `released`
+
 ## Pedals blocks
 
 ### `Pedals event` {#block_dashboard_controller_pedals_event}

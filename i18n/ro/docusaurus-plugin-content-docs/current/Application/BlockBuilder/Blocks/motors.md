@@ -11,17 +11,17 @@ Blocurile pentru motoare sunt utilizate pentru a porni, opri, poziționa și reg
 
 ## Blocuri principale de comandă pentru motoare
 
-### `Pornește motorul` {#block_hubs_all_motors_port_start_motor}
+### `Pornește motorul` (Începător) {#block_hubs_all_motors_port_start_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor.svg')} alt="block_hubs_all_motors_port_start_motor.svg" />
 Pornește motorul selectat.
 
 - Opțiuni direcție: sens orar / sens antiorar
 
-### `Oprește motorul` {#block_hubs_all_motors_port_stop_motor}
+### `Oprește motorul` (Începător) {#block_hubs_all_motors_port_stop_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_stop_motor.svg')} alt="block_hubs_all_motors_port_stop_motor.svg" />
 Oprește motorul selectat.
 
-### `Rulează pentru` {#block_hubs_all_motors_port_run_for}
+### `Rulează pentru` (Avansat) {#block_hubs_all_motors_port_run_for}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for.svg')} alt="block_hubs_all_motors_port_run_for.svg" />
 Rulează motorul selectat pentru o durată/unghi/rotație specificată, în funcție de setările blocului.
 
@@ -29,49 +29,49 @@ Rulează motorul selectat pentru o durată/unghi/rotație specificată, în func
 - Opțiuni unitate: `rotații`, `grade`, `secunde`
 - Notă: această funcționalitate necesită un motor care suportă control bazat pe encoder.
 
-### `Pornește motorul la viteză` {#block_hubs_all_motors_port_start_motor_at_speed}
+### `Pornește motorul la viteză` (Începător) {#block_hubs_all_motors_port_start_motor_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor_at_speed.svg')} alt="block_hubs_all_motors_port_start_motor_at_speed.svg" />
 Pornește motorul cu o valoare explicită de viteză.
 
-### `Rulează pentru la viteză` {#block_hubs_all_motors_port_run_for_at_speed}
+### `Rulează pentru la viteză` (Avansat) {#block_hubs_all_motors_port_run_for_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for_at_speed.svg')} alt="block_hubs_all_motors_port_run_for_at_speed.svg" />
 Rulează motorul pentru o durată/valoare țintă cu o viteză explicită.
 
 - Opțiuni unitate: `rotații`, `grade`, `secunde`
 - Notă: această funcționalitate necesită un motor care suportă control bazat pe encoder.
 
-### `Setează viteza motorului` {#block_hubs_all_motors_port_set_motor_speed}
+### `Setează viteza motorului` (Avansat) {#block_hubs_all_motors_port_set_motor_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_speed.svg')} alt="block_hubs_all_motors_port_set_motor_speed.svg" />
 Setează viteza utilizată de blocurile de rulare a motorului.
 
 ## Blocuri de poziție și mișcare
 
-### `Mergi la poziție` {#block_hubs_all_motors_port_go_to_position}
+### `Mergi la poziție` (Avansat) {#block_hubs_all_motors_port_go_to_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_position.svg')} alt="block_hubs_all_motors_port_go_to_position.svg" />
 Mută motorul la o poziție absolută țintă.
 
 - Opțiuni traseu: `cea mai scurtă cale`, `sens orar`, `sens antiorar`
 - Notă: necesită motor cu encoder.
 
-### `Mergi la poziție relativă` {#block_hubs_all_motors_port_go_to_relative_position}
+### `Mergi la poziție relativă` (Începător) {#block_hubs_all_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_relative_position.svg')} alt="block_hubs_all_motors_port_go_to_relative_position.svg" />
 Mută motorul cu un offset relativ.
 
 - Notă: necesită motor cu encoder.
 
-### `BuWizz 3 mergi la poziție relativă` {#block_hubs_buwizz3_motors_port_go_to_relative_position}
+### `BuWizz 3 mergi la poziție relativă` (Începător) {#block_hubs_buwizz3_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_motors_port_go_to_relative_position.svg')} alt="block_hubs_buwizz3_motors_port_go_to_relative_position.svg" />
 Variantă BuWizz 3 pentru poziționare relativă.
 
 - Notă: necesită motor cu encoder.
 
-### `Setează poziția relativă` {#block_hubs_all_motors_port_set_relative_position}
+### `Setează poziția relativă` (Începător) {#block_hubs_all_motors_port_set_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_relative_position.svg')} alt="block_hubs_all_motors_port_set_relative_position.svg" />
 Setează referința poziției relative a motorului.
 
 - Notă: necesită motor cu encoder.
 
-### `Calibrează cremaliera de direcție` {#block_hubs_all_motors_port_calibrate_steering_rack}
+### `Calibrează cremaliera de direcție` (Începător) {#block_hubs_all_motors_port_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_calibrate_steering_rack.svg')} alt="block_hubs_all_motors_port_calibrate_steering_rack.svg" />
 Calibrează poziția neutră/de referință a cremalierei de direcție.
 
@@ -82,27 +82,27 @@ Calibrează poziția neutră/de referință a cremalierei de direcție.
 
 ## Blocuri de reglaj și siguranță
 
-### `Setează comportamentul motorului la oprire` {#block_hubs_all_motors_port_set_motor_to_at_stop}
+### `Setează comportamentul motorului la oprire` (Guru) {#block_hubs_all_motors_port_set_motor_to_at_stop}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_to_at_stop.svg')} alt="block_hubs_all_motors_port_set_motor_to_at_stop.svg" />
 Setează modul de oprire al motorului.
 
 - Opțiuni: `frână`, `menține poziția`, `liber`
 - Notă: necesită motor cu encoder.
 
-### `Setează detectarea blocării` {#block_hubs_all_motors_port_set_motors_stall_detection}
+### `Setează detectarea blocării` (Guru) {#block_hubs_all_motors_port_set_motors_stall_detection}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motors_stall_detection.svg')} alt="block_hubs_all_motors_port_set_motors_stall_detection.svg" />
 Activează sau dezactivează detectarea blocării.
 
 - Notă: disponibil doar pentru hub-ul MINDSTORMS Robot Inventor.
 
-### `Setează accelerația` {#block_hubs_all_motors_port_set_acceleration}
+### `Setează accelerația` (Guru) {#block_hubs_all_motors_port_set_acceleration}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_acceleration.svg')} alt="block_hubs_all_motors_port_set_acceleration.svg" />
 Setează profilul/rata de accelerație a motorului.
 
 - Opțiuni: `implicit`, `rapid`, `echilibrat`, `lin`, `lent`, `foarte lent`
 - Notă: necesită motor cu encoder.
 
-### `Setează decelerația` {#block_hubs_all_motors_port_set_deceleration}
+### `Setează decelerația` (Guru) {#block_hubs_all_motors_port_set_deceleration}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_deceleration.svg')} alt="block_hubs_all_motors_port_set_deceleration.svg" />
 Setează profilul/rata de decelerație a motorului.
 
@@ -111,19 +111,19 @@ Setează profilul/rata de decelerație a motorului.
 
 ## Blocuri reporter pentru motor
 
-### `Poziție` {#block_hubs_all_motors_port_position}
+### `Poziție` (Începător) {#block_hubs_all_motors_port_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_position.svg')} alt="block_hubs_all_motors_port_position.svg" />
 Returnează poziția curentă a motorului.
 
-### `Poziție relativă` {#block_hubs_all_motors_port_relative_position}
+### `Poziție relativă` (Începător) {#block_hubs_all_motors_port_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_relative_position.svg')} alt="block_hubs_all_motors_port_relative_position.svg" />
 Returnează poziția relativă curentă.
 
-### `Viteză` {#block_hubs_all_motors_port_speed}
+### `Viteză` (Începător) {#block_hubs_all_motors_port_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_speed.svg')} alt="block_hubs_all_motors_port_speed.svg" />
 Returnează viteza curentă a motorului.
 
-### `Putere` {#block_hubs_all_motors_port_power}
+### `Putere` (Avansat) {#block_hubs_all_motors_port_power}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_power.svg')} alt="block_hubs_all_motors_port_power.svg" />
 Returnează valoarea curentă a puterii motorului.
 
@@ -131,25 +131,32 @@ Returnează valoarea curentă a puterii motorului.
 
 ## Blocuri motoare Technic Move
 
-### `Pornește motoarele la viteză` {#block_hubs_technicmove_motors_start_motors_at_speed}
+### `Pornește motoarele la viteză` (Începător) {#block_hubs_technicmove_motors_start_motors_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_start_motors_at_speed.svg')} alt="block_hubs_technicmove_motors_start_motors_at_speed.svg" />
 Pornește motoarele de tracțiune Technic Move la viteza selectată.
 
-### `Oprește motoarele` {#block_hubs_technicmove_motors_stop_motors}
+### `Impuls de putere` (Începător) {#block_hubs_technicmove_motors_power_pulse}
+<img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_power_pulse.svg')} alt="block_hubs_technicmove_motors_power_pulse.svg" />
+Trimite o comandă de impuls de putere către Technic Move Hub selectat.
+
+- Disponibil doar pentru Technic Move Hub.
+- Utilizare tipică: amplifică scurt sau trezește sistemul de acționare Technic Move înainte de continuarea cu următoarele blocuri.
+
+### `Oprește motoarele` (Începător) {#block_hubs_technicmove_motors_stop_motors}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_stop_motors.svg')} alt="block_hubs_technicmove_motors_stop_motors.svg" />
 Oprește motoarele Technic Move.
 
-### `Frână` {#block_hubs_technicmove_motors_brake}
+### `Frână` (Începător) {#block_hubs_technicmove_motors_brake}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_brake.svg')} alt="block_hubs_technicmove_motors_brake.svg" />
 Aplică frânarea motoarelor Technic Move.
 
 - Opțiuni: `oprit`, `pornit`
 
-### `Setează cremaliera de direcție la` {#block_hubs_technicmove_motors_set_steering_rack_to}
+### `Setează cremaliera de direcție la` (Începător) {#block_hubs_technicmove_motors_set_steering_rack_to}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_set_steering_rack_to.svg')} alt="block_hubs_technicmove_motors_set_steering_rack_to.svg" />
 Setează poziția țintă a cremalierei de direcție.
 
-### `Calibrează cremaliera de direcție` {#block_hubs_technicmove_motors_calibrate_steering_rack}
+### `Calibrează cremaliera de direcție` (Începător) {#block_hubs_technicmove_motors_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_calibrate_steering_rack.svg')} alt="block_hubs_technicmove_motors_calibrate_steering_rack.svg" />
 Calibrează cremaliera de direcție Technic Move folosind algoritmul intern al hub-ului.
 

@@ -11,31 +11,31 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки зміни списку
 
-### `Додати значення до списку` {#block_lists_add}
+### `Додати значення до списку` (Просунутий) {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
 Додає значення в кінець вибраного списку.
 
-### `Вставити на позицію` {#block_lists_insert_at}
+### `Вставити на позицію` (Гуру) {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
 Вставляє значення у вибраний індекс списку.
 
-### `Замінити на позиції` {#block_lists_replace_at}
+### `Замінити на позиції` (Гуру) {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
 Замінює елемент у вибраному індексі на нове значення.
 
-### `Видалити` {#block_lists_delete}
+### `Видалити` (Просунутий) {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
 Видаляє елемент у вибраному індексі (або в обраному режимі видалення).
 
-### `Очистити все` {#block_lists_clear_all}
+### `Очистити все` (Просунутий) {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
@@ -43,25 +43,25 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки читання/перевірки списку
 
-### `Елемент на позиції` {#block_lists_item_at}
+### `Елемент на позиції` (Просунутий) {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
 Повертає значення за вибраним індексом.
 
-### `Індекс значення` {#block_lists_index_of_value}
+### `Індекс значення` (Гуру) {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
 Повертає індекс першого відповідного значення у списку.
 
-### `Містить значення` {#block_lists_contains_value}
+### `Містить значення` (Гуру) {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
 Повертає, чи містить список вказане значення.
 
-### `Розмір списку` {#block_lists_size_of_value}
+### `Розмір списку` (Просунутий) {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 

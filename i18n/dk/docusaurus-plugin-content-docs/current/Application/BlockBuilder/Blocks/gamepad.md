@@ -10,7 +10,7 @@ Gamepad-blokke bruges til at reagere på controller-input og læse aktuelle game
 
 ## Event-blokke
 
-### `Når gamepad-knap er` {#block_gamepad_event_when_button_is}
+### `Når gamepad-knap er` (Begynder) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ Udløses når den valgte gamepad-knap matcher den konfigurerede tilstand.
 - Knapindstillinger (Sony-layout): `kryds`, `cirkel`, `kvadrat`, `trekant`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Tilstande: `trykket`, `sluppet`
 
-### `Når gamepad D-pad er` {#block_gamepad_event_when_dpad_is}
+### `Når gamepad D-pad er` (Begynder) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ Udløses når D-pad retning/tilstand matcher den valgte betingelse.
 - Retninger: `op`, `ned`, `venstre`, `højre`
 - Tilstande: `trykket`, `sluppet`
 
-### `Når gamepad joystick er` {#block_gamepad_event_when_thumbstick_is}
+### `Når gamepad joystick er` (Begynder) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -50,7 +50,7 @@ Baseret på de aktuelle indstillinger understøtter denne blok:
 
 ## Værdi-blokke
 
-### `Gamepad knapværdi (boolean)` {#block_gamepad_button_value_boolean}
+### `Gamepad knapværdi (boolean)` (Begynder) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -65,7 +65,7 @@ Returnerer den aktuelle tilstand for den valgte gamepad-knap.
 - Knapindstillinger (Sony-layout): `kryds`, `cirkel`, `kvadrat`, `trekant`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Tilstande: `trykket`, `sluppet`
 
-### `Gamepad D-pad værdi (boolean)` {#block_gamepad_dpad_button_value_boolean}
+### `Gamepad D-pad værdi (boolean)` (Begynder) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -76,7 +76,7 @@ Returnerer om den valgte D-pad retning er aktiv.
 - Retninger: `op`, `ned`, `venstre`, `højre`
 - Tilstande: `trykket`, `sluppet`
 
-### `Gamepad joystick værdi (float)` {#block_gamepad_thumbstick_value_float}
+### `Gamepad joystick værdi (float)` (Begynder) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -89,7 +89,7 @@ Returnerer numerisk joystick-akseværdi.
 - Joystick: `venstre`, `højre`
 - Akser: `x-akse` / `y-akse`
 
-### `Gamepad trigger tryk værdi (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Gamepad trigger tryk værdi (float)` (Begynder) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

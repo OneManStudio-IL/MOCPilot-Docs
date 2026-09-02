@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Базові події
 
-### `Коли програму запущено` {#block_event_when_program_started}
+### `Коли програму запущено` (Початківець) {#block_event_when_program_started}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
 
@@ -20,7 +20,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тригер: запуск програми
 - Типове використання: ініціалізація змінних, стартові стани моторів, стартові звуки
 
-### `Коли` {#block_event_when}
+### `Коли` (Просунутий) {#block_event_when}
 
 <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 
@@ -29,7 +29,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тригер: умова
 - Типове використання: розгалуження логіки за поточним станом
 
-### `Коли таймер більше ніж` {#block_event_when_timer_greater_than}
+### `Коли таймер більше ніж` (Просунутий) {#block_event_when_timer_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_timer_greater_than.svg')} alt="block_event_when_timer_greater_than.svg" />
 
@@ -38,7 +38,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тригер: час, що минув
 - Типове використання: відкладені дії, таймінг фаз
 
-### `Коли отримано повідомлення` {#block_event_when_message_recieved}
+### `Коли отримано повідомлення` (Гуру) {#block_event_when_message_recieved}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_message_recieved.svg')} alt="block_event_when_message_recieved.svg" />
 
@@ -47,7 +47,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тригер: канал повідомлення
 - Типове використання: синхронізація кількох скриптів
 
-### `Розіслати` {#block_event_broadcast}
+### `Розіслати` (Гуру) {#block_event_broadcast}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast.svg')} alt="block_event_broadcast.svg" />
 
@@ -56,7 +56,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тригер: миттєве надсилання
 - Типове використання: повідомити інші скрипти без очікування
 
-### `Розіслати і чекати` {#block_event_broadcast_and_wait}
+### `Розіслати і чекати` (Гуру) {#block_event_broadcast_and_wait}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast_and_wait.svg')} alt="block_event_broadcast_and_wait.svg" />
 
@@ -67,7 +67,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Події хаба
 
-### `Подія кнопки хаба` {#block_hubs_all_event_button_pressed}
+### `Подія кнопки хаба` (Початківець) {#block_hubs_all_event_button_pressed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_button_pressed.svg')} alt="block_hubs_all_event_button_pressed.svg" />
 
@@ -76,7 +76,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варіанти стану: `натиснуто`, `відпущено`, `змінено`
 - Примітка: доступні варіанти кнопок можуть відрізнятися залежно від моделі хаба.
 
-### `Зміна підключення хаба` {#block_hubs_all_event_connection_changed}
+### `Зміна підключення хаба` (Початківець) {#block_hubs_all_event_connection_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_connection_changed.svg')} alt="block_hubs_all_event_connection_changed.svg" />
 
@@ -85,7 +85,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тригер: зміна статусу зʼєднання
 - Типове використання: обробка перепідключення та безпечний fallback при втраті зв’язку
 
-### `Зміна батареї хаба` {#block_hubs_all_event_battery_changed}
+### `Зміна батареї хаба` (Початківець) {#block_hubs_all_event_battery_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_battery_changed.svg')} alt="block_hubs_all_event_battery_changed.svg" />
 
@@ -94,13 +94,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тригер: оновлення рівня батареї (для хабів, що передають ці дані)
 - Типове використання: логіка попередження про низький заряд і перемикання в еко-режим
 
-### `Зміна акселерометра хаба` {#block_hubs_all_event_accelerometer_changed}
+### `Зміна акселерометра хаба` (Гуру) {#block_hubs_all_event_accelerometer_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_accelerometer_changed.svg')} alt="block_hubs_all_event_accelerometer_changed.svg" />
 
 Спрацьовує, коли змінюються значення прискорення.
 
-### `Зміна нахилу хаба` {#block_hubs_all_event_tilt_changed}
+### `Зміна нахилу хаба` (Початківець) {#block_hubs_all_event_tilt_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_changed.svg')} alt="block_hubs_all_event_tilt_changed.svg" />
 
@@ -109,7 +109,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варіанти кута: `будь-яка`, `тангаж`, `крен`, `рискання`
 - Примітка: `рискання` доступне лише на хабах, які надають дані рискання.
 
-### `Зміна орієнтації хаба` {#block_hubs_all_event_tilt_orientation_changed}
+### `Зміна орієнтації хаба` (Початківець) {#block_hubs_all_event_tilt_orientation_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_orientation_changed.svg')} alt="block_hubs_all_event_tilt_orientation_changed.svg" />
 
@@ -117,14 +117,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Події портових датчиків
 
-### `Подія датчика кольору Technic` {#block_hubs_all_event_port_technic_sensor_color}
+### `Подія датчика кольору Technic` (Початківець) {#block_hubs_all_event_port_technic_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
 Спрацьовує, коли датчик кольору Technic повертає вибраний колір.
 
 
-### `Подія датчика відстані Technic` {#block_hubs_all_event_port_technic_sensor_distance}
+### `Подія датчика відстані Technic` (Початківець) {#block_hubs_all_event_port_technic_sensor_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_distance.svg')} alt="block_hubs_all_event_port_technic_sensor_distance.svg" />
 
@@ -134,7 +134,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варіанти одиниць: `мм`, `см`, `дюйм`, `відсоток`
 - Примітка: доступні одиниці можуть залежати від режиму датчика та підключеного пристрою.
 
-### `Подія датчика відстані BOOST` {#block_hubs_all_event_port_boost_sensor_when_distance}
+### `Подія датчика відстані BOOST` (Початківець) {#block_hubs_all_event_port_boost_sensor_when_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_event_port_boost_sensor_when_distance.svg" />
 
@@ -143,7 +143,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варіанти порівняння: `ближче ніж`, `далі ніж`, `точно на`
 - Варіанти одиниць: `відсоток`, `см`, `дюйм`
 
-### `Подія датчика кольору BOOST` {#block_hubs_all_event_port_boost_sensor_color}
+### `Подія датчика кольору BOOST` (Початківець) {#block_hubs_all_event_port_boost_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 

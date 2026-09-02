@@ -12,7 +12,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 基本マイブロック
 
-### `ブロックを作成`
+### `ブロックを作成` (達人) {#block_my_block_define}
 
 新しいカスタムブロックを定義します。
 

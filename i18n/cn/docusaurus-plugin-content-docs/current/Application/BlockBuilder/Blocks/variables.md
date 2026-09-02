@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 变量命令积木
 
-### `将变量设为` {#block_variables_set_to}
+### `将变量设为` (初级) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 类型：命令积木
 - 常见用途：初始化状态、覆盖旧值
 
-### `将变量增加` {#block_variables_change_by}
+### `将变量增加` (高级) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 常见用途：计数器、分数、累计距离/时间
 
 ## 变量值积木
+
+### `变量值` (初级) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

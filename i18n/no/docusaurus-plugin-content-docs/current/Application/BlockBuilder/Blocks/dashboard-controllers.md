@@ -11,7 +11,7 @@ Disse blokkene brukes til å lese brukerinput fra skjermkontroller, reagere på 
 
 ## Globale dashboard-kontrollerblokker
 
-### `Sett kontrollerfarge` {#block_dashboard_controller_all_set_color}
+### `Sett kontrollerfarge` (Avansert) {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
@@ -20,7 +20,7 @@ Endrer den visuelle aksentfargen til valgt dashboard-kontroller.
 - Type: kommandoblokk
 - Typisk bruk: indikere kjøretidstilstander eller dynamisk endre kontrollerstil basert på betingelser
 
-### `Sett kontrollerinteraktivitet` {#block_dashboard_controller_all_set_interactivity}
+### `Sett kontrollerinteraktivitet` (Avansert) {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
@@ -33,7 +33,7 @@ Hvis interaktivitet er deaktivert, reagerer ikke kontrolleren på berøringsinpu
 
 ## Knappblokker
 
-### `Knapphendelse` {#block_dashboard_controller_button_event}
+### `Knapphendelse` (Nybegynner) {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
@@ -43,7 +43,7 @@ Utløses når dashboard-knappen endrer tilstand (trykket/sluppet).
 - Output: starter tilkoblet skript
 - Tilstandsvalg: `trykket`, `sluppet`
 
-### `Knappverdi (boolsk)` {#block_dashboard_controller_button_value_boolean}
+### `Knappverdi (boolsk)` (Nybegynner) {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
@@ -55,7 +55,7 @@ Rapporterer gjeldende tilstand for dashboard-knappen.
 
 ## D-pad-blokker
 
-### `D-pad-hendelse` {#block_dashboard_controller_dpad_event}
+### `D-pad-hendelse` (Nybegynner) {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
@@ -66,7 +66,7 @@ Utløses når D-pad-retningen endres eller matcher konfigurert retning.
 - Retningsvalg: `opp`, `ned`, `venstre`, `høyre`
 - Knappetilstand: `trykket`, `sluppet`
 
-### `D-pad-verdi (boolsk)` {#block_dashboard_controller_dpad_value_boolean}
+### `D-pad-verdi (boolsk)` (Nybegynner) {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
@@ -79,7 +79,7 @@ Rapporterer om valgt D-pad-retning er aktiv.
 
 ## Joystick-blokker
 
-### `Joystick-hendelse` {#block_dashboard_controller_joystick_event}
+### `Joystick-hendelse` (Nybegynner) {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
@@ -89,7 +89,7 @@ Utløses når joystick-posisjonen endres.
 - Output: starter tilkoblet skript
 - Tilstandsvalg: `opp`, `ned`, `venstre`, `høyre`, `flyttet`, `sluppet`
 
-### `Joystick-verdi (float)` {#block_dashboard_controller_joystick_value_float}
+### `Joystick-verdi (float)` (Nybegynner) {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
@@ -99,9 +99,19 @@ Rapporterer joystick-akseverdi.
 - Output: numerisk (float), vanligvis i et normalisert område
 - Aksevalg: `x-akse`, `y-akse`
 
+### `Joystick-verdi (boolean)` (Nybegynner) {#block_dashboard_controller_joystick_value_boolean}
+
+<img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_boolean.svg')} alt="block_dashboard_controller_joystick_value_boolean.svg" />
+
+Rapporterer om den valgte joysticken er trykket eller sluppet.
+
+- Type: verdiblokk
+- Output: `true`/`false`
+- Statusvalg: `trykket`, `sluppet`
+
 ## Pedalblokker
 
-### `Pedalhendelse` {#block_dashboard_controller_pedals_event}
+### `Pedalhendelse` (Nybegynner) {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
@@ -112,7 +122,7 @@ Utløses når pedalinput endres.
 - Pedalvalg: `hvilken som helst`, `brems`, `akselerasjon`
 - Tilstandsvalg: `flyttet`, `trykket`, `sluppet`
 
-### `Pedalverdi (float)` {#block_dashboard_controller_pedals_value_float}
+### `Pedalverdi (float)` (Nybegynner) {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
@@ -121,7 +131,7 @@ Rapporterer analog pedalverdi.
 - Type: verdiblokk
 - Output: numerisk (float)
 
-### `Pedalverdi (boolsk)` {#block_dashboard_controller_pedals_value_boolean}
+### `Pedalverdi (boolsk)` (Nybegynner) {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
@@ -134,7 +144,7 @@ Returnerer valgt tilstand basert på om en spesifikk pedal er trykket eller slup
 
 ## Sliderblokker
 
-### `Slider-hendelse` {#block_dashboard_controller_slider_event}
+### `Slider-hendelse` (Nybegynner) {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
@@ -144,7 +154,7 @@ Utløses når sliderverdi endres.
 - Output: starter tilkoblet skript
 - Tilstandsvalg: `lav`, `høy`, `flyttet`, `sluppet`
 
-### `Sliderverdi (float)` {#block_dashboard_controller_slider_value_float}
+### `Sliderverdi (float)` (Nybegynner) {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
@@ -155,7 +165,7 @@ Rapporterer gjeldende sliderverdi.
 
 ## Stepperblokker
 
-### `Stepper-hendelse` {#block_dashboard_controller_stepper_event}
+### `Stepper-hendelse` (Nybegynner) {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
@@ -166,7 +176,7 @@ Utløses når stepperverdi endres med ett steg.
 - Stegvalg: `hvilken som helst`, `reset`, `minus`, `pluss`
 - Knappetilstand: `trykket`, `sluppet`
 
-### `Stepperverdi (float)` {#block_dashboard_controller_stepper_value_float}
+### `Stepperverdi (float)` (Nybegynner) {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
@@ -177,7 +187,7 @@ Rapporterer gjeldende stepperverdi.
 
 ## Rattblokker
 
-### `Ratt-hendelse` {#block_dashboard_controller_steering_wheel_event}
+### `Ratt-hendelse` (Nybegynner) {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
@@ -187,7 +197,7 @@ Utløses når rattposisjonen endres.
 - Output: starter tilkoblet skript
 - Tilstandsvalg: `flyttet`, `trykket`, `sluppet`
 
-### `Rattverdi (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `Rattverdi (float)` (Nybegynner) {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
@@ -196,7 +206,7 @@ Rapporterer gjeldende rattverdi.
 - Type: verdiblokk
 - Output: numerisk (float)
 
-### `Rattverdi (boolsk)` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `Rattverdi (boolsk)` (Nybegynner) {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
@@ -208,7 +218,7 @@ Returnerer valgt tilstand basert på om rattet er trykket eller sluppet.
 
 ## Bryterblokker
 
-### `Bryter-hendelse` {#block_dashboard_controller_switch_event}
+### `Bryter-hendelse` (Nybegynner) {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
@@ -218,7 +228,7 @@ Utløses når brytertilstand endres.
 - Output: starter tilkoblet skript
 - Valg: `på`, `av`
 
-### `Bryterverdi (boolsk)` {#block_dashboard_controller_switch_value_boolean}
+### `Bryterverdi (boolsk)` (Nybegynner) {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
@@ -230,7 +240,7 @@ Rapporterer gjeldende brytertilstand.
 
 ## Monitorblokker
 
-### `Vis på monitor` {#block_dashboard_controller_monitor_show}
+### `Vis på monitor` (Nybegynner) {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
@@ -239,7 +249,7 @@ Viser informasjon (tekst eller verdi) på dashboard-monitoren.
 - Type: kommandoblokk
 - Typisk bruk: vise batterinivå, motorvinkel, tilkoblet enhet på hub-port osv.
 
-### `Sett monitorverdi` {#block_dashboard_controller_monitor_set_value}
+### `Sett monitorverdi` (Nybegynner) {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
@@ -248,7 +258,7 @@ Setter heltallsverdi for en dashboard speedometer-monitor.
 - Type: kommandoblokk
 - Typisk bruk: oppdatere speedometerverdi under kjøring
 
-### `Sett tiltmonitorverdi` {#block_dashboard_controller_monitor_tilt_set_value}
+### `Sett tiltmonitorverdi` (Nybegynner) {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 

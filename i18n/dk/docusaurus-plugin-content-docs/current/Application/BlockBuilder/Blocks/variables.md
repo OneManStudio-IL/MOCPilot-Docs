@@ -11,7 +11,7 @@ Variabler gemmer værdier, som kan læses og opdateres på tværs af blokke og s
 
 ## Variabel kommando-blokke
 
-### `Sæt variabel til` {#block_variables_set_to}
+### `Sæt variabel til` (Begynder) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ Sætter den valgte variabel til den angivne værdi.
 - Type: kommando-blok
 - Typisk brug: initialisere tilstand, overskrive tidligere værdi
 
-### `Ændr variabel med` {#block_variables_change_by}
+### `Ændr variabel med` (Avanceret) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ Tilføjer den angivne værdi til den valgte variabel.
 - Typisk brug: tællere, score, akkumuleret afstand/tid
 
 ## Variabel værdi-rapportør
+
+### `Variabelværdi` (Begynder) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

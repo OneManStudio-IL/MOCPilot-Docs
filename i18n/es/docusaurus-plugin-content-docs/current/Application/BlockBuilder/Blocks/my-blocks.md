@@ -12,14 +12,14 @@ Esta categoría es conceptualmente similar a crear una función en la programaci
 
 ## Bloques principales
 
-### `Crear un bloque`
+### `Crear un bloque` (Guru) {#block_my_block_define}
 
 Crea una nueva definición de bloque personalizado.
 
 - Tipo: bloque de definición/configuración
 - Uso típico: agrupar lógica repetida en un bloque con nombre
 
-### `Mi bloque` (bloque de llamada)
+### `Mi bloque` (Guru) {#block_my_block}
 
 Llama a un bloque personalizado previamente creado.
 

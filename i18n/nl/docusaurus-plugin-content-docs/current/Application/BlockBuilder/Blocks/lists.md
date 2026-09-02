@@ -11,31 +11,31 @@ Lijsten slaan geordende verzamelingen van waarden op en worden beheerd met speci
 
 ## Lijstbewerkingsblokken
 
-### `Waarde toevoegen aan lijst` {#block_lists_add}
+### `Waarde toevoegen aan lijst` (Gevorderd) {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
 Voegt een waarde toe aan het einde van de geselecteerde lijst.
 
-### `Invoegen op` {#block_lists_insert_at}
+### `Invoegen op` (Guru) {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
 Voegt een waarde in op de geselecteerde index in de lijst.
 
-### `Vervangen op` {#block_lists_replace_at}
+### `Vervangen op` (Guru) {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
 Vervangt het item op de geselecteerde index door een nieuwe waarde.
 
-### `Verwijderen` {#block_lists_delete}
+### `Verwijderen` (Gevorderd) {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
 Verwijdert het item op de geselecteerde index (of volgens de gekozen verwijdermodus).
 
-### `Alles wissen` {#block_lists_clear_all}
+### `Alles wissen` (Gevorderd) {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
@@ -43,25 +43,25 @@ Verwijdert alle items uit de geselecteerde lijst.
 
 ## Lijstwaarde-/controleblokken
 
-### `Item op` {#block_lists_item_at}
+### `Item op` (Gevorderd) {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
 Geeft de waarde terug op de geselecteerde index.
 
-### `Index van waarde` {#block_lists_index_of_value}
+### `Index van waarde` (Guru) {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
 Geeft de index terug van de eerste overeenkomende waarde in de lijst.
 
-### `Bevat waarde` {#block_lists_contains_value}
+### `Bevat waarde` (Guru) {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
 Geeft aan of de lijst een bepaalde waarde bevat.
 
-### `Grootte van lijst` {#block_lists_size_of_value}
+### `Grootte van lijst` (Gevorderd) {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 

@@ -11,7 +11,7 @@ Muuttujat tallentavat arvoja, joita voidaan lukea ja päivittää lohkopinojen j
 
 ## Muuttujien komentolohkot
 
-### `Aseta muuttuja arvoon` {#block_variables_set_to}
+### `Aseta muuttuja arvoon` (Aloittelija) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ Asettaa valitun muuttujan annettuun arvoon.
 - Tyyppi: komentolohko
 - Tyypillinen käyttö: alustaa tila, korvaa aiempi arvo
 
-### `Muuta muuttujaa määrällä` {#block_variables_change_by}
+### `Muuta muuttujaa määrällä` (Edistynyt) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ Lisää annetun määrän valittuun muuttujaan.
 - Tyypillinen käyttö: laskurit, pisteet, kertyvä aika/etäisyys
 
 ## Muuttujan arvolohko
+
+### `Muuttujan arvo` (Aloittelija) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

@@ -467,9 +467,6 @@
   "Supported devices": {
     "message": "Supported devices"
   },
-  "Elevate Your LEGO® Creations": {
-    "message": "Elevate Your LEGO® Creations"
-  },
   "Download the MOCPilot": {
     "message": "Download the MOCPilot"
   },
@@ -595,5 +592,11 @@
   "supportedDevices.largeHub.notAvailableIOS": {
     "message": "Not available on iOS",
     "description": "Shown in supported hubs table for Large Hub"
+  },
+  "Build It. Drive It. Control Everything.": {
+    "message": "Build It. Drive It. Control Everything."
+  },
+  "Create custom profiles to control LEGO® Powered Up, Technic, BuWizz, SBrick, Mould King, motors, sensors, and compatible Bluetooth devices from one powerful app.": {
+    "message": "Create custom profiles to control LEGO® Powered Up, Technic, BuWizz, SBrick, Mould King, motors, sensors, and compatible Bluetooth devices from one powerful app."
   }
 }

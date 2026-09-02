@@ -12,14 +12,14 @@ Táto kategória je konceptuálne podobná vytváraniu funkcií v tradičnom pro
 
 ## Základné bloky Moje bloky
 
-### `Vytvor blok`
+### `Vytvor blok` (Guru) {#block_my_block_define}
 
 Vytvorí novú definíciu vlastného bloku.
 
 - Typ: definičný/nastavovací blok  
 - Typické použitie: zoskupenie opakovanej logiky do jedného pomenovaného bloku  
 
-### `Môj blok` (blok volania)
+### `Môj blok` (Guru) {#block_my_block}
 
 Volá predtým vytvorený vlastný blok.
 

@@ -11,7 +11,7 @@ Deze blokken worden gebruikt om gebruikersinvoer van schermbedieningselementen t
 
 ## Globale dashboard controllerblokken
 
-### `Stel controllerkleur in` {#block_dashboard_controller_all_set_color}
+### `Stel controllerkleur in` (Gevorderd) {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
@@ -20,7 +20,7 @@ Wijzigt de visuele accentkleur van de geselecteerde dashboardcontroller.
 - Type: opdrachtblok
 - Typisch gebruik: runtime-status aangeven of dynamisch de stijl van de controller wijzigen op basis van voorwaarden
 
-### `Stel controllerinteractiviteit in` {#block_dashboard_controller_all_set_interactivity}
+### `Stel controllerinteractiviteit in` (Gevorderd) {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
@@ -33,7 +33,7 @@ Als interactiviteit is uitgeschakeld, reageert de controller niet op aanraakinvo
 
 ## Knopblokken
 
-### `Knopgebeurtenis` {#block_dashboard_controller_button_event}
+### `Knopgebeurtenis` (Beginner) {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
@@ -43,7 +43,7 @@ Wordt geactiveerd wanneer de knopstatus verandert (ingedrukt/vrijgegeven).
 - Output: start verbonden script
 - Statusopties: `ingedrukt`, `vrijgegeven`
 
-### `Knopwaarde (boolean)` {#block_dashboard_controller_button_value_boolean}
+### `Knopwaarde (boolean)` (Beginner) {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
@@ -55,7 +55,7 @@ Geeft de huidige knopstatus weer.
 
 ## D-pad blokken
 
-### `D-pad gebeurtenis` {#block_dashboard_controller_dpad_event}
+### `D-pad gebeurtenis` (Beginner) {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
@@ -66,7 +66,7 @@ Wordt geactiveerd wanneer de richting van de D-pad verandert of overeenkomt met 
 - Richtingsopties: `boven`, `onder`, `links`, `rechts`
 - Knopstatusopties: `ingedrukt`, `vrijgegeven`
 
-### `D-pad waarde (boolean)` {#block_dashboard_controller_dpad_value_boolean}
+### `D-pad waarde (boolean)` (Beginner) {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
@@ -79,7 +79,7 @@ Geeft aan of een geselecteerde D-pad richting actief is.
 
 ## Joystickblokken
 
-### `Joystick gebeurtenis` {#block_dashboard_controller_joystick_event}
+### `Joystick gebeurtenis` (Beginner) {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
@@ -89,7 +89,7 @@ Wordt geactiveerd wanneer de joystickpositie verandert.
 - Output: start verbonden script
 - Statusopties: `boven`, `onder`, `links`, `rechts`, `bewogen`, `vrijgegeven`
 
-### `Joystick waarde (float)` {#block_dashboard_controller_joystick_value_float}
+### `Joystick waarde (float)` (Beginner) {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
@@ -99,9 +99,19 @@ Geeft de waarde van de joystick-as weer.
 - Output: numeriek (float), meestal in een genormaliseerd bereik
 - Asopties: `X-as`, `Y-as`
 
+### `Joystick waarde (boolean)` (Beginner) {#block_dashboard_controller_joystick_value_boolean}
+
+<img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_boolean.svg')} alt="block_dashboard_controller_joystick_value_boolean.svg" />
+
+Geeft aan of de geselecteerde joystick is ingedrukt of losgelaten.
+
+- Type: waarde-blok
+- Output: `true`/`false`
+- Statusopties: `ingedrukt`, `losgelaten`
+
 ## Pedaalblokken
 
-### `Pedaalgebeurtenis` {#block_dashboard_controller_pedals_event}
+### `Pedaalgebeurtenis` (Beginner) {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
@@ -112,7 +122,7 @@ Wordt geactiveerd wanneer pedaalinvoer verandert.
 - Pedaalopties: `elke`, `rem`, `acceleratie`
 - Statusopties: `bewogen`, `ingedrukt`, `vrijgegeven`
 
-### `Pedaalwaarde (float)` {#block_dashboard_controller_pedals_value_float}
+### `Pedaalwaarde (float)` (Beginner) {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
@@ -121,7 +131,7 @@ Geeft de analoge pedaalwaarde weer.
 - Type: waarde-blok
 - Output: numeriek (float)
 
-### `Pedaalwaarde (boolean)` {#block_dashboard_controller_pedals_value_boolean}
+### `Pedaalwaarde (boolean)` (Beginner) {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
@@ -134,7 +144,7 @@ Geeft de geselecteerde status terug op basis van of een specifiek pedaal is inge
 
 ## Schuifregelaarblokken
 
-### `Schuifregelaar gebeurtenis` {#block_dashboard_controller_slider_event}
+### `Schuifregelaar gebeurtenis` (Beginner) {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
@@ -144,7 +154,7 @@ Wordt geactiveerd wanneer de schuifregelaarwaarde verandert.
 - Output: start verbonden script
 - Statusopties: `laag`, `hoog`, `bewogen`, `vrijgegeven`
 
-### `Schuifregelaar waarde (float)` {#block_dashboard_controller_slider_value_float}
+### `Schuifregelaar waarde (float)` (Beginner) {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
@@ -155,7 +165,7 @@ Geeft de huidige waarde van de schuifregelaar weer.
 
 ## Stapblokken
 
-### `Stapgebeurtenis` {#block_dashboard_controller_stepper_event}
+### `Stapgebeurtenis` (Beginner) {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
@@ -166,7 +176,7 @@ Wordt geactiveerd wanneer de stapwaarde verandert.
 - Stapopties: `elk`, `reset`, `min`, `plus`
 - Knopstatusopties: `ingedrukt`, `vrijgegeven`
 
-### `Stapwaarde (float)` {#block_dashboard_controller_stepper_value_float}
+### `Stapwaarde (float)` (Beginner) {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
@@ -177,7 +187,7 @@ Geeft de huidige stapwaarde weer.
 
 ## Stuurwielblokken
 
-### `Stuurwiel gebeurtenis` {#block_dashboard_controller_steering_wheel_event}
+### `Stuurwiel gebeurtenis` (Beginner) {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
@@ -187,7 +197,7 @@ Wordt geactiveerd wanneer de stuurwielpositie verandert.
 - Output: start verbonden script
 - Statusopties: `bewogen`, `ingedrukt`, `vrijgegeven`
 
-### `Stuurwiel waarde (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `Stuurwiel waarde (float)` (Beginner) {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
@@ -196,7 +206,7 @@ Geeft de huidige stuurwielwaarde weer.
 - Type: waarde-blok
 - Output: numeriek (float)
 
-### `Stuurwiel waarde (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `Stuurwiel waarde (boolean)` (Beginner) {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
@@ -208,7 +218,7 @@ Geeft de geselecteerde status terug op basis van of het stuurwiel is ingedrukt o
 
 ## Schakelaarblokken
 
-### `Schakelaar gebeurtenis` {#block_dashboard_controller_switch_event}
+### `Schakelaar gebeurtenis` (Beginner) {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
@@ -218,7 +228,7 @@ Wordt geactiveerd wanneer de schakelaarstatus verandert.
 - Output: start verbonden script
 - Toggle-opties: `ingeschakeld`, `uit`
 
-### `Schakelaar waarde (boolean)` {#block_dashboard_controller_switch_value_boolean}
+### `Schakelaar waarde (boolean)` (Beginner) {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
@@ -230,7 +240,7 @@ Geeft de huidige schakelaarstatus weer.
 
 ## Monitorblokken
 
-### `Monitor tonen` {#block_dashboard_controller_monitor_show}
+### `Monitor tonen` (Beginner) {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
@@ -239,7 +249,7 @@ Toont informatie (tekst of waarde) op de dashboardmonitor.
 - Type: opdrachtblok
 - Typisch gebruik: batterijstatus, motorhoek, huidig verbonden apparaat op een hubpoort en soortgelijke runtime-informatie tonen
 
-### `Monitor waarde instellen` {#block_dashboard_controller_monitor_set_value}
+### `Monitor waarde instellen` (Beginner) {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
@@ -248,7 +258,7 @@ Stelt een integerwaarde in voor een dashboard snelheidsmeter-monitor.
 - Type: opdrachtblok
 - Typisch gebruik: bijwerken van een snelheidsmeter-achtige monitor tijdens runtime
 
-### `Monitor kanteling waarde instellen` {#block_dashboard_controller_monitor_tilt_set_value}
+### `Monitor kanteling waarde instellen` (Beginner) {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 

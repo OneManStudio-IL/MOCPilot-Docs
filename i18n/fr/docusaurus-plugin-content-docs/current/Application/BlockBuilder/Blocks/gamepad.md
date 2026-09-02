@@ -10,7 +10,7 @@ Les blocs de manette sont utilisés pour réagir aux entrées du contrôleur et 
 
 ## Blocs d’événement
 
-### `Quand le bouton de la manette est` {#block_gamepad_event_when_button_is}
+### `Quand le bouton de la manette est` (Débutant) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ Se déclenche lorsque le bouton sélectionné correspond à l’état configuré
 - Boutons (Sony) : `croix`, `cercle`, `carré`, `triangle`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - États : `appuyé`, `relâché`
 
-### `Quand le D-pad de la manette est` {#block_gamepad_event_when_dpad_is}
+### `Quand le D-pad de la manette est` (Débutant) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ Se déclenche lorsque la direction/état du D-pad correspond à la condition sé
 - Directions : `haut`, `bas`, `gauche`, `droite`
 - États : `appuyé`, `relâché`
 
-### `Quand le joystick de la manette est` {#block_gamepad_event_when_thumbstick_is}
+### `Quand le joystick de la manette est` (Débutant) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -49,7 +49,7 @@ Selon les options actuelles, ce bloc prend en charge :
 
 ## Blocs de valeur
 
-### `Valeur du bouton de la manette (booléen)` {#block_gamepad_button_value_boolean}
+### `Valeur du bouton de la manette (booléen)` (Débutant) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -64,7 +64,7 @@ Retourne l’état actuel du bouton sélectionné.
 - Boutons (Sony) : `croix`, `cercle`, `carré`, `triangle`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - États : `appuyé`, `relâché`
 
-### `Valeur du D-pad de la manette (booléen)` {#block_gamepad_dpad_button_value_boolean}
+### `Valeur du D-pad de la manette (booléen)` (Débutant) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -75,7 +75,7 @@ Retourne si la direction sélectionnée du D-pad est active.
 - Directions : `haut`, `bas`, `gauche`, `droite`
 - États : `appuyé`, `relâché`
 
-### `Valeur du joystick de la manette (float)` {#block_gamepad_thumbstick_value_float}
+### `Valeur du joystick de la manette (float)` (Débutant) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -88,7 +88,7 @@ Retourne la valeur numérique de l’axe du joystick.
 - Sticks : `gauche`, `droite`
 - Axes : `axe x` / `axe y`
 
-### `Valeur de pression du trigger de la manette (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Valeur de pression du trigger de la manette (float)` (Débutant) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

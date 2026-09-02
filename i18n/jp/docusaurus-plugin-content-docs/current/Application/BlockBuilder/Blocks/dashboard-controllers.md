@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## グローバルダッシュボードコントローラーブロック
 
-### `コントローラーの色を設定` {#block_dashboard_controller_all_set_color}
+### `コントローラーの色を設定` (上級) {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
@@ -20,7 +20,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - タイプ: コマンドブロック
 - 使用例: 実行時の状態を示す、または条件に応じてコントローラーのスタイルを動的に変更する
 
-### `コントローラーの操作性を設定` {#block_dashboard_controller_all_set_interactivity}
+### `コントローラーの操作性を設定` (上級) {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
@@ -33,7 +33,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## ボタンブロック
 
-### `ボタンイベント` {#block_dashboard_controller_button_event}
+### `ボタンイベント` (初級) {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
@@ -43,7 +43,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 出力: 接続されたスクリプトを開始
 - 状態オプション: `押された`, `離された`
 
-### `ボタン値（ブール）` {#block_dashboard_controller_button_value_boolean}
+### `ボタン値（ブール）` (初級) {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
@@ -55,7 +55,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 十字キー（D-pad）ブロック
 
-### `十字キーイベント` {#block_dashboard_controller_dpad_event}
+### `十字キーイベント` (初級) {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
@@ -66,7 +66,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 方向オプション: `上`, `下`, `左`, `右`
 - 状態オプション: `押された`, `離された`
 
-### `十字キー値（ブール）` {#block_dashboard_controller_dpad_value_boolean}
+### `十字キー値（ブール）` (初級) {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
@@ -79,7 +79,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## ジョイスティックブロック
 
-### `ジョイスティックイベント` {#block_dashboard_controller_joystick_event}
+### `ジョイスティックイベント` (初級) {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
@@ -89,7 +89,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 出力: 接続されたスクリプトを開始
 - 状態オプション: `上`, `下`, `左`, `右`, `移動`, `解放`
 
-### `ジョイスティック値（数値）` {#block_dashboard_controller_joystick_value_float}
+### `ジョイスティック値（数値）` (初級) {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
@@ -99,9 +99,19 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 出力: 数値（float）
 - 軸オプション: `X軸`, `Y軸`
 
+### `ジョイスティック値（ブール）` (初級) {#block_dashboard_controller_joystick_value_boolean}
+
+<img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_boolean.svg')} alt="block_dashboard_controller_joystick_value_boolean.svg" />
+
+選択したジョイスティックが押されているか離されているかを返します。
+
+- タイプ: 値ブロック
+- 出力: `true` / `false`
+- 状態オプション: `押された`, `離された`
+
 ## ペダルブロック
 
-### `ペダルイベント` {#block_dashboard_controller_pedals_event}
+### `ペダルイベント` (初級) {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
@@ -112,7 +122,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - ペダルオプション: `任意`, `ブレーキ`, `アクセル`
 - 状態オプション: `移動`, `押された`, `離された`
 
-### `ペダル値（数値）` {#block_dashboard_controller_pedals_value_float}
+### `ペダル値（数値）` (初級) {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
@@ -121,7 +131,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - タイプ: 値ブロック
 - 出力: 数値（float）
 
-### `ペダル値（ブール）` {#block_dashboard_controller_pedals_value_boolean}
+### `ペダル値（ブール）` (初級) {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
@@ -134,7 +144,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## スライダーブロック
 
-### `スライダーイベント` {#block_dashboard_controller_slider_event}
+### `スライダーイベント` (初級) {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
@@ -144,7 +154,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 出力: 接続されたスクリプトを開始
 - 状態オプション: `低`, `高`, `移動`, `解放`
 
-### `スライダー値（数値）` {#block_dashboard_controller_slider_value_float}
+### `スライダー値（数値）` (初級) {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
@@ -155,7 +165,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## ステッパーブロック
 
-### `ステッパーイベント` {#block_dashboard_controller_stepper_event}
+### `ステッパーイベント` (初級) {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
@@ -166,7 +176,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - ステップオプション: `任意`, `リセット`, `マイナス`, `プラス`
 - 状態オプション: `押された`, `離された`
 
-### `ステッパー値（数値）` {#block_dashboard_controller_stepper_value_float}
+### `ステッパー値（数値）` (初級) {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
@@ -177,7 +187,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## ステアリングホイールブロック
 
-### `ステアリングイベント` {#block_dashboard_controller_steering_wheel_event}
+### `ステアリングイベント` (初級) {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
@@ -187,7 +197,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 出力: 接続されたスクリプトを開始
 - 状態オプション: `移動`, `押された`, `離された`
 
-### `ステアリング値（数値）` {#block_dashboard_controller_steering_wheel_value_float}
+### `ステアリング値（数値）` (初級) {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
@@ -196,7 +206,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - タイプ: 値ブロック
 - 出力: 数値（float）
 
-### `ステアリング値（ブール）` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `ステアリング値（ブール）` (初級) {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
@@ -208,7 +218,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## スイッチブロック
 
-### `スイッチイベント` {#block_dashboard_controller_switch_event}
+### `スイッチイベント` (初級) {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
@@ -218,7 +228,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 出力: 接続されたスクリプトを開始
 - 切替オプション: `オン`, `オフ`
 
-### `スイッチ値（ブール）` {#block_dashboard_controller_switch_value_boolean}
+### `スイッチ値（ブール）` (初級) {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
@@ -230,7 +240,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## モニターブロック
 
-### `モニター表示` {#block_dashboard_controller_monitor_show}
+### `モニター表示` (初級) {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
@@ -239,7 +249,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - タイプ: コマンドブロック
 - 使用例: バッテリー残量、モーター角度、接続デバイスなどの表示
 
-### `モニター値を設定` {#block_dashboard_controller_monitor_set_value}
+### `モニター値を設定` (初級) {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
@@ -248,7 +258,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - タイプ: コマンドブロック
 - 使用例: 実行中の速度表示更新
 
-### `モニター傾きを設定` {#block_dashboard_controller_monitor_tilt_set_value}
+### `モニター傾きを設定` (初級) {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 

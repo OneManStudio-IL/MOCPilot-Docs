@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Командные блоки переменных
 
-### `Установить переменную в` {#block_variables_set_to}
+### `Установить переменную в` (Начинающий) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тип: командный блок
 - Типичное применение: инициализация состояния, перезапись предыдущего значения
 
-### `Изменить переменную на` {#block_variables_change_by}
+### `Изменить переменную на` (Продвинутый) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Типичное применение: счётчики, очки, накопленное расстояние/время
 
 ## Репортер значения переменной
+
+### `Значение переменной` (Начинающий) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

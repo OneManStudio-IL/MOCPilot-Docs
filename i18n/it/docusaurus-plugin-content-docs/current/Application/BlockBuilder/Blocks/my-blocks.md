@@ -12,14 +12,14 @@ Questa categoria è concettualmente simile alla creazione di una funzione nella 
 
 ## Blocchi principali
 
-### `Crea un blocco`
+### `Crea un blocco` (Guru) {#block_my_block_define}
 
 Crea una nuova definizione di blocco personalizzato.
 
 - Tipo: blocco di definizione/configurazione
 - Utilizzo tipico: raggruppare logiche ripetute in un unico blocco con nome
 
-### `MioBlocco` (blocco di chiamata)
+### `MioBlocco` (Guru) {#block_my_block}
 
 Chiama un blocco personalizzato creato in precedenza.
 

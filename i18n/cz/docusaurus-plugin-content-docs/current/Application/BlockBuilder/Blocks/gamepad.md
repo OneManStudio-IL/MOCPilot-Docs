@@ -10,7 +10,7 @@ Bloky gamepadu slouží k reakci na vstup z ovladače a ke čtení aktuálních 
 
 ## Bloky událostí
 
-### `Když je tlačítko gamepadu` {#block_gamepad_event_when_button_is}
+### `Když je tlačítko gamepadu` (Začátečník) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ Spustí se, když vybrané tlačítko gamepadu odpovídá nastavenému stavu.
 - Možnosti tlačítek (rozložení Sony): `kříž`, `kruh`, `čtverec`, `trojúhelník`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Možnosti stavu: `stisknuto`, `uvolněno`
 
-### `Když je D-pad gamepadu` {#block_gamepad_event_when_dpad_is}
+### `Když je D-pad gamepadu` (Začátečník) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ Spustí se, když směr/stav D-padu odpovídá vybrané podmínce.
 - Možnosti směru: `nahoru`, `dolů`, `vlevo`, `vpravo`
 - Možnosti stavu: `stisknuto`, `uvolněno`
 
-### `Když je páčka gamepadu` {#block_gamepad_event_when_thumbstick_is}
+### `Když je páčka gamepadu` (Začátečník) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -50,7 +50,7 @@ Podle aktuálních možností tento blok podporuje:
 
 ## Bloky hodnot
 
-### `Hodnota tlačítka gamepadu (boolean)` {#block_gamepad_button_value_boolean}
+### `Hodnota tlačítka gamepadu (boolean)` (Začátečník) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -65,7 +65,7 @@ Vrací aktuální stav vybraného tlačítka gamepadu.
 - Možnosti tlačítek (rozložení Sony): `kříž`, `kruh`, `čtverec`, `trojúhelník`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Možnosti stavu: `stisknuto`, `uvolněno`
 
-### `Hodnota tlačítka D-pad gamepadu (boolean)` {#block_gamepad_dpad_button_value_boolean}
+### `Hodnota tlačítka D-pad gamepadu (boolean)` (Začátečník) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -76,7 +76,7 @@ Vrací, zda je vybraný směr D-padu aktuálně aktivní.
 - Možnosti směru: `nahoru`, `dolů`, `vlevo`, `vpravo`
 - Možnosti stavu: `stisknuto`, `uvolněno`
 
-### `Hodnota páčky gamepadu (float)` {#block_gamepad_thumbstick_value_float}
+### `Hodnota páčky gamepadu (float)` (Začátečník) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -89,7 +89,7 @@ Vrací číselnou hodnotu osy páčky.
 - Možnosti páčky: `levý`, `pravý`
 - Možnosti osy: `osa X` / `osa Y`
 
-### `Hodnota stisku triggeru gamepadu (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Hodnota stisku triggeru gamepadu (float)` (Začátečník) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

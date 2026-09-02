@@ -11,43 +11,43 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 算术运算
 
-### `加` {#block_operator_plus}
+### `加` (初级) {#block_operator_plus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_plus.svg')} alt="block_operator_plus.svg" />
 
 返回两个值的和。
 
-### `减` {#block_operator_minus}
+### `减` (初级) {#block_operator_minus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_minus.svg')} alt="block_operator_minus.svg" />
 
 返回两个值相减的结果。
 
-### `乘` {#block_operator_multiply}
+### `乘` (初级) {#block_operator_multiply}
 
 <img src={useBaseUrl('/img/blocks/block_operator_multiply.svg')} alt="block_operator_multiply.svg" />
 
 返回两个值的乘积。
 
-### `除` {#block_operator_divide}
+### `除` (初级) {#block_operator_divide}
 
 <img src={useBaseUrl('/img/blocks/block_operator_divide.svg')} alt="block_operator_divide.svg" />
 
 返回两个值相除的结果。
 
-### `取模` {#block_operator_modulus}
+### `取模` (专家) {#block_operator_modulus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_modulus.svg')} alt="block_operator_modulus.svg" />
 
 返回除法运算后的余数。
 
-### `四舍五入` {#block_operator_round}
+### `四舍五入` (专家) {#block_operator_round}
 
 <img src={useBaseUrl('/img/blocks/block_operator_round.svg')} alt="block_operator_round.svg" />
 
 四舍五入到最接近的整数（例如 `2.6 -> 3`）。
 
-### `单参数数学` {#block_operator_math_single}
+### `单参数数学` (专家) {#block_operator_math_single}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 
@@ -70,7 +70,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - `e^`：`e` 的输入次幂
 - `10^`：`10` 的输入次幂
 
-### `双参数数学` {#block_operator_math_pair}
+### `双参数数学` (专家) {#block_operator_math_pair}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_pair.svg')} alt="block_operator_math_pair.svg" />
 
@@ -85,7 +85,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - `hypot`：根据两个分量计算斜边长度
 - `copysign`：第一个值，符号取自第二个值
 
-### `随机取值` {#block_operator_pick_random}
+### `随机取值` (专家) {#block_operator_pick_random}
 
 <img src={useBaseUrl('/img/blocks/block_operator_pick_random.svg')} alt="block_operator_pick_random.svg" />
 
@@ -93,31 +93,31 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 比较运算
 
-### `等于` {#block_operator_equal}
+### `等于` (初级) {#block_operator_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
 
 当两个值相等时返回 `true`。
 
-### `不等于` {#block_operator_not_equal}
+### `不等于` (高级) {#block_operator_not_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not_equal.svg')} alt="block_operator_not_equal.svg" />
 
 当两个值不相等时返回 `true`。
 
-### `大于` {#block_operator_greater_than}
+### `大于` (初级) {#block_operator_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_greater_than.svg')} alt="block_operator_greater_than.svg" />
 
 当左侧值大于右侧值时返回 `true`。
 
-### `小于` {#block_operator_less_than}
+### `小于` (初级) {#block_operator_less_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_less_than.svg')} alt="block_operator_less_than.svg" />
 
 当左侧值小于右侧值时返回 `true`。
 
-### `是否在区间内` {#block_operator_is_in_between}
+### `是否在区间内` (高级) {#block_operator_is_in_between}
 
 <img src={useBaseUrl('/img/blocks/block_operator_is_in_between.svg')} alt="block_operator_is_in_between.svg" />
 
@@ -125,19 +125,19 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 布尔逻辑运算
 
-### `并且` {#block_operator_and}
+### `并且` (高级) {#block_operator_and}
 
 <img src={useBaseUrl('/img/blocks/block_operator_and.svg')} alt="block_operator_and.svg" />
 
 仅当两个条件都为 `true` 时返回 `true`。
 
-### `或者` {#block_operator_or}
+### `或者` (高级) {#block_operator_or}
 
 <img src={useBaseUrl('/img/blocks/block_operator_or.svg')} alt="block_operator_or.svg" />
 
 当至少一个条件为 `true` 时返回 `true`。
 
-### `非` {#block_operator_not}
+### `非` (高级) {#block_operator_not}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not.svg')} alt="block_operator_not.svg" />
 
@@ -145,25 +145,25 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 文本运算
 
-### `拼接` {#block_operator_join}
+### `拼接` (高级) {#block_operator_join}
 
 <img src={useBaseUrl('/img/blocks/block_operator_join.svg')} alt="block_operator_join.svg" />
 
 将两个文本值连接在一起。
 
-### `第几个字符` {#block_operator_letter_at}
+### `第几个字符` (专家) {#block_operator_letter_at}
 
 <img src={useBaseUrl('/img/blocks/block_operator_letter_at.svg')} alt="block_operator_letter_at.svg" />
 
 返回文本中指定位置的字符。
 
-### `字符串长度` {#block_operator_size_of_string}
+### `字符串长度` (高级) {#block_operator_size_of_string}
 
 <img src={useBaseUrl('/img/blocks/block_operator_size_of_string.svg')} alt="block_operator_size_of_string.svg" />
 
 返回字符串长度。
 
-### `字符串包含` {#block_operator_string_contains}
+### `字符串包含` (专家) {#block_operator_string_contains}
 
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 

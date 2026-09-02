@@ -11,7 +11,7 @@ Zmienne przechowują wartości, które mogą być odczytywane i aktualizowane w 
 
 ## Bloki poleceń zmiennych
 
-### `Ustaw zmienną na` {#block_variables_set_to}
+### `Ustaw zmienną na` (Początkujący) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ Ustawia wybraną zmienną na określoną wartość.
 - Typ: blok polecenia
 - Typowe użycie: inicjalizacja stanu, nadpisanie poprzedniej wartości
 
-### `Zmień zmienną o` {#block_variables_change_by}
+### `Zmień zmienną o` (Zaawansowany) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ Dodaje określoną wartość do wybranej zmiennej.
 - Typowe użycie: liczniki, wynik, sumowanie dystansu/czasu
 
 ## Blok raportujący wartość zmiennej
+
+### `Wartość zmiennej` (Początkujący) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

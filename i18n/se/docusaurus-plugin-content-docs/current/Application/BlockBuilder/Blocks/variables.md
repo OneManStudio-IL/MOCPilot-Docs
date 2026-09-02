@@ -11,7 +11,7 @@ Variabler lagrar värden som kan läsas och uppdateras mellan blockstaplar och s
 
 ## Variabelkommandoblock
 
-### `Sätt variabel till` {#block_variables_set_to}
+### `Sätt variabel till` (Nybörjare) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ Sätter den valda variabeln till det angivna värdet.
 - Typ: kommandoblock
 - Typisk användning: initiera tillstånd, skriva över tidigare värde
 
-### `Ändra variabel med` {#block_variables_change_by}
+### `Ändra variabel med` (Avancerad) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ Lägger till det angivna värdet till den valda variabeln.
 - Typisk användning: räknare, poäng, ackumulerat avstånd/tid
 
 ## Reporter för variabelvärde
+
+### `Variabelvärde` (Nybörjare) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

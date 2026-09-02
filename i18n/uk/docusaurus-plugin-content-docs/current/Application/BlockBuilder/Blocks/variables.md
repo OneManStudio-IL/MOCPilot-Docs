@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Командні блоки змінних
 
-### `Встановити змінну в` {#block_variables_set_to}
+### `Встановити змінну в` (Початківець) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тип: командний блок
 - Типове використання: ініціалізація стану, перезапис попереднього значення
 
-### `Змінити змінну на` {#block_variables_change_by}
+### `Змінити змінну на` (Просунутий) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Типове використання: лічильники, рахунок, накопичена відстань/час
 
 ## Репортер значення змінної
+
+### `Значення змінної` (Початківець) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

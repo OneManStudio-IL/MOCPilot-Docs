@@ -336,9 +336,6 @@
   "Supported devices": {
     "message": "Поддерживаемые хабы, моторы и датчики"
   },
-  "Elevate Your LEGO® Creations": {
-    "message": "Подними свои LEGO® творения на новый уровень"
-  },
   "Download the MOCPilot": {
     "message": "Скачать MOCPilot"
   },
@@ -595,5 +592,11 @@
   "theme.SearchModal.placeholder": {
     "message": "Поиск",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
+  },
+  "Build It. Drive It. Control Everything.": {
+    "message": "Собери. Управляй. Контролируй всё."
+  },
+  "Create custom profiles to control LEGO® Powered Up, Technic, BuWizz, SBrick, Mould King, motors, sensors, and compatible Bluetooth devices from one powerful app.": {
+    "message": "Создавайте собственные профили для управления LEGO® Powered Up, Technic, BuWizz, SBrick, Mould King, моторами, датчиками и совместимыми Bluetooth-устройствами из одного мощного приложения."
   }
 }

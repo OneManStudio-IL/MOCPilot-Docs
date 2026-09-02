@@ -10,7 +10,7 @@ Bloky Gamepad sa používajú na reakciu na vstup z ovládača a na čítanie ak
 
 ## Bloky udalostí
 
-### `Keď tlačidlo gamepadu je` {#block_gamepad_event_when_button_is}
+### `Keď tlačidlo gamepadu je` (Začiatočník) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ Spustí sa, keď vybrané tlačidlo gamepadu zodpovedá nastavenému stavu.
 - Možnosti tlačidiel (Sony rozloženie): `krížik`, `kruh`, `štvorec`, `trojuholník`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Možnosti stavu: `stlačené`, `uvoľnené`
 
-### `Keď smerový kríž je` {#block_gamepad_event_when_dpad_is}
+### `Keď smerový kríž je` (Začiatočník) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ Spustí sa, keď smer alebo stav smerového kríža zodpovedá vybranej podmienk
 - Možnosti smeru: `hore`, `dole`, `vľavo`, `vpravo`
 - Možnosti stavu: `stlačené`, `uvoľnené`
 
-### `Keď páčka gamepadu je` {#block_gamepad_event_when_thumbstick_is}
+### `Keď páčka gamepadu je` (Začiatočník) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -50,7 +50,7 @@ Podľa aktuálnych možností tento blok podporuje:
 
 ## Bloky hodnôt
 
-### `Hodnota tlačidla gamepadu (boolean)` {#block_gamepad_button_value_boolean}
+### `Hodnota tlačidla gamepadu (boolean)` (Začiatočník) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -65,7 +65,7 @@ Vracia aktuálny stav vybraného tlačidla gamepadu.
 - Možnosti tlačidiel (Sony): `krížik`, `kruh`, `štvorec`, `trojuholník`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Možnosti stavu: `stlačené`, `uvoľnené`
 
-### `Hodnota smerového kríža (boolean)` {#block_gamepad_dpad_button_value_boolean}
+### `Hodnota smerového kríža (boolean)` (Začiatočník) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -76,7 +76,7 @@ Vracia, či je vybraný smer smerového kríža aktuálne aktívny.
 - Možnosti smeru: `hore`, `dole`, `vľavo`, `vpravo`
 - Možnosti stavu: `stlačené`, `uvoľnené`
 
-### `Hodnota páčky gamepadu (float)` {#block_gamepad_thumbstick_value_float}
+### `Hodnota páčky gamepadu (float)` (Začiatočník) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -89,7 +89,7 @@ Vracia číselnú hodnotu osi páčky.
 - Možnosti páčky: `ľavá`, `pravá`
 - Možnosti osi: `x-os` / `y-os`
 
-### `Hodnota tlaku spúšte (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Hodnota tlaku spúšte (float)` (Začiatočník) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

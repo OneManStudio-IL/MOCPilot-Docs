@@ -11,7 +11,7 @@ Tyto bloky se používají ke čtení uživatelského vstupu z ovládacích prvk
 
 ## Globální bloky ovladačů dashboardu
 
-### `Nastavit barvu ovladače` {#block_dashboard_controller_all_set_color}
+### `Nastavit barvu ovladače` (Pokročilý) {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
@@ -20,7 +20,7 @@ Změní zvýrazňovací barvu vybraného ovladače dashboardu.
 - Typ: příkazový blok
 - Typické použití: indikace běhových stavů nebo dynamická změna stylu ovladače podle podmínek
 
-### `Nastavit interaktivitu ovladače` {#block_dashboard_controller_all_set_interactivity}
+### `Nastavit interaktivitu ovladače` (Pokročilý) {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
@@ -33,7 +33,7 @@ Pokud je interaktivita zakázána, ovladač nereaguje na dotykový vstup.
 
 ## Bloky tlačítek
 
-### `Událost tlačítka` {#block_dashboard_controller_button_event}
+### `Událost tlačítka` (Začátečník) {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
@@ -43,7 +43,7 @@ Spustí se, když tlačítko dashboardu změní stav (stisknuto/uvolněno).
 - Výstup: spustí připojený skript
 - Možnosti stavu: `stisknuto`, `uvolněno`
 
-### `Hodnota tlačítka (boolean)` {#block_dashboard_controller_button_value_boolean}
+### `Hodnota tlačítka (boolean)` (Začátečník) {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
@@ -55,7 +55,7 @@ Vrací aktuální stav tlačítka dashboardu.
 
 ## Bloky D-padu
 
-### `Událost D-padu` {#block_dashboard_controller_dpad_event}
+### `Událost D-padu` (Začátečník) {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
@@ -66,7 +66,7 @@ Spustí se, když se směr D-padu změní nebo odpovídá nastavenému směru.
 - Možnosti směru: `nahoru`, `dolů`, `vlevo`, `vpravo`
 - Možnosti stavu tlačítka: `stisknuto`, `uvolněno`
 
-### `Hodnota D-padu (boolean)` {#block_dashboard_controller_dpad_value_boolean}
+### `Hodnota D-padu (boolean)` (Začátečník) {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
@@ -79,7 +79,7 @@ Vrací, zda je vybraný směr D-padu aktivní.
 
 ## Bloky joysticku
 
-### `Událost joysticku` {#block_dashboard_controller_joystick_event}
+### `Událost joysticku` (Začátečník) {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
@@ -89,7 +89,7 @@ Spustí se, když se změní poloha joysticku.
 - Výstup: spustí připojený skript
 - Možnosti stavu: `nahoru`, `dolů`, `vlevo`, `vpravo`, `pohnut`, `uvolněno`
 
-### `Hodnota joysticku (float)` {#block_dashboard_controller_joystick_value_float}
+### `Hodnota joysticku (float)` (Začátečník) {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
@@ -99,9 +99,19 @@ Vrací hodnotu osy joysticku.
 - Výstup: číselný (float), obvykle v normalizovaném rozsahu
 - Možnosti osy: `osa X`, `osa Y`
 
+### `Hodnota joysticku (boolean)` (Začátečník) {#block_dashboard_controller_joystick_value_boolean}
+
+<img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_boolean.svg')} alt="block_dashboard_controller_joystick_value_boolean.svg" />
+
+Vrací, zda je vybraný joystick stisknutý nebo uvolněný.
+
+- Typ: blok hodnoty
+- Výstup: `true`/`false`
+- Možnosti stavu: `stisknuto`, `uvolněno`
+
 ## Bloky pedálů
 
-### `Událost pedálů` {#block_dashboard_controller_pedals_event}
+### `Událost pedálů` (Začátečník) {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
@@ -112,7 +122,7 @@ Spustí se, když se změní vstup pedálů.
 - Možnosti pedálu: `jakýkoli`, `brzda`, `zrychlení`
 - Možnosti stavu: `pohnut`, `stisknuto`, `uvolněno`
 
-### `Hodnota pedálů (float)` {#block_dashboard_controller_pedals_value_float}
+### `Hodnota pedálů (float)` (Začátečník) {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
@@ -121,7 +131,7 @@ Vrací analogovou hodnotu pedálů.
 - Typ: blok hodnoty
 - Výstup: číselný (float)
 
-### `Hodnota pedálů (boolean)` {#block_dashboard_controller_pedals_value_boolean}
+### `Hodnota pedálů (boolean)` (Začátečník) {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
@@ -134,7 +144,7 @@ Vrací vybraný stav podle toho, zda je konkrétní pedál stisknutý nebo uvoln
 
 ## Bloky posuvníku
 
-### `Událost posuvníku` {#block_dashboard_controller_slider_event}
+### `Událost posuvníku` (Začátečník) {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
@@ -144,7 +154,7 @@ Spustí se, když se změní hodnota posuvníku.
 - Výstup: spustí připojený skript
 - Možnosti stavu: `nízký`, `vysoký`, `pohnut`, `uvolněno`
 
-### `Hodnota posuvníku (float)` {#block_dashboard_controller_slider_value_float}
+### `Hodnota posuvníku (float)` (Začátečník) {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
@@ -155,7 +165,7 @@ Vrací aktuální hodnotu posuvníku.
 
 ## Bloky krokovače
 
-### `Událost krokovače` {#block_dashboard_controller_stepper_event}
+### `Událost krokovače` (Začátečník) {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
@@ -166,7 +176,7 @@ Spustí se, když se hodnota krokovače změní o krok.
 - Možnosti kroku: `jakýkoli`, `resetovat`, `minus`, `plus`
 - Možnosti stavu tlačítka: `stisknuto`, `uvolněno`
 
-### `Hodnota krokovače (float)` {#block_dashboard_controller_stepper_value_float}
+### `Hodnota krokovače (float)` (Začátečník) {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
@@ -177,7 +187,7 @@ Vrací aktuální hodnotu krokovače.
 
 ## Bloky volantu
 
-### `Událost volantu` {#block_dashboard_controller_steering_wheel_event}
+### `Událost volantu` (Začátečník) {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
@@ -187,7 +197,7 @@ Spustí se, když se změní poloha volantu.
 - Výstup: spustí připojený skript
 - Možnosti stavu: `pohnut`, `stisknuto`, `uvolněno`
 
-### `Hodnota volantu (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `Hodnota volantu (float)` (Začátečník) {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
@@ -196,7 +206,7 @@ Vrací aktuální hodnotu volantu.
 - Typ: blok hodnoty
 - Výstup: číselný (float)
 
-### `Hodnota volantu (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `Hodnota volantu (boolean)` (Začátečník) {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
@@ -208,7 +218,7 @@ Vrací vybraný stav podle toho, zda je volant stisknutý nebo uvolněný.
 
 ## Bloky přepínače
 
-### `Událost přepínače` {#block_dashboard_controller_switch_event}
+### `Událost přepínače` (Začátečník) {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
@@ -218,7 +228,7 @@ Spustí se, když se změní stav přepínače.
 - Výstup: spustí připojený skript
 - Možnosti přepnutí: `povoleno`, `vypnuto`
 
-### `Hodnota přepínače (boolean)` {#block_dashboard_controller_switch_value_boolean}
+### `Hodnota přepínače (boolean)` (Začátečník) {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
@@ -230,7 +240,7 @@ Vrací aktuální stav přepínače.
 
 ## Bloky monitoru
 
-### `Monitor zobrazit` {#block_dashboard_controller_monitor_show}
+### `Monitor zobrazit` (Začátečník) {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
@@ -239,7 +249,7 @@ Zobrazí informace (text nebo hodnotu) na monitoru dashboardu.
 - Typ: příkazový blok
 - Typické použití: zobrazení úrovně baterie, úhlu motoru, aktuálně připojeného zařízení na portu hubu a podobných běhových informací
 
-### `Monitor nastavit hodnotu` {#block_dashboard_controller_monitor_set_value}
+### `Monitor nastavit hodnotu` (Začátečník) {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
@@ -248,7 +258,7 @@ Nastaví celočíselnou hodnotu pro monitor rychloměru dashboardu.
 - Typ: příkazový blok
 - Typické použití: aktualizace hodnoty monitoru typu rychloměr za běhu
 
-### `Monitor náklonu nastavit hodnotu` {#block_dashboard_controller_monitor_tilt_set_value}
+### `Monitor náklonu nastavit hodnotu` (Začátečník) {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 

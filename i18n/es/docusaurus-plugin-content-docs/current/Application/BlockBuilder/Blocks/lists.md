@@ -11,31 +11,31 @@ Las listas almacenan colecciones ordenadas de valores y se manipulan mediante bl
 
 ## Bloques de modificación de listas
 
-### `Agregar valor a la lista` {#block_lists_add}
+### `Agregar valor a la lista` (Avanzado) {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
 Añade un valor al final de la lista seleccionada.
 
-### `Insertar en` {#block_lists_insert_at}
+### `Insertar en` (Guru) {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
 Inserta un valor en el índice seleccionado de la lista.
 
-### `Reemplazar en` {#block_lists_replace_at}
+### `Reemplazar en` (Guru) {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
 Reemplaza el elemento en el índice seleccionado con un nuevo valor.
 
-### `Eliminar` {#block_lists_delete}
+### `Eliminar` (Avanzado) {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
 Elimina el elemento en el índice seleccionado (o según el modo de eliminación).
 
-### `Borrar todo` {#block_lists_clear_all}
+### `Borrar todo` (Avanzado) {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
@@ -43,25 +43,25 @@ Elimina todos los elementos de la lista seleccionada.
 
 ## Bloques de valor / comprobación
 
-### `Elemento en` {#block_lists_item_at}
+### `Elemento en` (Avanzado) {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
 Devuelve el valor en el índice seleccionado.
 
-### `Índice de valor` {#block_lists_index_of_value}
+### `Índice de valor` (Guru) {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
 Devuelve el índice de la primera coincidencia en la lista.
 
-### `Contiene valor` {#block_lists_contains_value}
+### `Contiene valor` (Guru) {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
 Devuelve si la lista contiene un valor específico.
 
-### `Tamaño de la lista` {#block_lists_size_of_value}
+### `Tamaño de la lista` (Avanzado) {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 

@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки подій
 
-### `Коли натиснута кнопка геймпада` {#block_gamepad_event_when_button_is}
+### `Коли натиснута кнопка геймпада` (Початківець) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варіанти кнопок (розкладка Sony): `хрест`, `коло`, `квадрат`, `трикутник`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Варіанти стану: `натиснуто`, `відпущено`
 
-### `Коли D-pad геймпада` {#block_gamepad_event_when_dpad_is}
+### `Коли D-pad геймпада` (Початківець) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варіанти напрямку: `вгору`, `вниз`, `ліворуч`, `праворуч`
 - Варіанти стану: `натиснуто`, `відпущено`
 
-### `Коли стік геймпада` {#block_gamepad_event_when_thumbstick_is}
+### `Коли стік геймпада` (Початківець) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -49,7 +49,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки значень
 
-### `Стан кнопки геймпада (boolean)` {#block_gamepad_button_value_boolean}
+### `Стан кнопки геймпада (boolean)` (Початківець) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -64,7 +64,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варіанти кнопок (розкладка Sony): `хрест`, `коло`, `квадрат`, `трикутник`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Варіанти стану: `натиснуто`, `відпущено`
 
-### `Стан кнопки D-pad геймпада (boolean)` {#block_gamepad_dpad_button_value_boolean}
+### `Стан кнопки D-pad геймпада (boolean)` (Початківець) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -75,7 +75,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варіанти напрямку: `вгору`, `вниз`, `ліворуч`, `праворуч`
 - Варіанти стану: `натиснуто`, `відпущено`
 
-### `Значення стика геймпада (float)` {#block_gamepad_thumbstick_value_float}
+### `Значення стика геймпада (float)` (Початківець) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -88,7 +88,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варіанти стика: `ліворуч`, `праворуч`
 - Варіанти осі: `вісь X` / `вісь Y`
 
-### `Значення сили натискання тригера (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Значення сили натискання тригера (float)` (Початківець) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

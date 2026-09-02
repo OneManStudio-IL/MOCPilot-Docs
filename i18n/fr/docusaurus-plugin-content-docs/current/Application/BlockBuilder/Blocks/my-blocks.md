@@ -12,14 +12,14 @@ Cette catégorie est conceptuellement similaire à la création d’une fonction
 
 ## Blocs principaux
 
-### `Créer un bloc`
+### `Créer un bloc` (Guru) {#block_my_block_define}
 
 Crée une nouvelle définition de bloc personnalisé.
 
 - Type : bloc de définition/configuration
 - Utilisation typique : regrouper une logique répétée dans un seul bloc nommé
 
-### `Mon bloc` (bloc d’appel)
+### `Mon bloc` (Guru) {#block_my_block}
 
 Appelle un bloc personnalisé précédemment créé.
 

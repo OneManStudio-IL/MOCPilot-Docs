@@ -11,7 +11,7 @@ Variabilele stochează valori care pot fi citite și actualizate în diferite st
 
 ## Blocuri de comandă pentru variabile
 
-### `Setează variabila la` {#block_variables_set_to}
+### `Setează variabila la` (Începător) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ Setează variabila selectată la valoarea specificată.
 - Tip: bloc de comandă
 - Utilizare tipică: inițializarea stării, suprascrierea valorii anterioare
 
-### `Modifică variabila cu` {#block_variables_change_by}
+### `Modifică variabila cu` (Avansat) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ Adaugă valoarea specificată la variabila selectată.
 - Utilizare tipică: contoare, scor, distanță/timp acumulat
 
 ## Bloc reporter pentru variabilă
+
+### `Valoare variabilă` (Începător) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

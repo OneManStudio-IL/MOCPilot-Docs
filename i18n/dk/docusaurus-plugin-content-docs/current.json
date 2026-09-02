@@ -18,5 +18,9 @@
   "sidebar.tutorialSidebar.category.Blocks": {
     "message": "Blokke",
     "description": "The label for category 'Blocks' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Hubs": {
+    "message": "Hubs",
+    "description": "The label for category 'Hubs' in sidebar 'tutorialSidebar'"
   }
 }

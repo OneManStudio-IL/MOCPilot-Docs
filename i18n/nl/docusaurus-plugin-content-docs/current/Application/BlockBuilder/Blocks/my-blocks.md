@@ -12,14 +12,14 @@ Deze categorie is conceptueel vergelijkbaar met het maken van een functie in tra
 
 ## Basis Mijn blokken
 
-### `Maak een blok`
+### `Maak een blok` (Guru) {#block_my_block_define}
 
 Maakt een nieuwe aangepaste blokdefinitie.
 
 - Type: definitie-/instelblok
 - Typisch gebruik: herhaalde logica groeperen in één benoemd blok
 
-### `MijnBlok` (aanroepblok)
+### `MijnBlok` (Guru) {#block_my_block}
 
 Roept een eerder aangemaakt aangepast blok aan.
 

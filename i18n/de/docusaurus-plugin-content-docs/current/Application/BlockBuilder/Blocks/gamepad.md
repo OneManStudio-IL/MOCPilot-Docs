@@ -10,7 +10,7 @@ Gamepad-Blöcke reagieren auf Controller-Eingaben und lesen aktuelle Gamepad-Zus
 
 ## Ereignisblöcke
 
-### `Wenn Gamepad-Taste ist` {#block_gamepad_event_when_button_is}
+### `Wenn Gamepad-Taste ist` (Anfänger) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ Wird ausgelöst, wenn die ausgewählte Gamepad-Taste dem konfigurierten Zustand 
 - Tastenoptionen (Sony-Layout): `kreuz`, `kreis`, `quadrat`, `dreieck`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Statusoptionen: `gedrückt`, `losgelassen`
 
-### `Wenn Gamepad-D-Pad ist` {#block_gamepad_event_when_dpad_is}
+### `Wenn Gamepad-D-Pad ist` (Anfänger) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ Wird ausgelöst, wenn Richtung/Zustand des D-Pads der Bedingung entspricht.
 - Richtungsoptionen: `oben`, `unten`, `links`, `rechts`
 - Statusoptionen: `gedrückt`, `losgelassen`
 
-### `Wenn Gamepad-Stick ist` {#block_gamepad_event_when_thumbstick_is}
+### `Wenn Gamepad-Stick ist` (Anfänger) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -45,7 +45,7 @@ Wird ausgelöst, wenn die Stick-Bedingung den gewählten Optionen entspricht.
 
 ## Werteblöcke
 
-### `Gamepad-Tastenwert (boolean)` {#block_gamepad_button_value_boolean}
+### `Gamepad-Tastenwert (boolean)` (Anfänger) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -60,7 +60,7 @@ Gibt den aktuellen Zustand der ausgewählten Gamepad-Taste zurück.
 - Tastenoptionen (Sony-Layout): `kreuz`, `kreis`, `quadrat`, `dreieck`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Statusoptionen: `gedrückt`, `losgelassen`
 
-### `Gamepad-D-Pad-Tastenwert (boolean)` {#block_gamepad_dpad_button_value_boolean}
+### `Gamepad-D-Pad-Tastenwert (boolean)` (Anfänger) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -71,7 +71,7 @@ Gibt zurück, ob die gewählte D-Pad-Richtung aktuell aktiv ist.
 - Richtungsoptionen: `oben`, `unten`, `links`, `rechts`
 - Statusoptionen: `gedrückt`, `losgelassen`
 
-### `Gamepad-Stickwert (float)` {#block_gamepad_thumbstick_value_float}
+### `Gamepad-Stickwert (float)` (Anfänger) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -84,7 +84,7 @@ Gibt den numerischen Stick-Achsenwert zurück.
 - Stickoptionen: `links`, `rechts`
 - Achsenoptionen: `x-axis`, `y-axis`
 
-### `Gamepad-Triggerdruck-Wert (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Gamepad-Triggerdruck-Wert (float)` (Anfänger) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

@@ -18,5 +18,9 @@
   "sidebar.tutorialSidebar.category.Blocks": {
     "message": "积木",
     "description": "The label for category 'Blocks' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Hubs": {
+    "message": "集线器",
+    "description": "The label for category 'Hubs' in sidebar 'tutorialSidebar'"
   }
 }

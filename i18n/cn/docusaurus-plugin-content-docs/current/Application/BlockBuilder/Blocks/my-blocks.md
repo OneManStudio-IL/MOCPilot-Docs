@@ -12,14 +12,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 核心模块
 
-### `创建一个块`
+### `创建一个块` (专家) {#block_my_block_define}
 
 创建一个新的自定义积木定义。
 
 - 类型：定义/设置积木
 - 常见用途：将重复逻辑归纳到一个命名积木中
 
-### `MyBlock` (call block)
+### `MyBlock` (专家) {#block_my_block}
 
 调用之前创建的自定义积木。
 

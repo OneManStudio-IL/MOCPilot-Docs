@@ -12,14 +12,14 @@ Tämä kategoria vastaa perinteisen ohjelmoinnin funktioita: määrittele toimin
 
 ## Omat lohkot -perustoiminnot
 
-### `Luo lohko`
+### `Luo lohko` (Guru) {#block_my_block_define}
 
 Luo uuden mukautetun lohkon määritelmän.
 
 - Tyyppi: määrittely/asetuslohko
 - Tyypillinen käyttö: ryhmitellä toistuva logiikka yhdeksi nimetyksi lohkoksi
 
-### `Oma lohko` (kutsulohko)
+### `Oma lohko` (Guru) {#block_my_block}
 
 Kutsuu aiemmin luodun mukautetun lohkon.
 

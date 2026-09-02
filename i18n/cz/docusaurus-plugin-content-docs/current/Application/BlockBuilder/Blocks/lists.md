@@ -11,31 +11,31 @@ Seznamy ukládají uspořádané kolekce hodnot a pracuje se s nimi pomocí spec
 
 ## Bloky úprav seznamu
 
-### `Přidat hodnotu do seznamu` {#block_lists_add}
+### `Přidat hodnotu do seznamu` (Pokročilý) {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
 Přidá hodnotu na konec vybraného seznamu.
 
-### `Vložit na pozici` {#block_lists_insert_at}
+### `Vložit na pozici` (Guru) {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
 Vloží hodnotu na vybraný index v seznamu.
 
-### `Nahradit na pozici` {#block_lists_replace_at}
+### `Nahradit na pozici` (Guru) {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
 Nahradí položku na vybraném indexu novou hodnotou.
 
-### `Smazat` {#block_lists_delete}
+### `Smazat` (Pokročilý) {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
 Smaže položku na vybraném indexu (nebo dle zvoleného režimu mazání).
 
-### `Vymazat vše` {#block_lists_clear_all}
+### `Vymazat vše` (Pokročilý) {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
@@ -43,25 +43,25 @@ Odstraní všechny položky z vybraného seznamu.
 
 ## Bloky čtení/kontroly seznamu
 
-### `Položka na pozici` {#block_lists_item_at}
+### `Položka na pozici` (Pokročilý) {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
 Vrací hodnotu na vybraném indexu.
 
-### `Index hodnoty` {#block_lists_index_of_value}
+### `Index hodnoty` (Guru) {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
 Vrací index první odpovídající hodnoty v seznamu.
 
-### `Obsahuje hodnotu` {#block_lists_contains_value}
+### `Obsahuje hodnotu` (Guru) {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
 Vrací, zda seznam obsahuje zadanou hodnotu.
 
-### `Velikost seznamu` {#block_lists_size_of_value}
+### `Velikost seznamu` (Pokročilý) {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 

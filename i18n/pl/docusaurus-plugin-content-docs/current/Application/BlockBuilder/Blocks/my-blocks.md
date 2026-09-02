@@ -12,14 +12,14 @@ Ta kategoria jest koncepcyjnie podobna do tworzenia funkcji w tradycyjnym progra
 
 ## Podstawowe bloki My Blocks
 
-### `Utwórz blok`
+### `Utwórz blok` (Guru) {#block_my_block_define}
 
 Tworzy nową definicję własnego bloku.
 
 - Typ: blok definicji/konfiguracji
 - Typowe użycie: grupowanie powtarzalnej logiki w jednym nazwanym bloku
 
-### `MyBlock` (blok wywołania)
+### `MyBlock` (Guru) {#block_my_block}
 
 Wywołuje wcześniej utworzony blok niestandardowy.
 

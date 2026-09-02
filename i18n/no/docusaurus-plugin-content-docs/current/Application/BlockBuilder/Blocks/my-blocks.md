@@ -12,14 +12,14 @@ Denne kategorien ligner konseptuelt på å lage en funksjon i tradisjonell progr
 
 ## Grunnleggende Mine blokker
 
-### `Lag en blokk`
+### `Lag en blokk` (Guru) {#block_my_block_define}
 
 Oppretter en ny tilpasset blokkdefinisjon.
 
 - Type: definisjons-/oppsettblokk
 - Typisk bruk: samle gjentatt logikk i én navngitt blokk
 
-### `Min blokk` (kallblokk)
+### `Min blokk` (Guru) {#block_my_block}
 
 Kaller en tidligere opprettet tilpasset blokk.
 
