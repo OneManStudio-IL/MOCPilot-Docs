@@ -4,10 +4,58 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 06 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>cn</language>
+        <item>
+            <title><![CDATA[MOCPilot 2026.5.0 发布]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/2026/08/23/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/2026/08/23/post</guid>
+            <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.5.0 — 固件更新、SBrick 支持与构建器改进]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202650--固件更新sbrick-支持与构建器改进">🚀 MOCPilot 2026.5.0 — 固件更新、SBrick 支持与构建器改进<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/08/23/post#-mocpilot-202650--%E5%9B%BA%E4%BB%B6%E6%9B%B4%E6%96%B0sbrick-%E6%94%AF%E6%8C%81%E4%B8%8E%E6%9E%84%E5%BB%BA%E5%99%A8%E6%94%B9%E8%BF%9B" class="hash-link" aria-label="直接链接到 🚀 MOCPilot 2026.5.0 — 固件更新、SBrick 支持与构建器改进" title="直接链接到 🚀 MOCPilot 2026.5.0 — 固件更新、SBrick 支持与构建器改进" translate="no">​</a></h2>
+<p>我们很高兴发布 <strong>MOCPilot 2026.5.0</strong>，现已可用于 <strong>Android</strong>、<strong>iOS</strong> 和 <strong>macOS</strong>。</p>
+<p>本次更新为更多 LEGO Powered Up 集线器加入固件更新与恢复支持，引入 SBrick 和 SBrick Plus 支持，改进积木构建器和仪表盘流程，并包含多项界面优化、崩溃修复和翻译更新。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-202650-有哪些新内容">✨ 2026.5.0 有哪些新内容？<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/08/23/post#-202650-%E6%9C%89%E5%93%AA%E4%BA%9B%E6%96%B0%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 ✨ 2026.5.0 有哪些新内容？" title="直接链接到 ✨ 2026.5.0 有哪些新内容？" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-集线器固件更新与恢复">🔄 集线器固件更新与恢复<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/08/23/post#-%E9%9B%86%E7%BA%BF%E5%99%A8%E5%9B%BA%E4%BB%B6%E6%9B%B4%E6%96%B0%E4%B8%8E%E6%81%A2%E5%A4%8D" class="hash-link" aria-label="直接链接到 🔄 集线器固件更新与恢复" title="直接链接到 🔄 集线器固件更新与恢复" translate="no">​</a></h3>
+<ul>
+<li class="">为 <strong>Technic Hub</strong> 添加固件更新支持</li>
+<li class="">为 <strong>Technic Move Hub</strong> 添加固件更新支持</li>
+<li class="">扩展了其他受支持集线器的固件更新支持</li>
+<li class="">添加了对以 <strong>恢复模式</strong> 连接的集线器的检测</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-集线器支持与配置">🔌 集线器支持与配置<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/08/23/post#-%E9%9B%86%E7%BA%BF%E5%99%A8%E6%94%AF%E6%8C%81%E4%B8%8E%E9%85%8D%E7%BD%AE" class="hash-link" aria-label="直接链接到 🔌 集线器支持与配置" title="直接链接到 🔌 集线器支持与配置" translate="no">​</a></h3>
+<ul>
+<li class="">添加对 <strong>SBrick</strong> 和 <strong>SBrick Plus</strong> 的支持</li>
+<li class="">添加 Technic Move Hub 配置变更：<strong>Porsche GT4 e-Performance</strong>、<strong>Batmobile™‎ Tumbler</strong> 和 <strong>Lamborghini Revuelto</strong></li>
+<li class="">按连接类型重做了集线器连接页面</li>
+<li class="">重做了集线器监控页面</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-积木构建器更新">🧱 积木构建器更新<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/08/23/post#-%E7%A7%AF%E6%9C%A8%E6%9E%84%E5%BB%BA%E5%99%A8%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="直接链接到 🧱 积木构建器更新" title="直接链接到 🧱 积木构建器更新" translate="no">​</a></h3>
+<ul>
+<li class="">添加积木等级筛选：<strong>Beginner</strong>、<strong>Advanced</strong> 和 <strong>Guru</strong></li>
+<li class="">可在创建、编辑或运行配置文件积木程序时配置积木等级</li>
+<li class="">为提供电池电压数据的集线器添加 <strong>电池电压</strong> 积木</li>
+<li class="">为 Technic Move Hub 添加 <strong>功率脉冲</strong> 积木</li>
+<li class="">修复了在积木面板中使用鼠标滚轮缩放的问题</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-游戏手柄与仪表盘">🎮 游戏手柄与仪表盘<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/08/23/post#-%E6%B8%B8%E6%88%8F%E6%89%8B%E6%9F%84%E4%B8%8E%E4%BB%AA%E8%A1%A8%E7%9B%98" class="hash-link" aria-label="直接链接到 🎮 游戏手柄与仪表盘" title="直接链接到 🎮 游戏手柄与仪表盘" translate="no">​</a></h3>
+<ul>
+<li class="">重做了游戏手柄页面和游戏手柄测试页面</li>
+<li class="">修复了 游戏手柄方向键状态切换</li>
+<li class="">添加了在仪表盘控件中通过上下文菜单直接切换主题的选项</li>
+<li class="">优化了仪表盘配置文件标题、排序菜单、卡片渐变和创建表单间距</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-界面配置文件与稳定性">🎨 界面、配置文件与稳定性<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/08/23/post#-%E7%95%8C%E9%9D%A2%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%8E%E7%A8%B3%E5%AE%9A%E6%80%A7" class="hash-link" aria-label="直接链接到 🎨 界面、配置文件与稳定性" title="直接链接到 🎨 界面、配置文件与稳定性" translate="no">​</a></h3>
+<ul>
+<li class="">移除了预置配置文件的黄色配色，现在它们与常规配置文件页面保持一致</li>
+<li class="">改进了整体外观和若干界面细节</li>
+<li class="">添加了崩溃修复和内部代码重组</li>
+</ul>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[MOCPilot 2026.4.0 发布]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/2026/06/06/post</link>

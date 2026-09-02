@@ -4,10 +4,58 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 06 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ro</language>
+        <item>
+            <title><![CDATA[Lansare MOCPilot 2026.5.0]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/08/23/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/08/23/post</guid>
+            <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.5.0 — Actualizări firmware, suport SBrick și îmbunătățiri ale constructorului]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202650--actualizări-firmware-suport-sbrick-și-îmbunătățiri-ale-constructorului">🚀 MOCPilot 2026.5.0 — Actualizări firmware, suport SBrick și îmbunătățiri ale constructorului<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/08/23/post#-mocpilot-202650--actualiz%C4%83ri-firmware-suport-sbrick-%C8%99i-%C3%AEmbun%C4%83t%C4%83%C8%9Biri-ale-constructorului" class="hash-link" aria-label="Link direct către 🚀 MOCPilot 2026.5.0 — Actualizări firmware, suport SBrick și îmbunătățiri ale constructorului" title="Link direct către 🚀 MOCPilot 2026.5.0 — Actualizări firmware, suport SBrick și îmbunătățiri ale constructorului" translate="no">​</a></h2>
+<p>Suntem bucuroși să anunțăm lansarea <strong>MOCPilot 2026.5.0</strong>, disponibilă pe <strong>Android</strong>, <strong>iOS</strong> și <strong>macOS</strong>.</p>
+<p>Această actualizare adaugă suport pentru actualizarea și recuperarea firmware-ului pentru mai multe hub-uri LEGO Powered Up, introduce suport pentru SBrick și SBrick Plus, îmbunătățește fluxul constructorului de blocuri și al panoului de control și include multe rafinări ale interfeței, remedieri ale blocărilor și actualizări de traduceri.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ce-este-nou-în-202650">✨ Ce este nou în 2026.5.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/08/23/post#-ce-este-nou-%C3%AEn-202650" class="hash-link" aria-label="Link direct către ✨ Ce este nou în 2026.5.0?" title="Link direct către ✨ Ce este nou în 2026.5.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-actualizare-și-recuperare-firmware-pentru-hub-uri">🔄 Actualizare și recuperare firmware pentru hub-uri<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/08/23/post#-actualizare-%C8%99i-recuperare-firmware-pentru-hub-uri" class="hash-link" aria-label="Link direct către 🔄 Actualizare și recuperare firmware pentru hub-uri" title="Link direct către 🔄 Actualizare și recuperare firmware pentru hub-uri" translate="no">​</a></h3>
+<ul>
+<li class="">Adăugat suport de actualizare firmware pentru <strong>Technic Hub</strong></li>
+<li class="">Adăugat suport de actualizare firmware pentru <strong>Technic Move Hub</strong></li>
+<li class="">Extins suportul de actualizare firmware pentru hub-uri compatibile suplimentare</li>
+<li class="">Adăugată detectarea hub-urilor conectate în <strong>modul de recuperare</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-suport-și-configurare-hub-uri">🔌 Suport și configurare hub-uri<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/08/23/post#-suport-%C8%99i-configurare-hub-uri" class="hash-link" aria-label="Link direct către 🔌 Suport și configurare hub-uri" title="Link direct către 🔌 Suport și configurare hub-uri" translate="no">​</a></h3>
+<ul>
+<li class="">Adăugat suport pentru <strong>SBrick</strong> și <strong>SBrick Plus</strong></li>
+<li class="">Adăugată schimbare de configurare pentru Technic Move Hub: <strong>Porsche GT4 e-Performance</strong>, <strong>Batmobile™‎ Tumbler</strong> și <strong>Lamborghini Revuelto</strong></li>
+<li class="">Refăcute paginile de conectare a hub-urilor după tipul conexiunii</li>
+<li class="">Refăcută pagina de monitorizare a hub-urilor</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-actualizări-ale-constructorului-de-blocuri">🧱 Actualizări ale constructorului de blocuri<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/08/23/post#-actualiz%C4%83ri-ale-constructorului-de-blocuri" class="hash-link" aria-label="Link direct către 🧱 Actualizări ale constructorului de blocuri" title="Link direct către 🧱 Actualizări ale constructorului de blocuri" translate="no">​</a></h3>
+<ul>
+<li class="">Adăugată filtrarea nivelului blocurilor: <strong>Beginner</strong>, <strong>Advanced</strong> și <strong>Guru</strong></li>
+<li class="">Nivelurile blocurilor pot fi configurate la crearea, editarea sau rularea unui program de blocuri de profil</li>
+<li class="">Adăugat blocul <strong>tensiunea bateriei</strong> pentru hub-urile care oferă date despre tensiunea bateriei</li>
+<li class="">Adăugat blocul <strong>impuls de putere</strong> pentru Technic Move Hub</li>
+<li class="">Corectate schimbările de scală cu rotița mouse-ului în paleta de blocuri</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-gamepad-și-panou-de-control">🎮 Gamepad și panou de control<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/08/23/post#-gamepad-%C8%99i-panou-de-control" class="hash-link" aria-label="Link direct către 🎮 Gamepad și panou de control" title="Link direct către 🎮 Gamepad și panou de control" translate="no">​</a></h3>
+<ul>
+<li class="">Refăcute pagina gamepadului și pagina de testare a gamepadului</li>
+<li class="">Corectate tranzițiile de stare ale cruciuliței direcționale a gamepadului</li>
+<li class="">Adăugată o opțiune de meniu contextual pentru schimbarea directă a temei controlului din panoul de control</li>
+<li class="">Îmbunătățite anteturile profilurilor panoului de control, meniul de sortare, gradientele cardurilor și spațierea formularului de creare</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-interfață-profiluri-și-stabilitate">🎨 Interfață, profiluri și stabilitate<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/08/23/post#-interfa%C8%9B%C4%83-profiluri-%C8%99i-stabilitate" class="hash-link" aria-label="Link direct către 🎨 Interfață, profiluri și stabilitate" title="Link direct către 🎨 Interfață, profiluri și stabilitate" translate="no">​</a></h3>
+<ul>
+<li class="">Eliminată paleta galbenă pentru profilurile predefinite, astfel încât acum arată ca pagina obișnuită de profiluri</li>
+<li class="">Îmbunătățit aspectul general și mici detalii ale interfeței</li>
+<li class="">Adăugate remedieri ale blocărilor și reorganizare internă a codului</li>
+</ul>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Lansare MOCPilot 2026.4.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/06/06/post</link>

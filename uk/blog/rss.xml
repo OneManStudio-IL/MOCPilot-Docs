@@ -4,10 +4,58 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 06 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>uk</language>
+        <item>
+            <title><![CDATA[Реліз MOCPilot 2026.5.0]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/2026/08/23/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/2026/08/23/post</guid>
+            <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.5.0 — оновлення прошивки, підтримка SBrick і покращення конструктора]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202650--оновлення-прошивки-підтримка-sbrick-і-покращення-конструктора">🚀 MOCPilot 2026.5.0 — оновлення прошивки, підтримка SBrick і покращення конструктора<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/08/23/post#-mocpilot-202650--%D0%BE%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B8-%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B0-sbrick-%D1%96-%D0%BF%D0%BE%D0%BA%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%BE%D1%80%D0%B0" class="hash-link" aria-label="Пряме посилання на 🚀 MOCPilot 2026.5.0 — оновлення прошивки, підтримка SBrick і покращення конструктора" title="Пряме посилання на 🚀 MOCPilot 2026.5.0 — оновлення прошивки, підтримка SBrick і покращення конструктора" translate="no">​</a></h2>
+<p>Ми раді оголосити про випуск <strong>MOCPilot 2026.5.0</strong>, доступний для <strong>Android</strong>, <strong>iOS</strong> і <strong>macOS</strong>.</p>
+<p>Це оновлення додає підтримку оновлення та відновлення прошивки для більшої кількості LEGO Powered Up хабів, підтримку SBrick і SBrick Plus, покращує робочий процес конструктора блоків і панелі керування, а також містить багато вдосконалень інтерфейсу, виправлень збоїв і оновлень перекладів.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-що-нового-у-202650">✨ Що нового у 2026.5.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/08/23/post#-%D1%89%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D1%83-202650" class="hash-link" aria-label="Пряме посилання на ✨ Що нового у 2026.5.0?" title="Пряме посилання на ✨ Що нового у 2026.5.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-оновлення-та-відновлення-прошивки-хабів">🔄 Оновлення та відновлення прошивки хабів<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/08/23/post#-%D0%BE%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D1%82%D0%B0-%D0%B2%D1%96%D0%B4%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B8-%D1%85%D0%B0%D0%B1%D1%96%D0%B2" class="hash-link" aria-label="Пряме посилання на 🔄 Оновлення та відновлення прошивки хабів" title="Пряме посилання на 🔄 Оновлення та відновлення прошивки хабів" translate="no">​</a></h3>
+<ul>
+<li class="">Додано підтримку оновлення прошивки для <strong>Technic Hub</strong></li>
+<li class="">Додано підтримку оновлення прошивки для <strong>Technic Move Hub</strong></li>
+<li class="">Розширено підтримку оновлення прошивки для додаткових підтримуваних хабів</li>
+<li class="">Додано виявлення хабів, підключених у <strong>режимі відновлення</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-підтримка-та-конфігурація-хабів">🔌 Підтримка та конфігурація хабів<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/08/23/post#-%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B0-%D1%82%D0%B0-%D0%BA%D0%BE%D0%BD%D1%84%D1%96%D0%B3%D1%83%D1%80%D0%B0%D1%86%D1%96%D1%8F-%D1%85%D0%B0%D0%B1%D1%96%D0%B2" class="hash-link" aria-label="Пряме посилання на 🔌 Підтримка та конфігурація хабів" title="Пряме посилання на 🔌 Підтримка та конфігурація хабів" translate="no">​</a></h3>
+<ul>
+<li class="">Додано підтримку <strong>SBrick</strong> і <strong>SBrick Plus</strong></li>
+<li class="">Додано зміну конфігурації Technic Move Hub: <strong>Porsche GT4 e-Performance</strong>, <strong>Batmobile™‎ Tumbler</strong> і <strong>Lamborghini Revuelto</strong></li>
+<li class="">Перероблено сторінки підключення хабів за типом підключення</li>
+<li class="">Перероблено сторінку моніторингу хаба</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-оновлення-конструктора-блоків">🧱 Оновлення конструктора блоків<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/08/23/post#-%D0%BE%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%BE%D1%80%D0%B0-%D0%B1%D0%BB%D0%BE%D0%BA%D1%96%D0%B2" class="hash-link" aria-label="Пряме посилання на 🧱 Оновлення конструктора блоків" title="Пряме посилання на 🧱 Оновлення конструктора блоків" translate="no">​</a></h3>
+<ul>
+<li class="">Додано фільтрацію рівнів блоків: <strong>Beginner</strong>, <strong>Advanced</strong> і <strong>Guru</strong></li>
+<li class="">Рівні блоків можна налаштовувати під час створення, редагування або запуску block program профілю</li>
+<li class="">Додано блок <strong>напруга батареї</strong> для хабів, які надають дані напруги батареї</li>
+<li class="">Додано блок <strong>імпульс потужності</strong> для Technic Move Hub</li>
+<li class="">Виправлено зміну масштабу колесом миші в палітрі блоків</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-геймпад-і-панель-керування">🎮 Геймпад і панель керування<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/08/23/post#-%D0%B3%D0%B5%D0%B9%D0%BC%D0%BF%D0%B0%D0%B4-%D1%96-%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C-%D0%BA%D0%B5%D1%80%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F" class="hash-link" aria-label="Пряме посилання на 🎮 Геймпад і панель керування" title="Пряме посилання на 🎮 Геймпад і панель керування" translate="no">​</a></h3>
+<ul>
+<li class="">Перероблено сторінку геймпада і сторінку тестування геймпада</li>
+<li class="">Виправлено переходи станів хрестовини геймпада</li>
+<li class="">Додано пункт контекстного меню для зміни теми елемента панелі керування безпосередньо на місці</li>
+<li class="">Покращено заголовки профілів панелі керування, меню сортування, градієнти карток і відступи форми створення</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-інтерфейс-профілі-та-стабільність">🎨 Інтерфейс, профілі та стабільність<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/08/23/post#-%D1%96%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81-%D0%BF%D1%80%D0%BE%D1%84%D1%96%D0%BB%D1%96-%D1%82%D0%B0-%D1%81%D1%82%D0%B0%D0%B1%D1%96%D0%BB%D1%8C%D0%BD%D1%96%D1%81%D1%82%D1%8C" class="hash-link" aria-label="Пряме посилання на 🎨 Інтерфейс, профілі та стабільність" title="Пряме посилання на 🎨 Інтерфейс, профілі та стабільність" translate="no">​</a></h3>
+<ul>
+<li class="">Видалено жовту палітру для готових профілів, тепер вони виглядають як звичайна сторінка профілів</li>
+<li class="">Покращено загальний вигляд і дрібні деталі інтерфейсу</li>
+<li class="">Додано виправлення збоїв і внутрішню реорганізацію коду</li>
+</ul>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Реліз MOCPilot 2026.4.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/2026/06/06/post</link>

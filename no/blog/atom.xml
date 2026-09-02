@@ -2,11 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/no/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-06-06T00:00:00.000Z</updated>
+    <updated>2026-08-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/no/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/no/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Utgivelse MOCPilot 2026.5.0]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/no/blog/2026/08/23/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/no/blog/2026/08/23/post"/>
+        <updated>2026-08-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.5.0 — Fastvareoppdateringer, SBrick-støtte og byggerforbedringer]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202650--fastvareoppdateringer-sbrick-støtte-og-byggerforbedringer">🚀 MOCPilot 2026.5.0 — Fastvareoppdateringer, SBrick-støtte og byggerforbedringer<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/08/23/post#-mocpilot-202650--fastvareoppdateringer-sbrick-st%C3%B8tte-og-byggerforbedringer" class="hash-link" aria-label="Direkte link til 🚀 MOCPilot 2026.5.0 — Fastvareoppdateringer, SBrick-støtte og byggerforbedringer" title="Direkte link til 🚀 MOCPilot 2026.5.0 — Fastvareoppdateringer, SBrick-støtte og byggerforbedringer" translate="no">​</a></h2>
+<p>Vi er glade for å kunngjøre <strong>MOCPilot 2026.5.0</strong>, tilgjengelig på <strong>Android</strong>, <strong>iOS</strong> og <strong>macOS</strong>.</p>
+<p>Denne oppdateringen legger til støtte for fastvareoppdatering og gjenoppretting for flere LEGO Powered Up-huber, introduserer støtte for SBrick og SBrick Plus, forbedrer arbeidsflyten i blokkbyggeren og kontrollpanelet, og inkluderer mange brukergrensesnittforbedringer, krasjfikser og oversettelsesoppdateringer.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hva-er-nytt-i-202650">✨ Hva er nytt i 2026.5.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/08/23/post#-hva-er-nytt-i-202650" class="hash-link" aria-label="Direkte link til ✨ Hva er nytt i 2026.5.0?" title="Direkte link til ✨ Hva er nytt i 2026.5.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-fastvareoppdatering-og-gjenoppretting-av-huber">🔄 Fastvareoppdatering og gjenoppretting av huber<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/08/23/post#-fastvareoppdatering-og-gjenoppretting-av-huber" class="hash-link" aria-label="Direkte link til 🔄 Fastvareoppdatering og gjenoppretting av huber" title="Direkte link til 🔄 Fastvareoppdatering og gjenoppretting av huber" translate="no">​</a></h3>
+<ul>
+<li class="">Lagt til støtte for fastvareoppdatering for <strong>Technic Hub</strong></li>
+<li class="">Lagt til støtte for fastvareoppdatering for <strong>Technic Move Hub</strong></li>
+<li class="">Utvidet støtte for fastvareoppdatering for flere støttede huber</li>
+<li class="">Lagt til deteksjon av huber tilkoblet i <strong>gjenopprettingsmodus</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hubstøtte-og-konfigurasjon">🔌 Hubstøtte og konfigurasjon<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/08/23/post#-hubst%C3%B8tte-og-konfigurasjon" class="hash-link" aria-label="Direkte link til 🔌 Hubstøtte og konfigurasjon" title="Direkte link til 🔌 Hubstøtte og konfigurasjon" translate="no">​</a></h3>
+<ul>
+<li class="">Lagt til støtte for <strong>SBrick</strong> og <strong>SBrick Plus</strong></li>
+<li class="">Lagt til konfigurasjonsendring for Technic Move Hub: <strong>Porsche GT4 e-Performance</strong>, <strong>Batmobile™‎ Tumbler</strong> og <strong>Lamborghini Revuelto</strong></li>
+<li class="">Omarbeidet hub-tilkoblingssider etter tilkoblingstype</li>
+<li class="">Omarbeidet hub-overvåkingssiden</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-oppdateringer-for-blokkbyggeren">🧱 Oppdateringer for blokkbyggeren<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/08/23/post#-oppdateringer-for-blokkbyggeren" class="hash-link" aria-label="Direkte link til 🧱 Oppdateringer for blokkbyggeren" title="Direkte link til 🧱 Oppdateringer for blokkbyggeren" translate="no">​</a></h3>
+<ul>
+<li class="">Lagt til filtrering etter blokknivå: <strong>Beginner</strong>, <strong>Advanced</strong> og <strong>Guru</strong></li>
+<li class="">Blokknivåer kan konfigureres når et profil-block program opprettes, redigeres eller kjøres</li>
+<li class="">Lagt til <strong>batterispenning</strong>-blokk for huber som gir batterispenningdata</li>
+<li class="">Lagt til <strong>effektpuls</strong>-blokk for Technic Move Hub</li>
+<li class="">Fikset skalaendringer med musehjulet i blokkpaletten</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-gamepad-og-kontrollpanel">🎮 Gamepad og kontrollpanel<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/08/23/post#-gamepad-og-kontrollpanel" class="hash-link" aria-label="Direkte link til 🎮 Gamepad og kontrollpanel" title="Direkte link til 🎮 Gamepad og kontrollpanel" translate="no">​</a></h3>
+<ul>
+<li class="">Omarbeidet gamepad-siden og gamepadtestersiden</li>
+<li class="">Fikset tilstandsoverganger for gamepadens D-pad</li>
+<li class="">Lagt til et kontekstmenyvalg for å endre temaet for kontrollpanelelementet direkte</li>
+<li class="">Polert profiloverskrifter i kontrollpanelet, sorteringsmeny, kortgradienter og avstand i opprettelsesskjemaet</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-brukergrensesnitt-profiler-og-stabilitet">🎨 Brukergrensesnitt, profiler og stabilitet<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/08/23/post#-brukergrensesnitt-profiler-og-stabilitet" class="hash-link" aria-label="Direkte link til 🎨 Brukergrensesnitt, profiler og stabilitet" title="Direkte link til 🎨 Brukergrensesnitt, profiler og stabilitet" translate="no">​</a></h3>
+<ul>
+<li class="">Fjernet den gule paletten fra forhåndsbygde profiler, slik at de nå ser ut som den vanlige profilsiden</li>
+<li class="">Forbedret generelt utseende og mindre detaljer i brukergrensesnittet</li>
+<li class="">Lagt til krasjfikser og intern kodeomorganisering</li>
+</ul>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Utgivelse av MOCPilot 2026.4.0]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/no/blog/2026/06/06/post</id>

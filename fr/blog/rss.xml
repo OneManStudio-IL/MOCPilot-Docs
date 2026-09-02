@@ -4,10 +4,58 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/fr/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 06 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
+        <item>
+            <title><![CDATA[Version MOCPilot 2026.5.0]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/fr/blog/2026/08/23/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/fr/blog/2026/08/23/post</guid>
+            <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.5.0 — Mises à jour firmware, support SBrick et améliorations du constructeur]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202650--mises-à-jour-firmware-support-sbrick-et-améliorations-du-constructeur">🚀 MOCPilot 2026.5.0 — Mises à jour firmware, support SBrick et améliorations du constructeur<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/2026/08/23/post#-mocpilot-202650--mises-%C3%A0-jour-firmware-support-sbrick-et-am%C3%A9liorations-du-constructeur" class="hash-link" aria-label="Lien direct vers 🚀 MOCPilot 2026.5.0 — Mises à jour firmware, support SBrick et améliorations du constructeur" title="Lien direct vers 🚀 MOCPilot 2026.5.0 — Mises à jour firmware, support SBrick et améliorations du constructeur" translate="no">​</a></h2>
+<p>Nous sommes heureux d’annoncer la sortie de <strong>MOCPilot 2026.5.0</strong>, disponible sur <strong>Android</strong>, <strong>iOS</strong> et <strong>macOS</strong>.</p>
+<p>Cette mise à jour ajoute la prise en charge de la mise à jour et de la récupération du firmware pour davantage de hubs LEGO Powered Up, introduit le support de SBrick et SBrick Plus, améliore le flux du constructeur de blocs et du tableau de bord, et inclut de nombreuses améliorations d’interface, corrections de plantages et mises à jour de traduction.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-nouveautés-de-la-version-202650">✨ Nouveautés de la version 2026.5.0<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/2026/08/23/post#-nouveaut%C3%A9s-de-la-version-202650" class="hash-link" aria-label="Lien direct vers ✨ Nouveautés de la version 2026.5.0" title="Lien direct vers ✨ Nouveautés de la version 2026.5.0" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mise-à-jour-et-récupération-du-firmware-des-hubs">🔄 Mise à jour et récupération du firmware des hubs<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/2026/08/23/post#-mise-%C3%A0-jour-et-r%C3%A9cup%C3%A9ration-du-firmware-des-hubs" class="hash-link" aria-label="Lien direct vers 🔄 Mise à jour et récupération du firmware des hubs" title="Lien direct vers 🔄 Mise à jour et récupération du firmware des hubs" translate="no">​</a></h3>
+<ul>
+<li class="">Ajout du support de mise à jour firmware pour <strong>Technic Hub</strong></li>
+<li class="">Ajout du support de mise à jour firmware pour <strong>Technic Move Hub</strong></li>
+<li class="">Extension du support de mise à jour firmware à d’autres hubs compatibles</li>
+<li class="">Ajout de la détection des hubs connectés en <strong>mode de récupération</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-support-et-configuration-des-hubs">🔌 Support et configuration des hubs<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/2026/08/23/post#-support-et-configuration-des-hubs" class="hash-link" aria-label="Lien direct vers 🔌 Support et configuration des hubs" title="Lien direct vers 🔌 Support et configuration des hubs" translate="no">​</a></h3>
+<ul>
+<li class="">Ajout du support de <strong>SBrick</strong> et <strong>SBrick Plus</strong></li>
+<li class="">Ajout d’un changement de configuration Technic Move Hub : <strong>Porsche GT4 e-Performance</strong>, <strong>Batmobile™‎ Tumbler</strong> et <strong>Lamborghini Revuelto</strong></li>
+<li class="">Refonte des pages de connexion des hubs par type de connexion</li>
+<li class="">Refonte de la page de surveillance des hubs</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mises-à-jour-du-constructeur-de-blocs">🧱 Mises à jour du constructeur de blocs<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/2026/08/23/post#-mises-%C3%A0-jour-du-constructeur-de-blocs" class="hash-link" aria-label="Lien direct vers 🧱 Mises à jour du constructeur de blocs" title="Lien direct vers 🧱 Mises à jour du constructeur de blocs" translate="no">​</a></h3>
+<ul>
+<li class="">Ajout du filtrage par niveau de blocs : <strong>Beginner</strong>, <strong>Advanced</strong> et <strong>Guru</strong></li>
+<li class="">Les niveaux de blocs peuvent être configurés lors de la création, de la modification ou de l’exécution d’un programme de blocs de profil</li>
+<li class="">Ajout du bloc <strong>tension de batterie</strong> pour les hubs qui fournissent les données de tension de batterie</li>
+<li class="">Ajout du bloc <strong>impulsion de puissance</strong> pour Technic Move Hub</li>
+<li class="">Correction des changements d’échelle avec la molette de la souris dans la palette de blocs</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-manette-et-tableau-de-bord">🎮 Manette et tableau de bord<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/2026/08/23/post#-manette-et-tableau-de-bord" class="hash-link" aria-label="Lien direct vers 🎮 Manette et tableau de bord" title="Lien direct vers 🎮 Manette et tableau de bord" translate="no">​</a></h3>
+<ul>
+<li class="">Refonte de la page de la manette et de la page de test de la manette</li>
+<li class="">Correction des transitions d’état du croix directionnelle de la manette</li>
+<li class="">Ajout d’une option de menu contextuel pour changer le thème d’un contrôle du tableau de bord directement</li>
+<li class="">Amélioration des en-têtes de profils du tableau de bord, du menu de tri, des dégradés de cartes et de l’espacement du formulaire de création</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-interface-profils-et-stabilité">🎨 Interface, profils et stabilité<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/2026/08/23/post#-interface-profils-et-stabilit%C3%A9" class="hash-link" aria-label="Lien direct vers 🎨 Interface, profils et stabilité" title="Lien direct vers 🎨 Interface, profils et stabilité" translate="no">​</a></h3>
+<ul>
+<li class="">Suppression de la palette jaune des profils préconfigurés, qui correspondent désormais à la page de profils standard</li>
+<li class="">Amélioration de l’apparence générale et de petits détails d’interface</li>
+<li class="">Ajout de corrections de plantages et d’une réorganisation interne du code</li>
+</ul>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Sortie de MOCPilot 2026.4.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/fr/blog/2026/06/06/post</link>

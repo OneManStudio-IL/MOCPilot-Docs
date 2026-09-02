@@ -4,10 +4,58 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 06 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>dk</language>
+        <item>
+            <title><![CDATA[Udgivelse MOCPilot 2026.5.0]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog/2026/08/23/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog/2026/08/23/post</guid>
+            <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.5.0 — Firmwareopdateringer, SBrick-support og konstruktørforbedringer]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202650--firmwareopdateringer-sbrick-support-og-konstruktørforbedringer">🚀 MOCPilot 2026.5.0 — Firmwareopdateringer, SBrick-support og konstruktørforbedringer<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/08/23/post#-mocpilot-202650--firmwareopdateringer-sbrick-support-og-konstrukt%C3%B8rforbedringer" class="hash-link" aria-label="Direkte link til 🚀 MOCPilot 2026.5.0 — Firmwareopdateringer, SBrick-support og konstruktørforbedringer" title="Direkte link til 🚀 MOCPilot 2026.5.0 — Firmwareopdateringer, SBrick-support og konstruktørforbedringer" translate="no">​</a></h2>
+<p>Vi er glade for at annoncere <strong>MOCPilot 2026.5.0</strong>, tilgængelig på <strong>Android</strong>, <strong>iOS</strong> og <strong>macOS</strong>.</p>
+<p>Denne opdatering tilføjer firmwareopdatering og gendannelse for flere LEGO Powered Up hubs, introducerer support for SBrick og SBrick Plus, forbedrer blokbyggeren og kontrolpanelets arbejdsgang og indeholder mange brugerfladeforbedringer, nedbrudsrettelser og oversættelsesopdateringer.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hvad-er-nyt-i-202650">✨ Hvad er nyt i 2026.5.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/08/23/post#-hvad-er-nyt-i-202650" class="hash-link" aria-label="Direkte link til ✨ Hvad er nyt i 2026.5.0?" title="Direkte link til ✨ Hvad er nyt i 2026.5.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-firmwareopdatering-og-gendannelse-af-hubs">🔄 Firmwareopdatering og gendannelse af hubs<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/08/23/post#-firmwareopdatering-og-gendannelse-af-hubs" class="hash-link" aria-label="Direkte link til 🔄 Firmwareopdatering og gendannelse af hubs" title="Direkte link til 🔄 Firmwareopdatering og gendannelse af hubs" translate="no">​</a></h3>
+<ul>
+<li class="">Tilføjet firmwareopdatering for <strong>Technic Hub</strong></li>
+<li class="">Tilføjet firmwareopdatering for <strong>Technic Move Hub</strong></li>
+<li class="">Udvidet firmwareopdatering for flere understøttede hubs</li>
+<li class="">Tilføjet registrering af hubs forbundet i <strong>gendannelsestilstand</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub-support-og-konfiguration">🔌 Hub-support og konfiguration<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/08/23/post#-hub-support-og-konfiguration" class="hash-link" aria-label="Direkte link til 🔌 Hub-support og konfiguration" title="Direkte link til 🔌 Hub-support og konfiguration" translate="no">​</a></h3>
+<ul>
+<li class="">Tilføjet support for <strong>SBrick</strong> og <strong>SBrick Plus</strong></li>
+<li class="">Tilføjet konfigurationsændring for Technic Move Hub: <strong>Porsche GT4 e-Performance</strong>, <strong>Batmobile™‎ Tumbler</strong> og <strong>Lamborghini Revuelto</strong></li>
+<li class="">Omarbejdet hub-forbindelsessider efter forbindelsestype</li>
+<li class="">Omarbejdet hub-monitoreringssiden</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-opdateringer-til-blokbyggeren">🧱 Opdateringer til blokbyggeren<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/08/23/post#-opdateringer-til-blokbyggeren" class="hash-link" aria-label="Direkte link til 🧱 Opdateringer til blokbyggeren" title="Direkte link til 🧱 Opdateringer til blokbyggeren" translate="no">​</a></h3>
+<ul>
+<li class="">Tilføjet filtrering efter blokniveauer: <strong>Beginner</strong>, <strong>Advanced</strong> og <strong>Guru</strong></li>
+<li class="">Blokniveauer kan konfigureres, når et profil-block program oprettes, redigeres eller køres</li>
+<li class="">Tilføjet <strong>batterispænding</strong>-blok for hubs, der leverer batterispændingsdata</li>
+<li class="">Tilføjet <strong>effektimpuls</strong>-blok for Technic Move Hub</li>
+<li class="">Rettet skalering med musehjul på blokpaletten</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-gamepad-og-kontrolpanel">🎮 Gamepad og kontrolpanel<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/08/23/post#-gamepad-og-kontrolpanel" class="hash-link" aria-label="Direkte link til 🎮 Gamepad og kontrolpanel" title="Direkte link til 🎮 Gamepad og kontrolpanel" translate="no">​</a></h3>
+<ul>
+<li class="">Omarbejdet gamepad-siden og gamepadtestersiden</li>
+<li class="">Rettet tilstandsovergange for gamepaddets D-pad</li>
+<li class="">Tilføjet en kontekstmenuindstilling til at ændre temaet for kontrolpanelets element direkte</li>
+<li class="">Forbedret kontrolpanelets profiloverskrifter, sorteringsmenu, kortgradienter og afstand i oprettelsesformularen</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-brugerflade-profiler-og-stabilitet">🎨 Brugerflade, profiler og stabilitet<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/08/23/post#-brugerflade-profiler-og-stabilitet" class="hash-link" aria-label="Direkte link til 🎨 Brugerflade, profiler og stabilitet" title="Direkte link til 🎨 Brugerflade, profiler og stabilitet" translate="no">​</a></h3>
+<ul>
+<li class="">Fjernet den gule palette fra forudbyggede profiler, så de nu matcher den almindelige profilsiden</li>
+<li class="">Forbedret det generelle udseende og mindre brugerfladedetaljer</li>
+<li class="">Tilføjet nedbrudsrettelser og intern kodeomorganisering</li>
+</ul>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Udgivelse af MOCPilot 2026.4.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog/2026/06/06/post</link>

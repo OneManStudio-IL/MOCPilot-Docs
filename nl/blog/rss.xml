@@ -4,10 +4,58 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 06 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>nl</language>
+        <item>
+            <title><![CDATA[Release MOCPilot 2026.5.0]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/08/23/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/08/23/post</guid>
+            <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.5.0 — Firmware-updates, SBrick-ondersteuning en bouwerverbeteringen]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202650--firmware-updates-sbrick-ondersteuning-en-bouwerverbeteringen">🚀 MOCPilot 2026.5.0 — Firmware-updates, SBrick-ondersteuning en bouwerverbeteringen<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/08/23/post#-mocpilot-202650--firmware-updates-sbrick-ondersteuning-en-bouwerverbeteringen" class="hash-link" aria-label="Directe link naar 🚀 MOCPilot 2026.5.0 — Firmware-updates, SBrick-ondersteuning en bouwerverbeteringen" title="Directe link naar 🚀 MOCPilot 2026.5.0 — Firmware-updates, SBrick-ondersteuning en bouwerverbeteringen" translate="no">​</a></h2>
+<p>We kondigen graag de release van <strong>MOCPilot 2026.5.0</strong> aan, beschikbaar voor <strong>Android</strong>, <strong>iOS</strong> en <strong>macOS</strong>.</p>
+<p>Deze update voegt firmware-update en herstelondersteuning toe voor meer LEGO Powered Up hubs, introduceert ondersteuning voor SBrick en SBrick Plus, verbetert de workflow van de blokkenbouwer en het bedieningspaneel, en bevat veel verfijningen van de gebruikersinterface, crashfixes en vertaalupdates.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-wat-is-nieuw-in-202650">✨ Wat is nieuw in 2026.5.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/08/23/post#-wat-is-nieuw-in-202650" class="hash-link" aria-label="Directe link naar ✨ Wat is nieuw in 2026.5.0?" title="Directe link naar ✨ Wat is nieuw in 2026.5.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-firmware-update-en-herstel-van-hubs">🔄 Firmware-update en herstel van hubs<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/08/23/post#-firmware-update-en-herstel-van-hubs" class="hash-link" aria-label="Directe link naar 🔄 Firmware-update en herstel van hubs" title="Directe link naar 🔄 Firmware-update en herstel van hubs" translate="no">​</a></h3>
+<ul>
+<li class="">Firmware-updateondersteuning toegevoegd voor <strong>Technic Hub</strong></li>
+<li class="">Firmware-updateondersteuning toegevoegd voor <strong>Technic Move Hub</strong></li>
+<li class="">Firmware-updateondersteuning uitgebreid voor extra ondersteunde hubs</li>
+<li class="">Detectie toegevoegd voor hubs die verbonden zijn in <strong>herstelmodus</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hubondersteuning-en-configuratie">🔌 Hubondersteuning en configuratie<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/08/23/post#-hubondersteuning-en-configuratie" class="hash-link" aria-label="Directe link naar 🔌 Hubondersteuning en configuratie" title="Directe link naar 🔌 Hubondersteuning en configuratie" translate="no">​</a></h3>
+<ul>
+<li class="">Ondersteuning toegevoegd voor <strong>SBrick</strong> en <strong>SBrick Plus</strong></li>
+<li class="">Configuratiewijziging toegevoegd voor Technic Move Hub: <strong>Porsche GT4 e-Performance</strong>, <strong>Batmobile™‎ Tumbler</strong> en <strong>Lamborghini Revuelto</strong></li>
+<li class="">Hubverbindingspagina’s herwerkt per verbindingstype</li>
+<li class="">Hubmonitoringpagina herwerkt</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-updates-voor-de-blokkenbouwer">🧱 Updates voor de blokkenbouwer<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/08/23/post#-updates-voor-de-blokkenbouwer" class="hash-link" aria-label="Directe link naar 🧱 Updates voor de blokkenbouwer" title="Directe link naar 🧱 Updates voor de blokkenbouwer" translate="no">​</a></h3>
+<ul>
+<li class="">Filtering op blokniveau toegevoegd: <strong>Beginner</strong>, <strong>Advanced</strong> en <strong>Guru</strong></li>
+<li class="">Blokniveaus kunnen worden geconfigureerd bij het maken, bewerken of uitvoeren van een profiel-blokprogramma</li>
+<li class=""><strong>batterijspanning</strong>-blok toegevoegd voor hubs die batterijspanningsgegevens leveren</li>
+<li class=""><strong>vermogenspuls</strong>-blok toegevoegd voor Technic Move Hub</li>
+<li class="">Schaalwijzigingen met het muiswiel op het blokkenpalet opgelost</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-gamepad-en-bedieningspaneel">🎮 Gamepad en bedieningspaneel<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/08/23/post#-gamepad-en-bedieningspaneel" class="hash-link" aria-label="Directe link naar 🎮 Gamepad en bedieningspaneel" title="Directe link naar 🎮 Gamepad en bedieningspaneel" translate="no">​</a></h3>
+<ul>
+<li class="">Gamepadpagina en gamepadtestpagina herwerkt</li>
+<li class="">statusovergangen van de D-pad van de gamepad opgelost</li>
+<li class="">Contextmenuoptie toegevoegd om het thema van bedieningselement van het bedieningspaneel direct te wijzigen</li>
+<li class="">Profielkoppen van het bedieningspaneel, sorteermenu, kaartverlopen en afstand in het aanmaakformulier verfijnd</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-gebruikersinterface-profielen-en-stabiliteit">🎨 Gebruikersinterface, profielen en stabiliteit<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/08/23/post#-gebruikersinterface-profielen-en-stabiliteit" class="hash-link" aria-label="Directe link naar 🎨 Gebruikersinterface, profielen en stabiliteit" title="Directe link naar 🎨 Gebruikersinterface, profielen en stabiliteit" translate="no">​</a></h3>
+<ul>
+<li class="">Gele kleurenpalet verwijderd uit vooraf gebouwde profielen, zodat ze nu lijken op de gewone profielpagina</li>
+<li class="">Algemeen uiterlijk en kleine details van de gebruikersinterface verbeterd</li>
+<li class="">Crashfixes en interne codeherorganisatie toegevoegd</li>
+</ul>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Uitgave MOCPilot 2026.4.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/06/06/post</link>

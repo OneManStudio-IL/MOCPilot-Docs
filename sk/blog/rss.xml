@@ -4,10 +4,58 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 06 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>sk</language>
+        <item>
+            <title><![CDATA[Vydanie MOCPilot 2026.5.0]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog/2026/08/23/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog/2026/08/23/post</guid>
+            <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.5.0 — Aktualizácie firmvéru, podpora SBrick a vylepšenia konštruktora]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202650--aktualizácie-firmvéru-podpora-sbrick-a-vylepšenia-konštruktora">🚀 MOCPilot 2026.5.0 — Aktualizácie firmvéru, podpora SBrick a vylepšenia konštruktora<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/08/23/post#-mocpilot-202650--aktualiz%C3%A1cie-firmv%C3%A9ru-podpora-sbrick-a-vylep%C5%A1enia-kon%C5%A1truktora" class="hash-link" aria-label="Priamy odkaz na 🚀 MOCPilot 2026.5.0 — Aktualizácie firmvéru, podpora SBrick a vylepšenia konštruktora" title="Priamy odkaz na 🚀 MOCPilot 2026.5.0 — Aktualizácie firmvéru, podpora SBrick a vylepšenia konštruktora" translate="no">​</a></h2>
+<p>S radosťou oznamujeme vydanie <strong>MOCPilot 2026.5.0</strong>, dostupné pre <strong>Android</strong>, <strong>iOS</strong> a <strong>macOS</strong>.</p>
+<p>Táto aktualizácia pridáva podporu aktualizácie a obnovy firmvéru pre viac LEGO Powered Up hubov, zavádza podporu SBrick a SBrick Plus, zlepšuje pracovný tok konštruktora blokov a ovládacieho panela a obsahuje mnoho úprav rozhrania, opráv pádov a aktualizácií prekladov.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-čo-je-nové-vo-verzii-202650">✨ Čo je nové vo verzii 2026.5.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/08/23/post#-%C4%8Do-je-nov%C3%A9-vo-verzii-202650" class="hash-link" aria-label="Priamy odkaz na ✨ Čo je nové vo verzii 2026.5.0?" title="Priamy odkaz na ✨ Čo je nové vo verzii 2026.5.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-aktualizácia-a-obnova-firmvéru-hubov">🔄 Aktualizácia a obnova firmvéru hubov<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/08/23/post#-aktualiz%C3%A1cia-a-obnova-firmv%C3%A9ru-hubov" class="hash-link" aria-label="Priamy odkaz na 🔄 Aktualizácia a obnova firmvéru hubov" title="Priamy odkaz na 🔄 Aktualizácia a obnova firmvéru hubov" translate="no">​</a></h3>
+<ul>
+<li class="">Pridaná podpora aktualizácie firmvéru pre <strong>Technic Hub</strong></li>
+<li class="">Pridaná podpora aktualizácie firmvéru pre <strong>Technic Move Hub</strong></li>
+<li class="">Rozšírená podpora aktualizácie firmvéru pre ďalšie podporované huby</li>
+<li class="">Pridaná detekcia hubov pripojených v <strong>režime obnovy</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-podpora-a-konfigurácia-hubov">🔌 Podpora a konfigurácia hubov<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/08/23/post#-podpora-a-konfigur%C3%A1cia-hubov" class="hash-link" aria-label="Priamy odkaz na 🔌 Podpora a konfigurácia hubov" title="Priamy odkaz na 🔌 Podpora a konfigurácia hubov" translate="no">​</a></h3>
+<ul>
+<li class="">Pridaná podpora pre <strong>SBrick</strong> a <strong>SBrick Plus</strong></li>
+<li class="">Pridaná zmena konfigurácie Technic Move Hub: <strong>Porsche GT4 e-Performance</strong>, <strong>Batmobile™‎ Tumbler</strong> a <strong>Lamborghini Revuelto</strong></li>
+<li class="">Prepracované stránky pripojenia hubov podľa typu pripojenia</li>
+<li class="">Prepracovaná stránka monitorovania hubu</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-aktualizácie-konštruktora-blokov">🧱 Aktualizácie konštruktora blokov<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/08/23/post#-aktualiz%C3%A1cie-kon%C5%A1truktora-blokov" class="hash-link" aria-label="Priamy odkaz na 🧱 Aktualizácie konštruktora blokov" title="Priamy odkaz na 🧱 Aktualizácie konštruktora blokov" translate="no">​</a></h3>
+<ul>
+<li class="">Pridané filtrovanie úrovní blokov: <strong>Beginner</strong>, <strong>Advanced</strong> a <strong>Guru</strong></li>
+<li class="">Úrovne blokov možno konfigurovať pri vytváraní, úprave alebo spúšťaní programu blokov profilu</li>
+<li class="">Pridaný blok <strong>napätie batérie</strong> pre huby, ktoré poskytujú údaje o napätí batérie</li>
+<li class="">Pridaný blok <strong>výkonový pulz</strong> pre Technic Move Hub</li>
+<li class="">Opravené zmeny mierky kolieskom myši v palete blokov</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-gamepad-a-ovládací-panel">🎮 Gamepad a ovládací panel<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/08/23/post#-gamepad-a-ovl%C3%A1dac%C3%AD-panel" class="hash-link" aria-label="Priamy odkaz na 🎮 Gamepad a ovládací panel" title="Priamy odkaz na 🎮 Gamepad a ovládací panel" translate="no">​</a></h3>
+<ul>
+<li class="">Prepracovaná stránka gamepadu a stránka testera gamepadu</li>
+<li class="">Opravené prechody stavov smerového ovládača gamepadu</li>
+<li class="">Pridaná možnosť kontextového menu na priamu zmenu témy ovládacieho prvku panela</li>
+<li class="">Vylepšené hlavičky profilov ovládacieho panela, menu triedenia, prechody kariet a rozostupy formulára vytvorenia</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-rozhranie-profily-a-stabilita">🎨 Rozhranie, profily a stabilita<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/08/23/post#-rozhranie-profily-a-stabilita" class="hash-link" aria-label="Priamy odkaz na 🎨 Rozhranie, profily a stabilita" title="Priamy odkaz na 🎨 Rozhranie, profily a stabilita" translate="no">​</a></h3>
+<ul>
+<li class="">Odstránená žltá paleta z predpripravených profilov, takže teraz vyzerajú ako bežná stránka profilov</li>
+<li class="">Vylepšený celkový vzhľad a drobné detaily rozhrania</li>
+<li class="">Pridané opravy pádov a interná reorganizácia kódu</li>
+</ul>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Vydanie MOCPilot 2026.4.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog/2026/06/06/post</link>

@@ -2,11 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-06-06T00:00:00.000Z</updated>
+    <updated>2026-08-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/fi/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/fi/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[MOCPilot 2026.5.0 -julkaisu]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/08/23/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/08/23/post"/>
+        <updated>2026-08-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.5.0 — Laiteohjelmistopäivitykset, SBrick-tuki ja rakentajan parannukset]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202650--laiteohjelmistopäivitykset-sbrick-tuki-ja-rakentajan-parannukset">🚀 MOCPilot 2026.5.0 — Laiteohjelmistopäivitykset, SBrick-tuki ja rakentajan parannukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/08/23/post#-mocpilot-202650--laiteohjelmistop%C3%A4ivitykset-sbrick-tuki-ja-rakentajan-parannukset" class="hash-link" aria-label="Suora linkki kohtaan 🚀 MOCPilot 2026.5.0 — Laiteohjelmistopäivitykset, SBrick-tuki ja rakentajan parannukset" title="Suora linkki kohtaan 🚀 MOCPilot 2026.5.0 — Laiteohjelmistopäivitykset, SBrick-tuki ja rakentajan parannukset" translate="no">​</a></h2>
+<p>Julkaisemme ilolla <strong>MOCPilot 2026.5.0</strong> -version <strong>Androidille</strong>, <strong>iOS<!-- -->:lle</strong> ja <strong>macOS<!-- -->:lle</strong>.</p>
+<p>Tämä päivitys lisää laiteohjelmiston päivitys- ja palautustuen useammille LEGO Powered Up -hubeille, tuo SBrick- ja SBrick Plus -tuen, parantaa lohkorakentajan ja ohjauspaneelin työnkulkua sekä sisältää useita käyttöliittymäparannuksia, kaatumiskorjauksia ja käännöspäivityksiä.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mitä-uutta-versiossa-202650">✨ Mitä uutta versiossa 2026.5.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/08/23/post#-mit%C3%A4-uutta-versiossa-202650" class="hash-link" aria-label="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.5.0?" title="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.5.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hubien-laiteohjelmiston-päivitys-ja-palautus">🔄 Hubien laiteohjelmiston päivitys ja palautus<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/08/23/post#-hubien-laiteohjelmiston-p%C3%A4ivitys-ja-palautus" class="hash-link" aria-label="Suora linkki kohtaan 🔄 Hubien laiteohjelmiston päivitys ja palautus" title="Suora linkki kohtaan 🔄 Hubien laiteohjelmiston päivitys ja palautus" translate="no">​</a></h3>
+<ul>
+<li class="">Lisätty laiteohjelmiston päivitystuki <strong>Technic Hub</strong> -hubille</li>
+<li class="">Lisätty laiteohjelmiston päivitystuki <strong>Technic Move Hub</strong> -hubille</li>
+<li class="">Laajennettu laiteohjelmiston päivitystukea muille tuetuille hubeille</li>
+<li class="">Lisätty tunnistus hubeille, jotka on yhdistetty <strong>palautustilassa</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hubituki-ja-määritys">🔌 Hubituki ja määritys<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/08/23/post#-hubituki-ja-m%C3%A4%C3%A4ritys" class="hash-link" aria-label="Suora linkki kohtaan 🔌 Hubituki ja määritys" title="Suora linkki kohtaan 🔌 Hubituki ja määritys" translate="no">​</a></h3>
+<ul>
+<li class="">Lisätty tuki <strong>SBrick</strong>- ja <strong>SBrick Plus</strong> -laitteille</li>
+<li class="">Lisätty Technic Move Hub -määritysmuutos: <strong>Porsche GT4 e-Performance</strong>, <strong>Batmobile™‎ Tumbler</strong> ja <strong>Lamborghini Revuelto</strong></li>
+<li class="">Hubien yhdistämissivut on uudistettu yhteystyypin mukaan</li>
+<li class="">Hubin valvontasivu on uudistettu</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-lohkorakentajan-päivitykset">🧱 Lohkorakentajan päivitykset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/08/23/post#-lohkorakentajan-p%C3%A4ivitykset" class="hash-link" aria-label="Suora linkki kohtaan 🧱 Lohkorakentajan päivitykset" title="Suora linkki kohtaan 🧱 Lohkorakentajan päivitykset" translate="no">​</a></h3>
+<ul>
+<li class="">Lisätty lohkotason suodatus: <strong>Beginner</strong>, <strong>Advanced</strong> ja <strong>Guru</strong></li>
+<li class="">Lohkotasot voidaan määrittää profiilin lohko-ohjelmaa luotaessa, muokattaessa tai suoritettaessa</li>
+<li class="">Lisätty <strong>akun jännite</strong> -lohko hubeille, jotka tarjoavat akun jännitetiedot</li>
+<li class="">Lisätty <strong>tehopulssi</strong> -lohko Technic Move Hubille</li>
+<li class="">Korjattu hiiren rullalla tehtävät skaalausmuutokset lohkopaletissa</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-peliohjain-ja-ohjauspaneeli">🎮 Peliohjain ja ohjauspaneeli<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/08/23/post#-peliohjain-ja-ohjauspaneeli" class="hash-link" aria-label="Suora linkki kohtaan 🎮 Peliohjain ja ohjauspaneeli" title="Suora linkki kohtaan 🎮 Peliohjain ja ohjauspaneeli" translate="no">​</a></h3>
+<ul>
+<li class="">Peliohjainsivu ja peliohjaimen testaussivu on uudistettu</li>
+<li class="">Korjattu peliohjaimen suuntapainikkeen tilasiirtymät</li>
+<li class="">Lisätty kontekstivalikon valinta ohjauspaneelin säätimen teeman vaihtamiseen suoraan</li>
+<li class="">Viimeistelty ohjauspaneelin profiilien otsikot, lajitteluvalikko, korttien liukuvärit ja luontilomakkeen välit</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-käyttöliittymä-profiilit-ja-vakaus">🎨 Käyttöliittymä, profiilit ja vakaus<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/08/23/post#-k%C3%A4ytt%C3%B6liittym%C3%A4-profiilit-ja-vakaus" class="hash-link" aria-label="Suora linkki kohtaan 🎨 Käyttöliittymä, profiilit ja vakaus" title="Suora linkki kohtaan 🎨 Käyttöliittymä, profiilit ja vakaus" translate="no">​</a></h3>
+<ul>
+<li class="">Poistettu keltainen paletti valmiista profiileista, joten ne näyttävät nyt tavallisen profiilisivun mukaisilta</li>
+<li class="">Parannettu yleistä ulkoasua ja pieniä käyttöliittymän yksityiskohtia</li>
+<li class="">Lisätty kaatumiskorjauksia ja sisäistä koodin uudelleenjärjestelyä</li>
+</ul>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MOCPilot 2026.4.0 julkaisu]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/06/06/post</id>

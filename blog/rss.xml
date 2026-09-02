@@ -4,10 +4,58 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 06 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Release MOCPilot 2026.5.0]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/blog/2026/08/23/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/blog/2026/08/23/post</guid>
+            <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.5.0 — Firmware Updates, SBrick Support & Builder Improvements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202650--firmware-updates-sbrick-support--builder-improvements">🚀 MOCPilot 2026.5.0 — Firmware Updates, SBrick Support &amp; Builder Improvements<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/08/23/post#-mocpilot-202650--firmware-updates-sbrick-support--builder-improvements" class="hash-link" aria-label="Direct link to 🚀 MOCPilot 2026.5.0 — Firmware Updates, SBrick Support &amp; Builder Improvements" title="Direct link to 🚀 MOCPilot 2026.5.0 — Firmware Updates, SBrick Support &amp; Builder Improvements" translate="no">​</a></h2>
+<p>We’re happy to announce the release of <strong>MOCPilot 2026.5.0</strong>, available on <strong>Android</strong>, <strong>iOS</strong>, and <strong>macOS</strong>.</p>
+<p>This update adds firmware update and recovery support for more LEGO Powered Up hubs, introduces SBrick and SBrick Plus support, improves the block builder and dashboard workflow, and includes many UI refinements, crash fixes, and translation updates.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-whats-new-in-202650">✨ What’s New in 2026.5.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/08/23/post#-whats-new-in-202650" class="hash-link" aria-label="Direct link to ✨ What’s New in 2026.5.0?" title="Direct link to ✨ What’s New in 2026.5.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub-firmware-update--recovery">🔄 Hub Firmware Update &amp; Recovery<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/08/23/post#-hub-firmware-update--recovery" class="hash-link" aria-label="Direct link to 🔄 Hub Firmware Update &amp; Recovery" title="Direct link to 🔄 Hub Firmware Update &amp; Recovery" translate="no">​</a></h3>
+<ul>
+<li class="">Added firmware update support for <strong>Technic Hub</strong></li>
+<li class="">Added firmware update support for <strong>Technic Move Hub</strong></li>
+<li class="">Extended firmware update support for additional supported hubs</li>
+<li class="">Added detection for hubs connected in <strong>recovery mode</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub-support--configuration">🔌 Hub Support &amp; Configuration<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/08/23/post#-hub-support--configuration" class="hash-link" aria-label="Direct link to 🔌 Hub Support &amp; Configuration" title="Direct link to 🔌 Hub Support &amp; Configuration" translate="no">​</a></h3>
+<ul>
+<li class="">Added support for <strong>SBrick</strong> and <strong>SBrick Plus</strong></li>
+<li class="">Added Technic Move Hub configuration change: <strong>Porsche GT4 e-Performance</strong>, <strong>Batmobile™‎ Tumbler</strong> and <strong>Lamborghini Revuelto</strong></li>
+<li class="">Reworked hub connection pages by connection type</li>
+<li class="">Reworked the hub monitoring page</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-block-builder-updates">🧱 Block Builder Updates<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/08/23/post#-block-builder-updates" class="hash-link" aria-label="Direct link to 🧱 Block Builder Updates" title="Direct link to 🧱 Block Builder Updates" translate="no">​</a></h3>
+<ul>
+<li class="">Added block level filtering: <strong>Beginner</strong>, <strong>Advanced</strong>, and <strong>Guru</strong></li>
+<li class="">Block levels can be configured while creating, editing, or running a profile block program</li>
+<li class="">Added <strong>battery voltage</strong> block for hubs that provide battery voltage data</li>
+<li class="">Added <strong>power pulse</strong> block for Technic Move Hub</li>
+<li class="">Fixed mouse wheel scale changes on the blocks palette</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-gamepad--dashboard">🎮 Gamepad &amp; Dashboard<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/08/23/post#-gamepad--dashboard" class="hash-link" aria-label="Direct link to 🎮 Gamepad &amp; Dashboard" title="Direct link to 🎮 Gamepad &amp; Dashboard" translate="no">​</a></h3>
+<ul>
+<li class="">Reworked the gamepad page and gamepad tester page</li>
+<li class="">Fixed D-pad gamepad state transitions</li>
+<li class="">Added a context menu option to change dashboard control theme inline</li>
+<li class="">Polished dashboard profile headers, sort menu, card gradients, and create form spacing</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ui-profiles--stability">🎨 UI, Profiles &amp; Stability<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/08/23/post#-ui-profiles--stability" class="hash-link" aria-label="Direct link to 🎨 UI, Profiles &amp; Stability" title="Direct link to 🎨 UI, Profiles &amp; Stability" translate="no">​</a></h3>
+<ul>
+<li class="">Removed the yellow palette from pre-built profiles so they now match the regular profiles page</li>
+<li class="">Improved overall appearance and minor UI details</li>
+<li class="">Added crash fixes and internal code reorganization</li>
+</ul>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Release MOCPilot 2026.4.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/blog/2026/06/06/post</link>
